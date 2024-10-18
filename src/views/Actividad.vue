@@ -15,9 +15,10 @@ export default {
   components: { Actividad },
   data: () => ({
     cuestionario: {
-      tema: 'Nombre del componente formativo',
-      titulo: 'Cuestionario',
-      introduccion: '<b> Objetivo:</b> Texto de Word',
+      tema: 'Gestión del mantenimiento industrial',
+      titulo: 'Parámetros de asignación y soluciones de un sistema.',
+      introduccion:
+        'Los métodos de programación de actividades CPM/PERT son útiles para la planeación de actividades de cualquier campo profesional, desde la decoración de un edificio hasta la obtención de productos tecnológicos. Desde sus etapas de formulación han sido una herramienta de gran adaptabilidad y de utilización global, dada su practicidad.',
       barajarPreguntas: false,
       preguntas: [
         {
