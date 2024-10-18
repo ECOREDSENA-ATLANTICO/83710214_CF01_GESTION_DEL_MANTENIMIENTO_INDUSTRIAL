@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecoredsena-atlantico.github.io/83710214_CF01_GESTION_DEL_MANTENIMIENTO_INDUSTRIAL/#/](https://ecoredsena-atlantico.github.io/83710214_CF01_GESTION_DEL_MANTENIMIENTO_INDUSTRIAL/#/)
 
 #
 
