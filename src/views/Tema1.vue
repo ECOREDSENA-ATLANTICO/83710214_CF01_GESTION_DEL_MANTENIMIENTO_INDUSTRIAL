@@ -109,15 +109,15 @@
         SlyderF(columnas="col-lg-6 col-xl-6 col-md-6")
           .tarjeta.tarjeta--rojo.p-4.pt-5.pb-5
             p.text-center.bg04 Capacidad y habilidad de la fuerza de trabajo
-            p.text-center El personal del mantenimiento está altamente capacitado y sus conocimientos son transmitidos.
+            p.text-center.txt-white El personal del mantenimiento está altamente capacitado y sus conocimientos son transmitidos.
 
           .tarjeta.tarjeta--rojo.p-4.pt-5.pb-5
             p.text-center.bg04 Capacidad y habilidad de la fuerza de trabajo
-            p.text-center Los administradores superiores son, en general, ingenieros y los demás tienen grados técnicos.
+            p.text-center.txt-white Los administradores superiores son, en general, ingenieros y los demás tienen grados técnicos.
 
           .tarjeta.tarjeta--rojo.p-4.pt-5.pb-5
             p.text-center.bg04 Evidencia por la calidad
-            p.text-center El mantenimiento siempre debe buscar el alineamiento de sus servicios y procedimientos para sostener las necesidades de los equipamientos.
+            p.text-center.txt-white El mantenimiento siempre debe buscar el alineamiento de sus servicios y procedimientos para sostener las necesidades de los equipamientos.
       
 </template>
 
