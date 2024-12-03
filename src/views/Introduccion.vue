@@ -9,7 +9,10 @@
             i.fas.fa-info
         h1(data-aos="fade-right") Introducción
   
-      p.mb-4 El componente formativo parámetros de asignación y soluciones de un sistema, se enfoca en describir la gestión del mantenimiento industrial es una disciplina que se enfoca en asegurar el funcionamiento eficiente y continuo de los equipos y sistemas en una planta o instalación industrial. De esta manera, en este material de formación se estudiarán modelo para el desarrollo de un sistema, elementos de mantenimiento industrial, actividades de mantenimiento y matrices y tablas de tiempos. Bienvenido a este componente formativo: 
+      p El componente formativo “Parámetros de Asignación y Soluciones de un Sistema” se centra en proporcionar una visión integral de la gestión del mantenimiento industrial, una disciplina esencial para garantizar el funcionamiento eficiente, continuo y confiable de los equipos, sistemas e instalaciones en entornos industriales. A través de este material, se comprenderán las bases para desarrollar y gestionar estrategias de mantenimiento que optimicen recursos, reduzcan riesgos y mejoren la productividad.
+      p En este módulo, se exploraran cuatro áreas fundamentales: el modelo para el desarrollo de un sistema de mantenimiento, los elementos clave que conforman el mantenimiento industrial, las principales actividades relacionadas con esta gestión, y el uso de matrices y tablas de tiempos como herramientas de planificación y control.
+      p Este componente formativo está diseñado para fortalecer las competencias necesarias para implementar soluciones sostenibles que impacten positivamente en la operación y desempeño de cualquier instalación industrial. ¡Bienvenido a este importante espacio de aprendizaje!
+
   
       figure.mb-5
         .video
