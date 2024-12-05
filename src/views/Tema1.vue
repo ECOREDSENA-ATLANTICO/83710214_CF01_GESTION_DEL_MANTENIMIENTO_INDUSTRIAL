@@ -75,11 +75,11 @@
         figure
           img(src='@/assets/curso/temas/tema1/img07.png', alt='Imagen Decorativa')
       
-    .row.mb-5.align-items-center
+    .row.mb-5.align-items-center.ordenar_tarjeta
       .col-lg-6.mx-auto.mb-3(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema1/img08.png', alt='Imagen Decorativa')
-      .col-lg-6(data-aos="fade-left")
+      .col-lg-6(data-aos="fade-left").pos_2
         p Alcanzar la excelencia en la gestión del mantenimiento requiere una combinación de elementos como la eficiencia en las operaciones, la calidad del producto final, la optimización de costos y una alta confiabilidad de los activos. Para lograr este nivel de desempeño, las empresas deben establecer estrategias claras, políticas adecuadas de recursos humanos y un enfoque constante en la mejora continua. Este proceso debe estar respaldado por herramientas tecnológicas que permitan recopilar y analizar datos para evaluar el desempeño del sistema y tomar decisiones fundamentadas.
      
 
@@ -87,12 +87,12 @@
     p.mb-4 Un modelo estructurado en la gestión del mantenimiento industrial proporciona una metodología clara y sistemática para administrar los activos de una organización. Este enfoque ofrece múltiples beneficios que impactan positivamente en la productividad, los costos y la sostenibilidad de las operaciones, exploremos estos beneficios:
 
     .row
-      .col-md-10.col-sm-12.mx-auto
-        .row.mb-5
-          .col-lg-4
+      .col-md-12.col-sm-12.mx-auto
+        .row.mb-3.justify-content-center.align-items-center
+          .col-md-6.col-lg-4.mb-3
             figure
-              img(src='@/assets/curso/temas/tema1/img09.png', alt='Imagen Decorativa')
-          .col-12.col-lg-8
+              img(src='@/assets/curso/temas/tema1/img09.png', alt='Imagen Decorativa').mx-auto
+          .col-12.col-md-12.col-lg-8.mb-3
             AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
               div(titulo="Ingeniería del mantenimiento (mejoramiento del diseño)")
                 p Permite una planificación eficiente de los recursos humanos, técnicos y financieros, garantizando que las actividades de mantenimiento se realicen con los medios adecuados y en los momentos oportunos.
@@ -201,7 +201,7 @@
     p.mb-4 El diseño y desarrollo de un sistema de mantenimiento eficiente es un proceso integral que busca optimizar los recursos, minimizar los costos y mejorar la disponibilidad de los equipos. Para lograrlo, es fundamental seguir un enfoque sistemático que contemple las siguientes etapas:
 
 
-    .row.mb-5.tarjeta.bg03.p-4.align-items-center
+    .row.mb-3.tarjeta.bg03.p-4.align-items-center
       .col-lg-8.col-12(data-aos="fade-right")
         SlyderF(columnas="col-lg-6 col-xl-6 col-md-6")
           .tarjeta.p-4.pt-5.pb-5.align-items-center
@@ -225,10 +225,10 @@
           img.img-t.mb-2(src='@/assets/curso/temas/tema1/img20.png', alt='Imagen Decorativa')
 
 
-    .row.mb-5
-      .col-md-10.col-sm-12.mx-auto
+    .row.mb-4
+      .col-md-12.col-sm-12.mx-auto
         .titulo-sexto.color-acento-botones.mb-4
-          h5 Figura 2.
+          h5 Tabla 1.
           span Comparación de estrategias de mantenimiento
         .tabla-a.th_red.mb-2
           table
@@ -288,9 +288,9 @@
 
 
     .row.mb-5
-      .col-10.mx-auto
+      .col-md-12.col-lg-10.mx-auto
         .titulo-sexto.color-acento-botones.mb-4
-          h5 Figura 2.
+          h5 Tabla 2.
           span Comparación de estrategias de mantenimiento
 
         .tabla-a.th_red.mb-2

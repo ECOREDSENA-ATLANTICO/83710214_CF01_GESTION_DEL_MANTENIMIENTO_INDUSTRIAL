@@ -19,47 +19,154 @@ export default {
       titulo: 'Parámetros de asignación y soluciones de un sistema.',
       introduccion:
         'Los métodos de programación de actividades CPM/PERT son útiles para la planeación de actividades de cualquier campo profesional, desde la decoración de un edificio hasta la obtención de productos tecnológicos. Desde sus etapas de formulación han sido una herramienta de gran adaptabilidad y de utilización global, dada su practicidad.',
-      barajarPreguntas: false,
+      barajarPreguntas: true,
       preguntas: [
         {
           id: 1,
-          texto: 'Texto pregunta 1 con <strong>Negrita</strong> <em>Itálica</.',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          texto:
+            'Los métodos de programación no sirven para la gestión del mantenimiento industrial.',
+          imagen: null,
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Opción 1', esCorrecta: true },
-            { id: 'b', texto: 'Opción 2', esCorrecta: false },
-            { id: 'c', texto: 'Opción 3', esCorrecta: false },
-            { id: 'd', texto: 'Opción 4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
-          texto: 'Texto pregunta 2',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
+          texto: 'CPM es la sigla de método de ruta crítica.',
+          imagen: null,
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: true },
-            { id: 'b', texto: 'Verdadero', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de los programas que orientan el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
-          texto: 'Texto pregunta 3',
-          imagen: require('@/assets/componentes/pregunta_3.png'),
-          barajarRespuestas: false,
+          texto: 'La ruta crítica se refiere a la terminación de una tarea.',
+          imagen: null,
+          barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Opción 1', esCorrecta: true },
-            { id: 'b', texto: 'Opción 2', esCorrecta: false },
-            { id: 'c', texto: 'Opción 3', esCorrecta: false },
-            { id: 'd', texto: 'Todas las anteriores', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de los planes que orientan el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 4,
+          texto:
+            'Los intercambios entre el costo de un proyecto y su fecha de terminación son importantes para el proceso.',
+          imagen: null,
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 5,
+          texto:
+            'PERT (Program Evaluation and Review Technique) es un método para dar apoyo a la planeación, programación y control de una gran cantidad de actividades asociadas a un proyecto.',
+          imagen: null,
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 6,
+          texto:
+            'El heno puede ser usado para la alimentación animal brindándole energía y vitaminas, siendo una técnica menos costosa que los concentrados.',
+          imagen: null,
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 7,
+          texto:
+            'Se puede conceptuar gestión estratégica como un proceso sistemático, planeado, gerenciado, ejecutado y acompañado bajo el liderazgo.',
+          imagen: null,
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 8,
+          texto: 'MBC es la sigla de mantenimiento centrado en la condición.',
+          imagen: null,
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 9,
+          texto:
+            'Las distintas variables de significación que repercuten en el desempeño de los sistemas de la empresa son fiabilidad, disponibilidad y recurrencia.',
+          imagen: null,
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 10,
+          texto:
+            'La visión moderna del mantenimiento se centra en la preservación de las funciones de los activos de la empresa.',
+          imagen: null,
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento de la normativa que orienta el desarrollo educativo en el país.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
       ],
       mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',

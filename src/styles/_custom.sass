@@ -145,8 +145,8 @@
 //     background-color: #FFCF64
 //     border: 0 none
 
-// .bg02
-//   background: #fff
+.bg02
+  background: #3076B6
 
 // .bg03
 //   background: #FAECEC
@@ -164,16 +164,13 @@
 // .bg06
 //   background: #F2CCCC
 
-// .bg07
-//   background: url(../assets/curso/temas/tema3/img_16.svg) no-repeat
-//   background-size: cover
-//   .slyder-a
-//     &__bullets
-//       &__item
-//         background-color: #80ABD2
-//         border: 0 none
-//         &--active
-//           background-color: #3076B6
+  // .slyder-a
+  //   &__bullets
+  //     &__item
+  //       background-color: #80ABD2
+  //       border: 0 none
+  //       &--active
+  //         background-color: #3076B6
 
 // .bg08
 //   background: url(../assets/curso/temas/tema4/img_21.svg) no-repeat
@@ -182,9 +179,6 @@
 // .bg09
 //   background: url(../assets/curso/temas/tema4/img_22.svg) no-repeat
 //   background-size: cover
-
-// .bg10
-//   background: #1D476D
 
 // .bg11
 //   background: url(../assets/curso/temas/tema2/img_16.svg) no-repeat
@@ -253,3 +247,85 @@
 
   100%
     transform: translateY(0px)
+
+.bg10
+  background: #1D476D
+
+.bg07
+  background: url(../assets/curso/temas/tema3/img_07.png) no-repeat
+  background-size: cover
+
+@media (max-width: 768px)
+
+  .ordenar_tarjeta
+    .pos_2
+      order: -1
+      
+//// Tarjetas --------------------------------------
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background: linear-gradient(180deg, rgba(25,137,226,1) 0%, rgba(10,81,139,1) 100%)
+      h4, p
+        color: white 
+      .bottomCircle
+        &::before
+          background-color: #FED981
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+
+// linea de tiempo    
+    
+.pasos-a.color-acento-contenido .pasos-a__linea .hor-line
+  border-top-color: #FFCF64 !important
+
+.pasos-a.color-acento-contenido .pasos-a__linea__esquina__linea
+  border-color: #FFCF64 !important
+
+.pasos-a.color-acento-contenido .pasos-a__numero::after
+  border-left-color: #FFCF64 !important
+
+.pasos-a.color-acento-contenido .pasos-a__circle  
+  background-color: #FFCF64 !important
+  
+.pasos-a__linea
+  border-color: #FFCF64 !important
+
+.pasos-a.color-acento-contenido .pasos-a__circle div
+  color: #12263F
+
+
+// Slyder 
+.slyder_1
+  .slyder-a__bullets__item--active
+    background-color: #F89A20
+    border-color: #F89A20
+  .slyder-a__bullets__item
+    background-color: #F89A20
+  .slyder-a__btn--atrs
+    background-color: #FFCF64
+    border-color: #FFCF64
+    color: #12263F
+  .slyder-a__btn--sigt
+    background-color: #FFCF64
+    border-color: #FFCF64
+    color: #12263F
+  .tarjeta--blanca
+    border-radius: 25px
+  .slyder-a__tipo-b mt-3
+    margin-top: 0px !important
+  .my-lg-4 
+    margin-top: 1.5rem !important
+    /* margin-bottom: 1.5rem !important;
