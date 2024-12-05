@@ -51,9 +51,23 @@
       .col-lg-12.mb-3
         p A continuación, se enuncian características, ventajas y desventajas de los diferentes dos métodos de mantenimiento.
 
-      .col-md-12.col-lg-10.mb-3
-        figure
-          img(src='@/assets/curso/temas/tema3/img_05.png', alt='Imagen Decorativa') 
+      .row.mb-5
+        .col-12.col-sm-10.mx-auto
+          .tarjeta.p-4.bg-azul-oscuro
+            .tarjeta.p-4.bg_white
+              .row
+                .col-12.col-xl-3.col-lg-6.col-sm-12.d-flex.mb-4
+                  .tarjeta.border-azul.p-3
+                    p.title Método de la Ruta Crítica (CPM)
+                    p.text-center Es una vía corta, simple y rápida. se utiliza cuando el producto llega directamente al consumidor desde el punto de producción o comercialización, que ha establecido el productor, este se convierte en la mejor alternativa, porque se reducen los intermediarios.
+                .col-12.col-xl-5.col-lg-6.col-sm-12.d-flex.mb-4
+                  .tarjeta.border-azul.p-3
+                    p.title Método PERT 
+                      i (Program Evaluation and Review Technique)
+                    p.text-center El método PERT fue desarrollado por el Departamento de la Defensa de los Estados Unidos de Norteamérica para dar apoyo a la planeación, programación y control de una gran cantidad de actividades asociados al proyecto. El uso del PERT se ha difundido en los sectores productivos de la construcción, empresas industriales, instalaciones de activos fijos, diseño de plantas de producción, planeación y administración de programas de investigación y desarrollo industrial, entre otras.
+                .col-12.col-xl-4.col-lg-12.col-sm-12.tarjeta.d-flex.img-container(
+                  :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img_22.png')})`}"
+                  )
 
     .row.mb-5.align-items-center.justify-content-center
       .col-lg-12.col-md-12(data-aos="fade-left")
@@ -411,7 +425,7 @@
     .row.justify-content-center.align-items-center
       .col-lg-10.mb-3            
         p A continuación, la representación de un diagrama de flechas:
-
+        
       .col-lg-10.mb-3
 
         .titulo-sexto.color-acento-botones.mb-4

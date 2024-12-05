@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1(data-aos="fade-right") Modelo para el desarrollo de un sistema.
+      h1(data-aos="fade-right") Elementos del mantenimiento industrial.
 
     .row.mb-2.align-items-center.ordenar_tarjeta
       .col-lg-9(data-aos="fade-left")
@@ -204,7 +204,7 @@
         p
           strong Esto incluye:
         .row.mb-3
-          .col-lg-3.col-md-6.col-12.mb-3
+          .col-lg-3.col-md-6.col-12.mb-3.d-flex
             .tarjeta.p-3.bg-gray
               p.mb-0
                 strong 01
@@ -212,21 +212,21 @@
                 img.img-auto.mx-auto.mb-3(src='@/assets/curso/temas/tema2/img08.svg', alt='Imagen Decorativa')
               p.text-center.mb-0 MCC (mantenimiento centrado en la confiabilidad)
 
-          .col-lg-3.col-md-6.col-12.mb-3
+          .col-lg-3.col-md-6.col-12.mb-3.d-flex
             .tarjeta.p-3.bg-gray
               p.mb-0
                 strong 02
               figure
                 img.img-auto.mx-auto.mb-3(src='@/assets/curso/temas/tema2/img09.svg', alt='Imagen Decorativa')
               p.text-center.mb-0 TPM (mantenimiento productivo total)
-          .col-lg-3.col-md-6.col-12.mb-3
+          .col-lg-3.col-md-6.col-12.mb-3.d-flex
             .tarjeta.p-3.bg-gray
               p.mb-0
                 strong 03
               figure
                 img.img-auto.mx-auto.mb-3(src='@/assets/curso/temas/tema2/img10.svg', alt='Imagen Decorativa')
               p.text-center.mb-0 MBC (mantenimiento centrado en la condición)
-          .col-lg-3.col-md-6.col-12.mb-3
+          .col-lg-3.col-md-6.col-12.mb-3.d-flex
             .tarjeta.p-3.bg-gray
               p.mb-0
                 strong 04
@@ -284,6 +284,32 @@
 
         p
           strong Las variables del mantenimiento pueden desarrollarse desde distintas premisas, tal como es presentada la información, en la siguiente infografía: 
+          
+          ImagenInfografica.color-acento-botones
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/curso/temas/tema2/img41.svg', alt='Texto que describa la imagen')
+                figcaption Leyenda de la imagen
+
+            .tarjeta.color-acento-botones.p-3(x="22.75%" y="32.5%" numero="")
+              .h5.mb-2 Seguridad
+              p Está referida a la integridad del personal, instalaciones, equipos, sistemas, máquinas y sin dejar de lado el medio ambiente.
+
+            .tarjeta.color-acento-botones.p-3(x="31.8%" y="68.5%" numero="")
+              .h5.mb-2 Fiabilidad.
+              p Es la probabilidad de que las instalaciones, máquinas o equipos, se desempeñen satisfactoriamente sin fallar, durante un período determinado, bajo condiciones específicas.
+
+            .tarjeta.color-acento-botones.p-3(x="53.5%" y="28%" numero="")
+              .h5.mb-2 Disponibilidad.
+              p Es la proporción de tiempo durante la cual un sistema o equipo estuvo en condiciones de ser usado.
+
+            .tarjeta.color-acento-botones.p-3(x="57.65%" y="40.6%" numero="")
+              .h5.mb-2 Tiempo de entrega.
+              p Es el cumplimiento de los plazos previstos son variables que tienen también su importancia, y para el mantenimiento, el tiempo es un factor preeminente.
+          
+            .tarjeta.color-acento-botones.p-3(x="80.1%" y="38.9%" numero="")
+              .h5.mb-2 Mantenibilidad
+              p Es la probabilidad de que una máquina, equipo o un sistema pueda ser reparado a una condición especificada en un período de tiempo dado, en tanto su mantenimiento sea realizado de acuerdo con ciertas metodologías y recursos determinados con anterioridad.
 
 
         .align-items-center.d-flex.flex-nowrap.mb-0
@@ -675,9 +701,9 @@
       
       .col-lg-10.mb-3
         .row.mb-5.justify-content-center
-          .col-lg-4.col-md-6.col-12.d-flex.mb-3
+          .col-xl.col-lg-4.col-md-6.col-12.d-flex.mb-3
             .crd.crd--grayGrad(data-aos="flip-left")
-              .bottomCircle.mb-5
+              .bottomCircle
                 p.mb-0.text-danger
                   strong 01
                 figure
@@ -685,36 +711,36 @@
                 p.text-center.mb-0 Planifique todo el proceso de recolección de datos desde un comienzo.
 
           
-          .col-lg-4.col-md-6.col-12.d-flex.mb-3
+          .col-xl.col-lg-4.col-md-6.col-12.d-flex.mb-3
             .crd.crd--grayGrad(data-aos="flip-left")
-              .bottomCircle.mb-5
+              .bottomCircle
                 p.mb-0.text-danger
                   strong 02
                 figure
                   img.img-auto.mx-auto.mb-3(src='@/assets/curso/temas/tema2/img28.svg', alt='Imagen Decorativa')
                 p.text-center.mb-0 Aclare el propósito de la recolección de datos. 
             
-          .col-lg-4.col-md-6.col-12.d-flex.mb-3
+          .col-xl.col-lg-4.col-md-6.col-12.d-flex.mb-3
             .crd.crd--grayGrad(data-aos="flip-left")
-              .bottomCircle.mb-5
+              .bottomCircle
                 p.mb-0.text-danger
                   strong 03
                 figure
                   img.img-auto.mx-auto.mb-3(src='@/assets/curso/temas/tema2/img27.svg', alt='Imagen Decorativa')
                 p.text-center.mb-0 Especifique claramente los datos necesitados. 
             
-          .col-lg-4.col-md-6.col-12.d-flex.mb-3
+          .col-xl.col-lg-4.col-md-6.col-12.d-flex.mb-3
             .crd.crd--grayGrad(data-aos="flip-left")
-              .bottomCircle.mb-5
+              .bottomCircle
                 p.mb-0.text-danger
                   strong 04
                 figure
                   img.img-auto.mx-auto.mb-3(src='@/assets/curso/temas/tema2/img28.svg', alt='Imagen Decorativa')
                 p.text-center.mb-0 Use las técnicas correctas de ejemplificación.
             
-          .col-lg-4.col-md-6.col-12.d-flex.mb-3
+          .col-xl.col-lg-4.col-md-6.col-12.d-flex.mb-3
             .crd.crd--grayGrad(data-aos="flip-left")
-              .bottomCircle.mb-5
+              .bottomCircle
                 p.mb-0.text-danger
                   strong 05
                 figure
@@ -740,90 +766,90 @@
       
       .col-lg-10.mb-3
         .row.mb-5.justify-content-center
-          .col-lg-3.col-md-6.col-12.mb-3
+          .col-xl.col-lg-3.col-md-6.col-12.mb-3
             .crd.crd--grayGrad(data-aos="flip-left")
-              .bottomCircle.mb-5
+              .bottomCircle
                 p.mb-0
                   strong 01
                 figure
                   img.img-auto.mx-auto.mb-3(src='@/assets/curso/temas/tema2/img27.svg', alt='Imagen Decorativa')
                 p.text-center.mb-0  Recolectar datos para construir un histograma. 
           
-          .col-lg-3.col-md-6.col-12.mb-3
+          .col-xl.col-lg-3.col-md-6.col-12.mb-3
             .crd.crd--grayGrad(data-aos="flip-left")
-              .bottomCircle.mb-5
+              .bottomCircle
                 p.mb-0
                   strong 02
                 figure
                   img.img-auto.mx-auto.mb-3(src='@/assets/curso/temas/tema2/img28.svg', alt='Imagen Decorativa')
                 p.text-center.mb-0  Ejecutar tareas de mantenimiento. 
             
-          .col-lg-3.col-md-6.col-12.mb-3
+          .col-xl.col-lg-3.col-md-6.col-12.mb-3
             .crd.crd--grayGrad(data-aos="flip-left")
-              .bottomCircle.mb-5
+              .bottomCircle
                 p.mb-0
                   strong 03
                 figure
                   img.img-auto.mx-auto.mb-3(src='@/assets/curso/temas/tema2/img27.svg', alt='Imagen Decorativa')
                 p.text-center.mb-0  Preparar antes y cerrar después los trabajos de mantenimiento. 
             
-          .col-lg-3.col-md-6.col-12.mb-3
+          .col-xl.col-lg-3.col-md-6.col-12.mb-3
             .crd.crd--grayGrad(data-aos="flip-left")
-              .bottomCircle.mb-5
+              .bottomCircle
                 p.mb-0
                   strong 04
                 figure
                   img.img-auto.mx-auto.mb-3(src='@/assets/curso/temas/tema2/img28.svg', alt='Imagen Decorativa')
                 p.text-center.mb-0  Revisión de las partes y piezas. 
             
-          .col-lg-3.col-md-6.col-12.mb-3
+          .col-xl.col-lg-3.col-md-6.col-12.mb-3
             .crd.crd--grayGrad(data-aos="flip-left")
-              .bottomCircle.mb-5
+              .bottomCircle
                 p.mb-0
                   strong 05
                 figure
                   img.img-auto.mx-auto.mb-3(src='@/assets/curso/temas/tema2/img27.svg', alt='Imagen Decorativa')
                 p.text-center.mb-0  Planificación de los trabajos de mantenimiento. 
             
-          .col-lg-3.col-md-6.col-12.mb-3
+          .col-xl.col-lg-3.col-md-6.col-12.mb-3
             .crd.crd--grayGrad(data-aos="flip-left")
-              .bottomCircle.mb-5
+              .bottomCircle
                 p.mb-0
                   strong 06
                 figure
                   img.img-auto.mx-auto.mb-3(src='@/assets/curso/temas/tema2/img28.svg', alt='Imagen Decorativa')
                 p.text-center.mb-0  Inspección de los equipos. 
             
-          .col-lg-3.col-md-6.col-12.mb-3
+          .col-xl.col-lg-3.col-md-6.col-12.mb-3
             .crd.crd--grayGrad(data-aos="flip-left")
-              .bottomCircle.mb-5
+              .bottomCircle
                 p.mb-0
                   strong 07
                 figure
                   img.img-auto.mx-auto.mb-3(src='@/assets/curso/temas/tema2/img27.svg', alt='Imagen Decorativa')
                 p.text-center.mb-0  Auditar un departamento de mantenimiento. 
             
-          .col-lg-3.col-md-6.col-12.mb-3
+          .col-xl.col-lg-3.col-md-6.col-12.mb-3
             .crd.crd--grayGrad(data-aos="flip-left")
-              .bottomCircle.mb-5
+              .bottomCircle
                 p.mb-0
                   strong 08
                 figure
                   img.img-auto.mx-auto.mb-3(src='@/assets/curso/temas/tema2/img28.svg', alt='Imagen Decorativa')
                 p.text-center.mb-0  Chequear las causas de un defecto. 
             
-          .col-lg-3.col-md-6.col-12.mb-3
+          .col-xl.col-lg-3.col-md-6.col-12.mb-3
             .crd.crd--grayGrad(data-aos="flip-left")
-              .bottomCircle.mb-5
+              .bottomCircle
                 p.mb-0
                   strong 09
                 figure
                   img.img-auto.mx-auto.mb-3(src='@/assets/curso/temas/tema2/img27.svg', alt='Imagen Decorativa')
                 p.text-center.mb-0  Diagnosticar los defectos de una máquina. 
             
-          .col-lg-3.col-md-6.col-12.mb-3
+          .col-xl.col-lg-3.col-md-6.col-12.mb-3
             .crd.crd--grayGrad(data-aos="flip-left")
-              .bottomCircle.mb-5
+              .bottomCircle
                 p.mb-0
                   strong 10
                 figure
@@ -990,45 +1016,45 @@
       .col-lg-10
         p.mb-3 En los estudios de mantenimiento se tiende a usar la función de densidad de probabilidad (f(t)) más bien que los histogramas de frecuencia relativa. Esto porque: 
         .row.mb-3.justify-content-center
-          .col-lg-4.col-md-6.col-12.mb-3
+          .col-xl.col-lg-4.col-md-6.col-12.mb-3
             .crd.crd--grayGrad(data-aos="flip-left")
-              .bottomCircle.mb-5
+              .bottomCircle
                 p.mb-0
                   strong.text-danger 01
                 figure
                   img.img-auto.mx-auto.mb-3(src='@/assets/curso/temas/tema2/img28.svg', alt='Imagen Decorativa')
                 p.text-center.mb-0 La variable para modelar como el tiempo para la falla es una variable continua. 
           
-          .col-lg-4.col-md-6.col-12.mb-3
+          .col-xl.col-lg-4.col-md-6.col-12.mb-3
             .crd.crd--grayGrad(data-aos="flip-left")
-              .bottomCircle.mb-5
+              .bottomCircle
                 p.mb-0
                   strong.text-danger 02
                 figure
                   img.img-auto.mx-auto.mb-3(src='@/assets/curso/temas/tema2/img27.svg', alt='Imagen Decorativa')
                 p.text-center.mb-0 Estas funciones son más fáciles de manipular. 
             
-          .col-lg-4.col-md-6.col-12.mb-3
+          .col-xl.col-lg-4.col-md-6.col-12.mb-3
             .crd.crd--grayGrad(data-aos="flip-left")
-              .bottomCircle.mb-5
+              .bottomCircle
                 p.mb-0
                   strong.text-danger 03
                 figure
                   img.img-auto.mx-auto.mb-3(src='@/assets/curso/temas/tema2/img28.svg', alt='Imagen Decorativa')
                 p.text-center.mb-0 Da una mayor claridad para el entendimiento de la verdadera distribución de fallas. 
             
-          .col-lg-4.col-md-6.col-12.mb-3
+          .col-xl.col-lg-4.col-md-6.col-12.mb-3
             .crd.crd--grayGrad(data-aos="flip-left")
-              .bottomCircle.mb-5
+              .bottomCircle
                 p.mb-0
                   strong.text-danger 04
                 figure
                   img.img-auto.mx-auto.mb-3(src='@/assets/curso/temas/tema2/img27.svg', alt='Imagen Decorativa')
                 p.text-center.mb-0 Son similares a los histogramas excepto que es una curva continua. 
             
-          .col-lg-4.col-md-6.col-12.mb-3
+          .col-xl.col-lg-4.col-md-6.col-12.mb-3
             .crd.crd--grayGrad(data-aos="flip-left")
-              .bottomCircle.mb-5
+              .bottomCircle
                 p.mb-0
                   strong.text-danger 05
                 figure

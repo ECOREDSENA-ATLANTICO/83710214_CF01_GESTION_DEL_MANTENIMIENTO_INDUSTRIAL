@@ -208,7 +208,7 @@
             h5 Tabla 7.
             span Matriz de tiempos.
           .tabla-a.th_red.mb-2
-            table.mb-5.text-center(border="0", cellpadding="0", cellspacing="0", style="border-collapse: collapse; table-layout: fixed;")
+            table.text-center(border="0", cellpadding="0", cellspacing="0", style="border-collapse: collapse; table-layout: fixed;")
               colgroup
                 col(span="3")
                 col
@@ -372,7 +372,7 @@
                   td 0
                   td 14
                   td 13
-
+            figcaption.mb-5 Fuente: Sena 2024
 
       .row.justify-content-center.align-items-center.mb-2
         .col-lg-10.mb-2
@@ -414,7 +414,7 @@
       .row.justify-content-center.align-items-center.mb-0
         .col-lg-10.col-md-12
           .titulo-sexto.color-acento-botones.mb-4
-            h5 Figura 7.
+            h5 Figura 9.
             span Representación gráfica de tiempos y holguras
 
           .bg08.p-5.mb-0

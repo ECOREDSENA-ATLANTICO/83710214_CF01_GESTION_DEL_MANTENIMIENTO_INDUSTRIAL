@@ -94,7 +94,7 @@
               img(src='@/assets/curso/temas/tema1/img09.png', alt='Imagen Decorativa').mx-auto
           .col-12.col-md-12.col-lg-8.mb-3
             AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-              div(titulo="Ingeniería del mantenimiento (mejoramiento del diseño)")
+              div(titulo="Optimización de recursos")
                 p Permite una planificación eficiente de los recursos humanos, técnicos y financieros, garantizando que las actividades de mantenimiento se realicen con los medios adecuados y en los momentos oportunos.
 
               div(titulo="Reducción de costos operativos")
@@ -119,7 +119,7 @@
           h5 Figura 1.
           span Excelencia en la gestión del mantenimiento
 
-        .tarjeta.bg-azul.p-3
+        .tarjeta.bg-azul-claro.p-3
           .tarjeta--blanca.p-5
             h3.mb-5.text-center Esquema para el desarrollo de la estragia de mantenimiento
             figure
@@ -213,17 +213,17 @@
             p.mb-0 Establecer metas claras que el sistema de mantenimiento debe alcanzar, como la reducción de paradas no planificadas y el incremento de la productividad.
 
           .tarjeta.p-4.pt-5.pb-5
+            h3 Selección de estrategias: 
+            p.mb-0 Evaluar y seleccionar la estrategia de mantenimiento más adecuada (preventivo, predictivo, correctivo) según las necesidades y condiciones de operación.
+          
+          .tarjeta.p-4.pt-5.pb-5
             h3 Implementación de tecnología:  
             p.mb-0 Integrar herramientas tecnológicas como software de gestión de mantenimiento (CMMS), que faciliten la planificación y monitoreo de las actividades.
       
-          .tarjeta.p-4.pt-5.pb-5
-            h3 Selección de estrategias: 
-            p.mb-0 Evaluar y seleccionar la estrategia de mantenimiento más adecuada (preventivo, predictivo, correctivo) según las necesidades y condiciones de operación.
-
       .col-lg-4.col-10.mx-auto.mb-3(data-aos="fade-left")
         figure
           img.img-t.mb-2(src='@/assets/curso/temas/tema1/img20.png', alt='Imagen Decorativa')
-
+        
 
     .row.mb-4
       .col-md-12.col-sm-12.mx-auto
@@ -263,7 +263,7 @@
                   span Menores costos iniciales
                 td
                   span Mayor riesgo de paradas inesperadas
-
+          figcaption.mb-5 Fuente: Sena, 2014
 
     h3.mb-3.titulo-imagen-izq-1 Evaluación de la efectividad del sistema implementado
     p.mb-4 Una vez que el sistema de mantenimiento ha sido implementado, es esencial realizar una evaluación periódica de su efectividad. Esto permite identificar áreas de mejora y asegurar que se están cumpliendo los objetivos establecidos. Para evaluar la efectividad, se pueden utilizar los siguientes indicadores clave de rendimiento (KPI):
@@ -326,6 +326,7 @@
                   span (Tiempo total - Tiempo de inactividad) / Tiempo total
                 td
                   span Mantener por encima del 90%
+          figcaption.mb-5 Fuente: Sena, 2014
 
 </template>
 
