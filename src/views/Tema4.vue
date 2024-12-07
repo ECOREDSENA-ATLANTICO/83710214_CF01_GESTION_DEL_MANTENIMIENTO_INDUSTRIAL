@@ -8,7 +8,7 @@
         h1(data-aos="fade-right") Matrices y tablas de tiempos
 
 
-      .row.mb-2.align-items-center
+      .row.mb-2.align-items-center.mb-5
         .col-lg-6.col-md-12(data-aos="fade-left")
           p La determinación de la duración de cada actividad debe ser calculada por personas con suficientes conocimientos sobre cada tipo de actividad y de acuerdo con los recursos de que se disponga tanto en equipos como en personal y capital.
           p.mb-0 Hasta este punto del proceso se ha planificado el proyecto. Ahora, se inicia la fase de la programación basados en fechas. Debajo de la descripción de cada actividad en el diagrama de flechas, se anota la duración que le corresponde.
@@ -74,25 +74,25 @@
         .col-lg-10.mb-0
           .bg07.tarjeta.p-5.mb-0
             SlyderA(tipo="b")
-              .row.justify-content-center.align-items-center.my-lg-4.p-4
-                .col-md-12.col-lg-8.mb-4.mb-md-0
+              .row.justify-content-center.align-items-center.my-lg-4.p-3
+                .col-lg-12.col-xl-8.mb-4
                   h3 
                     strong Fecha tardía de terminación de la actividad.
                   p Por consiguiente, para determinar la primera fecha de realización de un evento que corresponde al tiempo de iniciación de la actividad, se empieza por el nodo inicial del proceso. Se suma la duración de cada actividad y cuando a un nodo llega más de una actividad se toma la cantidad mayor.
 
-                .col-12.col-lg-4
+                .col-12.col-xl-4
                     img.img-auto.mx-auto(src='@/assets/curso/temas/tema4/img_6.png', alt='Imagen Decorativa')
 
-              .row.justify-content-center.align-items-center.my-lg-4.p-4
-                .col-md-12.col-lg-9.mb-4.mb-md-0
+              .row.justify-content-center.align-items-center.my-lg-4.p-3
+                .col-lg-12.col-xl-8.mb-4
                   h3 
                     strong Fecha más tardía de terminación de la actividad.
                   p Para que el proyecto termine en la fecha 14, la actividad I (Ver Fig.12) debe empezar por más tardar en la fecha 14-1 = 13, que se coloca en el cuadrante derecho del nodo 6
                 .col-12.col-lg-3
                     img.img-auto.mx-auto(src='@/assets/curso/temas/tema4/img_7.png', alt='Imagen Decorativa')
 
-              .row.justify-content-center.align-items-center.my-lg-4.p-4
-                .col-md-12.col-lg-9.mb-4.mb-md-0
+              .row.justify-content-center.align-items-center.my-lg-4.p-3
+                .col-lg-12.col-xl-8.mb-4
                   h3 
                     strong Fecha más tardía de terminación de la actividad H.
                   p La fecha última en que se puede empezar la actividad H es 13-1 = 12, que se coloca en el nodo 5, cuadrante derecho.
@@ -100,8 +100,8 @@
                 .col-12.col-lg-3
                   img.img-auto.mx-auto(src='@/assets/curso/temas/tema4/img_8.png', alt='Imagen Decorativa')
 
-              .row.justify-content-center.align-items-center.my-lg-4.p-4
-                .col-md-12.col-lg-9.mb-4.mb-md-0
+              .row.justify-content-center.align-items-center.my-lg-4.p-3
+                .col-lg-12.col-xl-8.mb-4
                   h3 
                     strong Fechas y actividades entre nodos actividad H y F.
                   p La fecha última del nodo 4 es 12-3 = 9 mientras que al analizar el nodo 3 se ve que hay dos actividades que salen F y E la fecha más tarde que debe empezar esas actividades para no retrasar el proyecto debe ser la fecha 9-2 = 7, puesto que la actividad F tiene una duración de 2, no obstante, que por la actividad E la última fecha de iniciación de la actividad, es 13-4 = 9, es decir, se ha escogido la menor de las fechas, si se escogiera 9 retrasaría la actividad F y por consiguiente la duración total del proyecto
@@ -109,8 +109,8 @@
                 .col-12.col-lg-3
                   img.img-auto.mx-auto(src='@/assets/curso/temas/tema4/img_9.png', alt='Imagen Decorativa')
 
-              .row.justify-content-center.align-items-center.my-lg-4.p-4
-                .col-md-12.col-lg-9.mb-4.mb-md-0
+              .row.justify-content-center.align-items-center.my-lg-4.p-3
+                .col-lg-12.col-xl-8.mb-4
                   h3 
                     strong Ruta crítica red de actividades.
                   p Se puede definir la ruta crítica como la curva de mayor duración a través de la red o como la "curva de menor holgura". En la figura se resalta en color rojo la ruta crítica del caso estudiado.
@@ -391,7 +391,7 @@
                 img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img40.svg', alt='Imagen Decorativa')
                 p.mb-0.lh-sm La holgura libre (HL) de una actividad i-j se define como la diferencia entre la fecha más temprana de inicio de la actividad siguiente y la fecha más temprana de finalización de la actividad i-j (Ec. 8). Esta holgura representa el tiempo disponible para la actividad i-j sin afectar el inicio de la actividad sucesora.
 
-            .col-lg-4.mb-2.pos_2
+            .col-lg-4.col-md-8.mb-2.pos_2
               figure
                 img(src='@/assets/curso/temas/tema4/img_15.png', alt='Imagen Decorativa')
                 

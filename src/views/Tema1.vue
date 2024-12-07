@@ -13,8 +13,8 @@
 
     .row
       .col-md-10.col-sm-12.mx-auto
-        .tarjeta.bg_azul.mb-5.p-4
-          .tarjeta.p-5
+        .tarjeta.bg_azul.mb-5.p-3
+          .tarjeta.p-3
             SlyderA(tipo="b")
               .row.justify-content-center.align-items-center.my-lg-4
                 .col-md-12.col-lg-4.mb-4.mb-md-0
@@ -22,7 +22,7 @@
                     strong Reparar
                   p Resolver averías. En la gestión del mantenimiento industrial se refiere al proceso de identificar, diagnosticar y reparar fallos o defectos en equipos y maquinarias.
 
-                .col-md-8.col-lg-8
+                .col-md-12.col-lg-8
                   figure
                     img(src='@/assets/curso/temas/tema1/img01.png', alt='Imagen Decorativa')
 
@@ -32,7 +32,7 @@
                     strong Preservar
                   p Lubricación, inspección, limpieza. En la gestión del mantenimiento industrial se refiere a un conjunto de prácticas esenciales para asegurar el funcionamiento eficiente y prolongado de los equipos y maquinarias, aplicando lubricantes, evaluando los equipos y eliminando la suciedad.
 
-                .col-md-8.col-lg-6
+                .col-md-12.col-lg-6
                   figure
                     img(src='@/assets/curso/temas/tema1/img02.png', alt='Imagen Decorativa')
 
@@ -42,7 +42,7 @@
                     strong Mantener
                   p Gestión, programación y control del trabajo. En la gestión del mantenimiento industrial se refiere al conjunto de procesos y prácticas destinados a planificar, organizar y supervisar las actividades de mantenimiento para asegurar su eficacia y eficiencia. Administrando los recursos y planificando las tareas.
 
-                .col-md-8.col-lg-6
+                .col-md-12.col-lg-6
                   figure
                     img(src='@/assets/curso/temas/tema1/img03.png', alt='Imagen Decorativa')
 
@@ -52,7 +52,7 @@
                     strong Mejorar
                   p Disminuir trabajos no planificados. En la gestión del mantenimiento industrial se refiere a la estrategia y prácticas destinadas a reducir la frecuencia y el impacto de las intervenciones de mantenimiento que no han sido programadas previamente. Realizando mantenimiento preventivo, análisis de datos y capacitación de personal.
 
-                .col-md-8.col-lg-6
+                .col-md-12.col-lg-6
                   figure
                     img(src='@/assets/curso/temas/tema1/img04.png', alt='Imagen Decorativa')
 
@@ -62,7 +62,7 @@
                     strong Proyectar
                   p Participar en la ingeniería. En la gestión del mantenimiento industrial se refiere al proceso de diseñar, planificar y desarrollar soluciones técnicas que optimicen el rendimiento, la confiabilidad y la seguridad de los equipos y sistemas industriales con diseño de soluciones e integración de tecnologías.
 
-                .col-md-8.col-lg-6
+                .col-md-12.col-lg-6
                   figure
                     img(src='@/assets/curso/temas/tema1/img05.png', alt='Imagen Decorativa')
 
@@ -89,9 +89,10 @@
     .row
       .col-md-12.col-sm-12.mx-auto
         .row.mb-3.justify-content-center.align-items-center
-          .col-md-6.col-lg-4.mb-3
+          .col-sm-8.col-md-6.col-lg-4.mb-3
             figure
-              img(src='@/assets/curso/temas/tema1/img09.png', alt='Imagen Decorativa').mx-auto
+              img(src='@/assets/curso/temas/tema1/img09.png', alt='Imagen Decorativa').mx-auto.d-none.d-lg-block
+              img(src='@/assets/curso/temas/tema1/img19.png', alt='Imagen Decorativa').mx-auto.d-block.d-lg-none
           .col-12.col-md-12.col-lg-8.mb-3
             AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
               div(titulo="Optimización de recursos")
@@ -128,14 +129,14 @@
         
         p.mb-4 En el mantenimiento es fundamental tener las bases en una estrategia acorde a las metas de la empresa y una política de recursos humanos, control, mejoramiento continuo y, por último, dirigirse a la excelencia en la gestión de los activos. A continuación, podrá evidenciar algunos tipos:
 
-        .tarjeta.bg_azul.mb-5.p-4
-          .tarjeta.p-5
+        .tarjeta.bg_azul.mb-5.p-3
+          .tarjeta.p-3
             SlyderA(tipo="b")
               .row.justify-content-center.align-items-center.my-lg-4
                 h3 Mejoramiento de la confiabilidad.
                 .col-md-12.col-lg-3.mb-4.mb-md-0  
                   p Mejorar la mantenibilidad en la industria es crucial para maximizar la eficiencia, reducir costos y minimizar el tiempo de inactividad.
-                .col-md-8.col-lg-9
+                .col-md-12.col-lg-9
                   figure
                     img(src='@/assets/curso/temas/tema1/img11.png', alt='Imagen Decorativa')
 
@@ -143,7 +144,7 @@
                 h3 Estrategias del mantenimiento de activos.
                 .col-md-12.col-lg-3.mb-4.mb-md-0
                   p La gestión efectiva del mantenimiento de activos es fundamental para asegurar la disponibilidad y eficiencia operativa de los equipos e instalaciones.
-                .col-md-8.col-lg-9
+                .col-md-12.col-lg-9
                   figure
                     img(src='@/assets/curso/temas/tema1/img12.png', alt='Imagen Decorativa')
 
@@ -151,7 +152,7 @@
                 h3 Planificación y programación.
                 .col-md-12.col-lg-3.mb-4.mb-md-0
                   p La planificación y programación industrial son fundamentales para optimizar la producción, reducir costos y mejorar la eficiencia operativa.
-                .col-md-8.col-lg-9
+                .col-md-12.col-lg-9
                   figure
                     img(src='@/assets/curso/temas/tema1/img13.png', alt='Imagen Decorativa')
 
@@ -159,7 +160,7 @@
                 h3 Administración de materiales.
                 .col-md-12.col-lg-3.mb-4.mb-md-0
                   p La administración de materiales es esencial para garantizar una operación eficiente, optimizar los costos y asegurar que la producción se realice sin interrupciones.
-                .col-md-8.col-lg-9
+                .col-md-12.col-lg-9
                   figure
                     img(src='@/assets/curso/temas/tema1/img14.png', alt='Imagen Decorativa')
 
@@ -167,7 +168,7 @@
                 h3 Gestión de la eficiencia
                 .col-md-12.col-lg-3.mb-4.mb-md-0
                   p La gestión de la eficiencia es crucial para optimizar el rendimiento operativo y alcanzar los objetivos empresariales.
-                .col-md-8.col-lg-9
+                .col-md-12.col-lg-9
                   figure
                     img(src='@/assets/curso/temas/tema1/img15.png', alt='Imagen Decorativa')
 
@@ -175,7 +176,7 @@
                 h3 Gestión de la información
                 .col-md-12.col-lg-4.mb-4.mb-md-0
                   p La gestión de la información es crucial para garantizar que los datos relevantes se recojan, procesen, almacenen y utilicen de manera eficiente para apoyar la toma de decisiones y las operaciones empresariales.
-                .col-md-8.col-lg-8
+                .col-md-12.col-lg-8
                   figure
                     img(src='@/assets/curso/temas/tema1/img16.png', alt='Imagen Decorativa')
 
@@ -183,7 +184,7 @@
                 h3 Estrategia de la gestión del mantenimiento.
                 .col-md-12.col-lg-6.mb-4.mb-md-0
                   p Estrategia de la gestión del mantenimiento.	La estrategia de gestión del mantenimiento es fundamental para asegurar la eficiencia y la efectividad operativa de una organización. Implica una serie de prácticas y enfoques diseñados para mantener y mejorar la confiabilidad y el rendimiento de los equipos e instalaciones.	 
-                .col-md-8.col-lg-6
+                .col-md-12.col-lg-6
                   figure
                     img(src='@/assets/curso/temas/tema1/img17.png', alt='Imagen Decorativa')
 
@@ -191,7 +192,7 @@
                 h3 Organización y Recursos humanos.
                 .col-md-12.col-lg-6.mb-4.mb-md-0
                   p La organización se refiere a la forma en que una empresa u otra entidad está estructurada para lograr sus objetivos. Incluye la disposición de las tareas, los roles y las responsabilidades dentro de la entidad. Los recursos humanos se refieren al departamento o la función dentro de una organización que se encarga de gestionar el capital humano de la empresa.
-                .col-md-8.col-lg-6
+                .col-md-12.col-lg-6
                   figure
                     img(src='@/assets/curso/temas/tema1/img18.png', alt='Imagen Decorativa')
 

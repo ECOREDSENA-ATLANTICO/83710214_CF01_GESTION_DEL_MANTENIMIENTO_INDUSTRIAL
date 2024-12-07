@@ -8,10 +8,10 @@
       h1(data-aos="fade-right") Elementos del mantenimiento industrial.
 
     .row.mb-2.align-items-center.ordenar_tarjeta
-      .col-lg-9(data-aos="fade-left")
+      .col-xl-9.col-lg-8.col-md-12(data-aos="fade-left")
         p En el dinámico panorama industrial actual, donde la eficiencia, la productividad y la competitividad son factores críticos para el éxito, el mantenimiento ha evolucionado de una función reactiva a una estrategia proactiva fundamental. Ya no se considera simplemente como un gasto, sino como una inversión estratégica esencial para garantizar la operatividad continua, la seguridad, y la rentabilidad de las operaciones. La creciente complejidad de los sistemas de producción, la incorporación de tecnologías avanzadas, y la exigencia de una mayor eficiencia han elevado la importancia del mantenimiento a un nivel estratégico.
         p El mantenimiento industrial eficaz trasciende la simple reparación de equipos; abarca una gama compleja de actividades, recursos, y decisiones estratégicas interconectadas. Desde la planificación y la programación hasta la ejecución y la evaluación, cada elemento juega un rol crucial en la optimización de los procesos y en el logro de los objetivos de la organización. Un sistema de mantenimiento bien implementado no solo reduce los tiempos de inactividad y los costos asociados con las fallas, sino que también mejora la calidad del producto, incrementa la seguridad en el lugar de trabajo, y contribuye significativamente a la sostenibilidad de las operaciones a largo plazo.
-      .col-lg-3.mx-auto.mb-3(data-aos="fade-right").pos_2
+      .col-xl-3.col-lg-4.col-md-8.mx-auto.mb-3(data-aos="fade-right").pos_2
         figure
           img(src='@/assets/curso/temas/tema2/img01.png', alt='Imagen Decorativa')
       
@@ -36,11 +36,11 @@
         p.mb-0 ¿Cuándo esas actividades de mantenimiento deben realizarse?
 
     .row.mb-2.align-items-center
-      .col-lg-9(data-aos="fade-left")
+      .col-lg-8(data-aos="fade-left")
         p Una concepción del mantenimiento es la estructura organizacional mediante la cual las políticas específicas del mantenimiento de las instalaciones son desarrolladas. Es la materialización de la forma de cómo una compañía piensa acerca del rol del mantenimiento como una función operativa.
         p La concepción del mantenimiento es un conjunto de variadas intervenciones de mantenimiento (correctivo, preventivo, etc.) y la estructura general en las cuales esas intervenciones son previstas. En resumen, es una abstracción del significado de la realidad cuando es comprensible por otros y la cual explica, guía y controla como el proceso de mantenimiento de desarrolla o trabaja.
 
-      .col-lg-3.mx-auto.mb-3(data-aos="fade-right")
+      .col-md-8.col-lg-4.mx-auto.mb-3(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img03.png', alt='Imagen Decorativa')
 
@@ -130,7 +130,7 @@
         p.mb-5 En el contexto industrial, las variables y problemáticas relacionadas con el mantenimiento pueden ser complejas y de gran envergadura. Ejemplos de desafíos:
 
         .row.mb-5
-          .col-lg-4.col-12
+          .col-xl-4.col-lg-6.col-12
             .align-items-start.d-flex.flex-nowrap.mb-1
               img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img40.svg', alt='Imagen Decorativa')
               p.mb-0.lh-sm Definición de los tipos de mantenimiento.
@@ -146,7 +146,7 @@
             .align-items-start.d-flex.flex-nowrap.mb-1
               img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img40.svg', alt='Imagen Decorativa')
               p.mb-0.lh-sm Evaluación de servicios de terceros
-          .col-lg-4.col-12
+          .col-xl-4.col-lg-6.col-12
             .align-items-start.d-flex.flex-nowrap.mb-1
               img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img40.svg', alt='Imagen Decorativa')
               p.mb-0.lh-sm Introducción de nuevas tecnologías.
@@ -160,7 +160,7 @@
               img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img40.svg', alt='Imagen Decorativa')
               p.mb-0.lh-sm Sistemas de información y administración.
 
-          .col-lg-4.col-12
+          .col-xl-4.col-lg-8.col-12.mx-auto
             figure
               img.img-t.mb-2(src='@/assets/curso/temas/tema2/img05.png', alt='Imagen Decorativa')
         p El aspecto relevante que debe conocerse es la madurez del equipo de personas y de la organización, para contar con el apoyo suficiente para evolucionar según cambian las condiciones del entorno.
@@ -170,10 +170,10 @@
     h3.mb-4.titulo-imagen-izq-1 Gestión estratégica de la función mantenimiento:
 
     .row.mb-4.align-items-center
-      .col-lg-3.mx-auto.mb-3(data-aos="fade-right")
+      .col-lg-4.col-md-8.mx-auto.mb-3(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img06.png', alt='Imagen Decorativa')
-      .col-lg-9(data-aos="fade-left")
+      .col-lg-8(data-aos="fade-left")
         p Se puede conceptuar gestión estratégica como un proceso sistemático, planeado, gerenciado, ejecutado e acompañado bajo el liderazgo de la alta administración de la institución, involucrando y comprometiendo todos los gerentes, responsables y personal de la organización.
         p Es un trabajo en equipo que tiene por finalidad asegurar el crecimiento de su nivel tecnológico y administrativo, la continuidad en su gestión asegurando la eficiencia de sus servicios, vía adecuación continua de su estrategia, de su capacitación y de su estructura, posibilitándole enfrentarse y anticiparse a los cambios observados o previsibles en su ambiente externo.
 
@@ -188,11 +188,11 @@
           h3.mb-0 El mantenimiento y su gestión:
 
         .row.mb-2.align-items-center
-          .col-lg-9.col-12(data-aos="fade-left")
+          .col-lg-8.col-12(data-aos="fade-left")
             p Hay un amplio acuerdo entre diversos autores de que la ingeniería y la gestión del mantenimiento están recibiendo cada vez más atención, especialmente debido a la necesidad de obtener de los equipamientos, de alto costo, una alta productividad, como también mediante un efectivo mantenimiento influir fuertemente en el diferencial competitivo de su producto.
             p Pero, la atención que recibe la función mantenimiento es, frecuentemente, producto de una acción aislada sin una adecuada integración entre las varias técnicas empleadas. 
               strong Se puede consultar, a continuación, los elementos básicos de la gestión del mantenimiento:
-          .col-lg-3.col-8.mx-auto.mb-3(data-aos="fade-right")
+          .col-lg-4.col-10.col-md-8.mx-auto.mb-3(data-aos="fade-right")
             figure
               img(src='@/assets/curso/temas/tema2/img07.png', alt='Imagen Decorativa')
 
@@ -205,7 +205,7 @@
           strong Esto incluye:
         .row.mb-3
           .col-lg-3.col-md-6.col-12.mb-3.d-flex
-            .tarjeta.p-3.bg-gray
+            .tarjeta.p-3.bg-gray.w-100
               p.mb-0
                 strong 01
               figure
@@ -213,21 +213,21 @@
               p.text-center.mb-0 MCC (mantenimiento centrado en la confiabilidad)
 
           .col-lg-3.col-md-6.col-12.mb-3.d-flex
-            .tarjeta.p-3.bg-gray
+            .tarjeta.p-3.bg-gray.w-100
               p.mb-0
                 strong 02
               figure
                 img.img-auto.mx-auto.mb-3(src='@/assets/curso/temas/tema2/img09.svg', alt='Imagen Decorativa')
               p.text-center.mb-0 TPM (mantenimiento productivo total)
           .col-lg-3.col-md-6.col-12.mb-3.d-flex
-            .tarjeta.p-3.bg-gray
+            .tarjeta.p-3.bg-gray.w-100
               p.mb-0
                 strong 03
               figure
                 img.img-auto.mx-auto.mb-3(src='@/assets/curso/temas/tema2/img10.svg', alt='Imagen Decorativa')
               p.text-center.mb-0 MBC (mantenimiento centrado en la condición)
           .col-lg-3.col-md-6.col-12.mb-3.d-flex
-            .tarjeta.p-3.bg-gray
+            .tarjeta.p-3.bg-gray.w-100
               p.mb-0
                 strong 04
               figure
@@ -247,18 +247,18 @@
             p La forma correcta para direccionarlas necesidades para la función mantenimiento efectiva dentro de la organización es teniendo una visión holística de la función.
             p La necesidad de integrar completamente el mantenimiento en el sistema de negocios de la empresa especialmente usando tecnologías de la información y formulando una concepción con bases teóricas comprobadas.
             p.mb-3 Además, si las variadas metodologías, filosofías y técnicas empleadas son propiamente coordinadas y planeadas, el efecto de esta manera es un mejoramiento con buen desempeño de la función mantenimiento.
-          .col-lg-3.mx-auto.mb-3(data-aos="fade-right")
+          .col-lg-3.col-8.col-md-08.mx-auto.mb-3(data-aos="fade-right")
             figure
               img(src='@/assets/curso/temas/tema2/img12.png', alt='Imagen Decorativa')
 
 
-        .align-items-center.d-flex.flex-nowrap.mb-0
+        .align-items-center.d-flex.flex-nowrap.mb-3
           img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img39.svg', alt='Imagen Decorativa')
           h3.mb-0 Variables del mantenimiento
         
         p.mb-4 Las distintas variables de significación que repercuten en el desempeño de los sistemas de la empresa:
 
-        .row.mb-5.align-items-center
+        .row.mb-4.align-items-center
           .col-lg-3.col-12
             .align-items-start.d-flex.flex-nowrap.mb-1
               img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img40.svg', alt='Imagen Decorativa')
@@ -282,45 +282,45 @@
             figure
               img(src='@/assets/curso/temas/tema2/img13.png', alt='Imagen Decorativa')
 
-        p
+        p.mb-3
           strong Las variables del mantenimiento pueden desarrollarse desde distintas premisas, tal como es presentada la información, en la siguiente infografía: 
-          
-          ImagenInfografica.color-acento-botones
-            template(v-slot:imagen)
-              figure
-                img(src='@/assets/curso/temas/tema2/img41.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
+            
+        ImagenInfografica.color-acento-botones.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema2/img41.svg', alt='Texto que describa la imagen')
+              figcaption Nota: Sena 2024
 
-            .tarjeta.color-acento-botones.p-3(x="22.75%" y="32.5%" numero="")
-              .h5.mb-2 Seguridad
-              p Está referida a la integridad del personal, instalaciones, equipos, sistemas, máquinas y sin dejar de lado el medio ambiente.
+          .tarjeta.color-acento-botones.p-3(x="22.75%" y="32.5%" numero="")
+            .h5.mb-2 Seguridad
+            p Está referida a la integridad del personal, instalaciones, equipos, sistemas, máquinas y sin dejar de lado el medio ambiente.
 
-            .tarjeta.color-acento-botones.p-3(x="31.8%" y="68.5%" numero="")
-              .h5.mb-2 Fiabilidad.
-              p Es la probabilidad de que las instalaciones, máquinas o equipos, se desempeñen satisfactoriamente sin fallar, durante un período determinado, bajo condiciones específicas.
+          .tarjeta.color-acento-botones.p-3(x="31.8%" y="68.5%" numero="")
+            .h5.mb-2 Fiabilidad.
+            p Es la probabilidad de que las instalaciones, máquinas o equipos, se desempeñen satisfactoriamente sin fallar, durante un período determinado, bajo condiciones específicas.
 
-            .tarjeta.color-acento-botones.p-3(x="53.5%" y="28%" numero="")
-              .h5.mb-2 Disponibilidad.
-              p Es la proporción de tiempo durante la cual un sistema o equipo estuvo en condiciones de ser usado.
+          .tarjeta.color-acento-botones.p-3(x="53.5%" y="28%" numero="")
+            .h5.mb-2 Disponibilidad.
+            p Es la proporción de tiempo durante la cual un sistema o equipo estuvo en condiciones de ser usado.
 
-            .tarjeta.color-acento-botones.p-3(x="57.65%" y="40.6%" numero="")
-              .h5.mb-2 Tiempo de entrega.
-              p Es el cumplimiento de los plazos previstos son variables que tienen también su importancia, y para el mantenimiento, el tiempo es un factor preeminente.
-          
-            .tarjeta.color-acento-botones.p-3(x="80.1%" y="38.9%" numero="")
-              .h5.mb-2 Mantenibilidad
-              p Es la probabilidad de que una máquina, equipo o un sistema pueda ser reparado a una condición especificada en un período de tiempo dado, en tanto su mantenimiento sea realizado de acuerdo con ciertas metodologías y recursos determinados con anterioridad.
+          .tarjeta.color-acento-botones.p-3(x="57.65%" y="40.6%" numero="")
+            .h5.mb-2 Tiempo de entrega.
+            p Es el cumplimiento de los plazos previstos son variables que tienen también su importancia, y para el mantenimiento, el tiempo es un factor preeminente.
+        
+          .tarjeta.color-acento-botones.p-3(x="80.1%" y="38.9%" numero="")
+            .h5.mb-2 Mantenibilidad
+            p Es la probabilidad de que una máquina, equipo o un sistema pueda ser reparado a una condición especificada en un período de tiempo dado, en tanto su mantenimiento sea realizado de acuerdo con ciertas metodologías y recursos determinados con anterioridad.
 
 
         .align-items-center.d-flex.flex-nowrap.mb-0
           img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img39.svg', alt='Imagen Decorativa')
           h3.mb-0 Integración del mantenimiento en el contexto productivo:
 
-        .row.mb-5.align-items-center
-          .col-lg-9(data-aos="fade-left")
+        .row.mb-3.align-items-center
+          .col-lg-8(data-aos="fade-left")
             p Así, el mantenimiento actúa positivamente en la disminución del costo total (con mayor tiempo de buen funcionamiento y menor tiempo de recolocación) en el mejoramiento del equipamiento (introduciendo mejorías) como también, en la seguridad de las personas y del ambiente, en el proyecto de nuevos productos, entre otros aspectos.
             p.mb-3 Todo esto impone demandas más altas para que el equipo de mantenimiento también aumente su eficiencia y capacidad. Es un problema de competitividad en todo nivel.
-          .col-lg-3.mx-auto.mb-3(data-aos="fade-right")
+          .col-lg-4.col-md-8.mx-auto.mb-3(data-aos="fade-right")
             figure
               img(src='@/assets/curso/temas/tema2/img15.png', alt='Imagen Decorativa')
 
@@ -526,11 +526,11 @@
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-down")
       .col-lg-10
-        .row
-          .col-md-6.col-lg-3
+        .row.align-items-center
+          .col-xl-3.col-md-6.col-lg-4.mx-auto.mb-3
             figure
               img(src='@/assets/curso/temas/tema2/img17.png', alt='Imagen Decorativa')
-          .col-lg-9
+          .col-xl-9.col-lg-8
             p La gestión eficiente del mantenimiento industrial es crucial para la productividad, la rentabilidad y la seguridad de cualquier operación manufacturera. Este proceso es una secuencia cuidadosamente orquestada de pasos que abarcan desde la identificación proactiva de necesidades hasta la evaluación exhaustiva de los resultados. 
             p Desde la detección temprana de posibles fallos hasta la implementación de acciones correctivas, cada etapa juega un rol vital en la optimización de los recursos, la maximización de la vida útil del equipo y la minimización de los tiempos de inactividad. A continuación, se detalla un análisis paso a paso de este proceso, destacando las mejores prácticas para asegurar un mantenimiento industrial eficiente y efectivo.
     
@@ -669,28 +669,28 @@
             p <b>Repetición del Ciclo:</b>  Repetir el ciclo virtuoso con una nueva ronda de diagnóstico y evaluación, continuando así el proceso de mejora continua.
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-down")
-      .col-lg-10.mb-3
+      .col-lg-10
         .align-items-center.d-flex.flex-nowrap.mb-0
           img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img39.svg', alt='Imagen Decorativa')
           h3.mb-0 Herramientas para el control de calidad y mejoramiento del mantenimiento:
 
-    .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-down")
-      .col-lg-10.mb-3
-        .row
-          .col-lg-10
+    .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-down")
+      .col-lg-10
+        .row.align-items-center.sm-flex-column-reverse
+          .col-xl-9.col-md-12.mb-3
             p.mb-3 El desarrollo de un sistema de control de calidad para el mantenimiento es esencial para asegurar alta calidad de la reparación,  afinar  la  estandarización,  maximizar  la disponibilidad, extender la vida económica del activo y asegurar una alta eficiencia y tasa de producción del equipo. 
             p La responsabilidad del grupo de control de calidad incluye el desarrollo de procedimientos para pruebas, inspecciones y ejecución del trabajo, documentación, seguimientos o monitoreo, análisis de las deficiencias, e identificación de las necesidades de entrenamiento a partir del análisis de los reportes de calidad. 
-          .col-lg-2
+          .col-xl-3.col-lg-6.col-md-6.mx-auto.mb-3
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema2/img25.png', alt='').img125
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-down").ordenar_tarjeta
       .col-lg-10.mb-3
         .row
-          .col-md-6.col-lg-7
+          .col-md-8.col-xl-7.col-lg-9.mx-auto.mb-3
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema2/img26.png', alt='').img125
-          .col-lg-5.pos_2
+          .col-xl-5.col-lg-12.pos_2
             p.mb-3 Una organización para el mantenimiento no puede olvidar que su participación en el logro de las metas de la empresa es crítica ya que su foco es la alta disponibilidad de sus activos. Por tanto, debe vincular sus objetivos con los de la empresa y entregarlos con la más alta calidad.
             p Hay que tener mucho cuidado en la recolección de los datos para que sean compatibles con el fin que se persigue y que además sean completos para la aplicación de la herramienta escogida. 
 
@@ -981,10 +981,10 @@
         
       .col-lg-10
         .row
-          .col-md-6.col-lg-7.mb-2
+          .col-md-8.col-lg-8.col-xl-5.mb-2.mx-auto
             figure
               img.img-auto(src='@/assets/curso/temas/tema2/img29.png', alt='Imagen Decorativa')
-          .col-md-12.col-lg-5.mb-2
+          .col-md-12.col-lg-12.col-xl-7.mb-2
             p Para cuantificar esta variabilidad y predecir la probabilidad de fallo, se utiliza la construcción de un histograma de frecuencia de fallas. En este histograma, el eje horizontal representa el tiempo de funcionamiento del equipo (o de un componente específico), y el eje vertical representa la frecuencia con la que se producen las fallas en cada intervalo de tiempo. Cada barra del histograma representa un intervalo de tiempo, y su altura indica la cantidad de fallas ocurridas dentro de ese intervalo. El área total bajo la curva del histograma representa la totalidad de las fallas observadas.
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-down")

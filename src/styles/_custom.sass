@@ -32,9 +32,6 @@ p.title
   top: -30px
   text-align: center
 
-.img-container
-  min-height: 250px
-  background-position: center
 
 .pr-2
   padding-right: .5rem
@@ -59,6 +56,8 @@ p.title
   .slyder-a__bullets__item
     background-color: #FDDCB1
     border: 0 none
+    @media (max-width: 768px)
+      margin: 0 5px
     &--active
       background-color: #F89A20
   .slyder-a__btn--sigt, .slyder-a__btn--atrs
@@ -66,6 +65,21 @@ p.title
 
 .bg-gray
   background: #DEE4F0
+
+.img-container
+  min-height: 300px
+  background-size: cover
+  background-position: top center
+
+.banner-principal 
+  .tarjeta
+    background-color: #12263f
+
+
+.banner-interno
+  &__fondo
+    background-color: #12263f !important
+    background-image: url(../assets/curso/img_02.svg) !important
 
 .acordion
   .tarjeta--azul
@@ -135,11 +149,15 @@ p.title
   background-size: cover
 
 @media (max-width: 768px)
-
   .ordenar_tarjeta
     .pos_2
       order: -1
-      
+
+@media (min-width: 768px)
+  .sm-flex-column-reverse
+    flex-direction: column-reverse   
+
+   
 //// Tarjetas --------------------------------------
 .crd
   &.brd--rad
@@ -187,11 +205,17 @@ p.title
 
 
 // Slyder 
-.slyder_1
+
+
+.slyder-a__bullets__item
+  margin: 0 5px 
+  
+.slyder_1   
   .slyder-a__bullets__item--active
     background-color: #F89A20
     border-color: #F89A20
   .slyder-a__bullets__item
+    margin: 0 4px
     background-color: #F89A20
   .slyder-a__btn--atrs
     background-color: #FFCF64

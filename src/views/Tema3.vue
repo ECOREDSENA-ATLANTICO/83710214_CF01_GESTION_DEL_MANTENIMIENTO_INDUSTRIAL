@@ -156,16 +156,16 @@
                   img.img-auto.mx-auto(src='@/assets/curso/temas/tema3/img_17.svg', alt='Imagen Decorativa')
 
             .row.justify-content-center.align-items-center.my-lg-4.p-4
-              .col-md-12.col-lg-9.mb-4.mb-md-0
+              .col-md-12.col-lg-8.mb-4.mb-md-0
                 h3 
                   strong Suceso inicial.
                 p Lubricación, inspección, limpieza. 
                 | En la gestión del mantenimiento industrial se refiere a un conjunto de prácticas esenciales para asegurar el funcionamiento eficiente y prolongado de los equipos y maquinarias, aplicando lubricantes, evaluando los equipos y eliminando la suciedad.
-              .col-12.col-lg-3
+              .col-12.col-xl-4
                   img.img-auto.mx-auto(src='@/assets/curso/temas/tema3/img_18.svg', alt='Imagen Decorativa')
 
             .row.justify-content-center.align-items-center.my-lg-4.p-4
-              .col-md-12.col-lg-9.mb-4.mb-md-0
+              .col-md-12.col-lg-8.mb-4.mb-md-0
                 h3 
                   strong Suceso final.
                 p Gestión, programación y control del trabajo.
@@ -174,7 +174,7 @@
                 img.img-auto.mx-auto(src='@/assets/curso/temas/tema3/img_19.svg', alt='Imagen Decorativa')
 
             .row.justify-content-center.align-items-center.my-lg-4.p-4
-              .col-md-12.col-lg-9.mb-4.mb-md-0
+              .col-md-12.col-lg-8.mb-4.mb-md-0
                 h3 
                   strong Sucesión.
                 p Disminuir trabajos no planificados.
@@ -183,7 +183,7 @@
                 img.img-auto.mx-auto(src='@/assets/curso/temas/tema3/img_20.svg', alt='Imagen Decorativa')
 
             .row.justify-content-center.align-items-center.my-lg-4.p-4
-              .col-md-12.col-lg-9.mb-4.mb-md-0
+              .col-md-12.col-lg-8.mb-4.mb-md-0
                 h3 
                   strong Método de potenciales.
                 p Participar en la ingeniería.
@@ -199,7 +199,7 @@
             p.mb-3 Una actividad debe ser terminada antes de empezar la subsiguiente. El suceso inicial de la actividad subsiguiente es el suceso final de la actividad precedente. Sin embargo, en todo proyecto hay un suceso inicial que no tiene actividades precedentes y un evento o suceso final que no tiene actividades subsiguientes. En el citado ejemplo los círculos de izquierda y derecha son los sucesos inicial y final respectivamente del proyecto.
             p Es conveniente enumerar los sucesos para facilitar los cálculos en el computador. Por ejemplo, está numerada así: Actividad A = (10,20); Actividad B = (20,30); Actividad C = (10,30).
 
-          .col-lg-4.col-md-8.mx-auto.mb-3(data-aos="fade-right")
+          .col-lg-4.col-md-6.mx-auto.mb-3(data-aos="fade-right")
             figure
               img(src='@/assets/curso/temas/tema3/img_08.png', alt='Imagen Decorativa')
 
