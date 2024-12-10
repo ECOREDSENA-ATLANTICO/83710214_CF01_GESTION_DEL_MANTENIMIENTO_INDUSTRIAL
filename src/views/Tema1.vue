@@ -89,11 +89,11 @@
     .row
       .col-md-12.col-sm-12.mx-auto
         .row.mb-3.justify-content-center.align-items-center
-          .col-sm-8.col-md-6.col-lg-4.mb-3
+          .col-sm-8.col-md-6.col-lg-3.mb-3
             figure
               img(src='@/assets/curso/temas/tema1/img09.png', alt='Imagen Decorativa').mx-auto.d-none.d-lg-block
               img(src='@/assets/curso/temas/tema1/img19.png', alt='Imagen Decorativa').mx-auto.d-block.d-lg-none
-          .col-12.col-md-12.col-lg-8.mb-3
+          .col-12.col-md-12.col-lg-7.mb-3
             AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
               div(titulo="Optimización de recursos")
                 p Permite una planificación eficiente de los recursos humanos, técnicos y financieros, garantizando que las actividades de mantenimiento se realicen con los medios adecuados y en los momentos oportunos.
@@ -115,7 +115,9 @@
                     
               div(titulo="Cumplimiento normativo")
                 p Facilita la alineación con estándares y regulaciones específicas de la industria, reduciendo el riesgo de sanciones y mejorando la reputación de la organización.
-          
+
+    .row.justify-content-center 
+      .col-lg-10     
         .titulo-sexto.color-acento-botones.mb-4
           h5 Figura 1.
           span Excelencia en la gestión del mantenimiento
@@ -203,7 +205,7 @@
 
 
     .row.mb-3.tarjeta.bg03.p-4.align-items-center
-      .col-lg-8.col-12(data-aos="fade-right")
+      .col-lg-8.col-12(data-aos="fade-right").mb-3
         SlyderF(columnas="col-lg-6 col-xl-6 col-md-6")
           .tarjeta.p-4.pt-5.pb-5.align-items-center
             h3 Análisis de necesidades:
@@ -227,7 +229,7 @@
         
 
     .row.mb-4
-      .col-md-12.col-sm-12.mx-auto
+      .col-md-12.col-lg-10.col-sm-12.mx-auto
         .titulo-sexto.color-acento-botones.mb-4
           h5 Tabla 1.
           span Comparación de estrategias de mantenimiento

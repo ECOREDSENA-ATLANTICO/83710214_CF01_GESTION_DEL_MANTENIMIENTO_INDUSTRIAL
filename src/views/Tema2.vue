@@ -16,10 +16,10 @@
           img(src='@/assets/curso/temas/tema2/img01.png', alt='Imagen Decorativa')
       
     .row.mb-5.align-items-center
-      .col-lg-6.mx-auto.mb-3(data-aos="fade-right")
+      .col-lg-7.mx-auto.mb-3(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img02.png', alt='Imagen Decorativa')
-      .col-lg-6(data-aos="fade-left")
+      .col-lg-5(data-aos="fade-left")
         p Es necesario explorar los componentes esenciales de un sistema de mantenimiento industrial eficaz. Así como los recursos necesarios —humanos, materiales y tecnológicos— que sustentan la función de mantenimiento, las estrategias de mantenimiento y su selección, los procesos de planificación y organización, y los métodos de control y evaluación del rendimiento. Comprender estos elementos es fundamental para la implementación de un sistema de mantenimiento óptimo que responda a los desafíos de la industria moderna y contribuya al éxito sostenible de cualquier organización.
      
     h3.mb-3.titulo-imagen-izq-1 Concepción del mantenimiento:
@@ -36,11 +36,11 @@
         p.mb-0 ¿Cuándo esas actividades de mantenimiento deben realizarse?
 
     .row.mb-2.align-items-center
-      .col-lg-8(data-aos="fade-left")
+      .col-lg-9(data-aos="fade-left")
         p Una concepción del mantenimiento es la estructura organizacional mediante la cual las políticas específicas del mantenimiento de las instalaciones son desarrolladas. Es la materialización de la forma de cómo una compañía piensa acerca del rol del mantenimiento como una función operativa.
         p La concepción del mantenimiento es un conjunto de variadas intervenciones de mantenimiento (correctivo, preventivo, etc.) y la estructura general en las cuales esas intervenciones son previstas. En resumen, es una abstracción del significado de la realidad cuando es comprensible por otros y la cual explica, guía y controla como el proceso de mantenimiento de desarrolla o trabaja.
 
-      .col-md-8.col-lg-4.mx-auto.mb-3(data-aos="fade-right")
+      .col-md-8.col-lg-3.mx-auto.mb-3(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img03.png', alt='Imagen Decorativa')
 
@@ -70,7 +70,7 @@
       strong Algunas de las más utilizadas son:
 
     .row.mb-5
-      .col-10.mx-auto
+      .col-md-10.mx-auto
         .titulo-sexto.color-acento-botones.mb-4
           h5 Tabla 3.
           span Conceptos de mantenimiento
@@ -146,7 +146,7 @@
             .align-items-start.d-flex.flex-nowrap.mb-1
               img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img40.svg', alt='Imagen Decorativa')
               p.mb-0.lh-sm Evaluación de servicios de terceros
-          .col-xl-4.col-lg-6.col-12
+          .col-xl-4.col-lg-6.col-12.mb-3
             .align-items-start.d-flex.flex-nowrap.mb-1
               img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img40.svg', alt='Imagen Decorativa')
               p.mb-0.lh-sm Introducción de nuevas tecnologías.
@@ -350,8 +350,11 @@
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-down")
       .col-lg-10
         p En el siguiente esquema se pueden reconocer las distintas políticas de mantenimiento 
-  
+
       .col-lg-10
+        .titulo-sexto.color-acento-botones.mb-4
+          h5 Tabla 4.
+          span  Tipos de Mantenimiento: Comparativa Ampliada 
         .tabla-a.th_red.mb-2
           table
             thead
@@ -427,7 +430,7 @@
 
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-down")
-      .col-lg-10
+      .col-lg-10.mb-3
         .align-items-center.d-flex.flex-nowrap.mb-0
           img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img39.svg', alt='Imagen Decorativa')
           h3.mb-0 Efectividad del plan de mantenimiento:
@@ -554,7 +557,7 @@
             h3.text-start II. Planificación del Mantenimiento
             .col-lg-12.mb-3
               .row.align-items-center
-                .col-md-6.col-lg-5
+                .col-md-6.col-lg-5.mb-3
                   figure(data-aos="zoom-in")
                     img(src='@/assets/curso/temas/tema2/img19.png', alt='').img125
                 .col-lg-7  
@@ -580,7 +583,7 @@
             h3.text-start IV. Ejecución del Mantenimiento
             .col-lg-12.mb-3
               .row.align-items-center
-                .col-md-6.col-lg-5
+                .col-md-6.col-lg-5.mb-3
                   figure(data-aos="zoom-in")
                     img(src='@/assets/curso/temas/tema2/img21.png', alt='').img125
                 .col-lg-7  
@@ -606,7 +609,7 @@
             h3.text-start VI. Control, Evaluación y Mejora Continua
             .col-lg-12.mb-3
               .row.align-items-center
-                .col-md-6.col-lg-5
+                .col-md-6.col-lg-5.mb-3
                   figure(data-aos="zoom-in")
                     img(src='@/assets/curso/temas/tema2/img23.png', alt='').img125
                 .col-lg-7  
@@ -675,24 +678,20 @@
           h3.mb-0 Herramientas para el control de calidad y mejoramiento del mantenimiento:
 
     .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-down")
-      .col-lg-10
-        .row.align-items-center.sm-flex-column-reverse
-          .col-xl-9.col-md-12.mb-3
-            p.mb-3 El desarrollo de un sistema de control de calidad para el mantenimiento es esencial para asegurar alta calidad de la reparación,  afinar  la  estandarización,  maximizar  la disponibilidad, extender la vida económica del activo y asegurar una alta eficiencia y tasa de producción del equipo. 
-            p La responsabilidad del grupo de control de calidad incluye el desarrollo de procedimientos para pruebas, inspecciones y ejecución del trabajo, documentación, seguimientos o monitoreo, análisis de las deficiencias, e identificación de las necesidades de entrenamiento a partir del análisis de los reportes de calidad. 
-          .col-xl-3.col-lg-6.col-md-6.mx-auto.mb-3
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/temas/tema2/img25.png', alt='').img125
+      .col-lg-8.col-md-12.mb-3
+        p.mb-3 El desarrollo de un sistema de control de calidad para el mantenimiento es esencial para asegurar alta calidad de la reparación,  afinar  la  estandarización,  maximizar  la disponibilidad, extender la vida económica del activo y asegurar una alta eficiencia y tasa de producción del equipo. 
+        p La responsabilidad del grupo de control de calidad incluye el desarrollo de procedimientos para pruebas, inspecciones y ejecución del trabajo, documentación, seguimientos o monitoreo, análisis de las deficiencias, e identificación de las necesidades de entrenamiento a partir del análisis de los reportes de calidad. 
+      .col-lg-2.col-md-6.mb-3
+        figure(data-aos="zoom-in")
+          img(src='@/assets/curso/temas/tema2/img25.png', alt='').img125
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-down").ordenar_tarjeta
-      .col-lg-10.mb-3
-        .row
-          .col-md-8.col-xl-7.col-lg-9.mx-auto.mb-3
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/temas/tema2/img26.png', alt='').img125
-          .col-xl-5.col-lg-12.pos_2
-            p.mb-3 Una organización para el mantenimiento no puede olvidar que su participación en el logro de las metas de la empresa es crítica ya que su foco es la alta disponibilidad de sus activos. Por tanto, debe vincular sus objetivos con los de la empresa y entregarlos con la más alta calidad.
-            p Hay que tener mucho cuidado en la recolección de los datos para que sean compatibles con el fin que se persigue y que además sean completos para la aplicación de la herramienta escogida. 
+      .col-md-8.col-lg-6.mb-3
+        figure(data-aos="zoom-in")
+          img(src='@/assets/curso/temas/tema2/img26.png', alt='').img125
+      .col-lg-4.pos_2
+        p.mb-3 Una organización para el mantenimiento no puede olvidar que su participación en el logro de las metas de la empresa es crítica ya que su foco es la alta disponibilidad de sus activos. Por tanto, debe vincular sus objetivos con los de la empresa y entregarlos con la más alta calidad.
+        p Hay que tener mucho cuidado en la recolección de los datos para que sean compatibles con el fin que se persigue y que además sean completos para la aplicación de la herramienta escogida. 
 
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-down")
@@ -859,10 +858,10 @@
       .col-lg-10.mb-3
         p Hay muchas formas de listas de chequeos, desde un conjunto de simples pasos hasta una larga auditoría. 
 
-    .row.mb-0
-      .col-10.mx-auto
+    .row.mb-3 
+      .col-md-10.mx-auto
         .titulo-sexto.color-acento-botones.mb-4
-          h5 Tabla 3.
+          h5 Tabla 4.
           span Ejemplo Lista de chequeo para el mantenimiento 
 
         .tabla-a.th_red.mb-2
@@ -979,13 +978,13 @@
       .col-lg-10.mb-2
         p La gestión eficiente del mantenimiento industrial requiere una comprensión profunda de la fiabilidad de los equipos. A diferencia de lo que se podría suponer, las piezas de un equipo, incluso siendo similares, no presentan una vida útil idéntica. No todas fallarán al mismo tiempo ni tras el mismo número de horas de funcionamiento. Esta variabilidad es fundamental para una planificación efectiva del mantenimiento.
         
-      .col-lg-10
-        .row
-          .col-md-8.col-lg-8.col-xl-5.mb-2.mx-auto
-            figure
-              img.img-auto(src='@/assets/curso/temas/tema2/img29.png', alt='Imagen Decorativa')
-          .col-md-12.col-lg-12.col-xl-7.mb-2
-            p Para cuantificar esta variabilidad y predecir la probabilidad de fallo, se utiliza la construcción de un histograma de frecuencia de fallas. En este histograma, el eje horizontal representa el tiempo de funcionamiento del equipo (o de un componente específico), y el eje vertical representa la frecuencia con la que se producen las fallas en cada intervalo de tiempo. Cada barra del histograma representa un intervalo de tiempo, y su altura indica la cantidad de fallas ocurridas dentro de ese intervalo. El área total bajo la curva del histograma representa la totalidad de las fallas observadas.
+      
+    .row.justify-content-center
+      .col-lg-8.col-xl-6.mb-3
+        figure
+          img.img-auto(src='@/assets/curso/temas/tema2/img29.png', alt='Imagen Decorativa')
+      .col-lg-10.col-xl-4.mb-2
+        p Para cuantificar esta variabilidad y predecir la probabilidad de fallo, se utiliza la construcción de un histograma de frecuencia de fallas. En este histograma, el eje horizontal representa el tiempo de funcionamiento del equipo (o de un componente específico), y el eje vertical representa la frecuencia con la que se producen las fallas en cada intervalo de tiempo. Cada barra del histograma representa un intervalo de tiempo, y su altura indica la cantidad de fallas ocurridas dentro de ese intervalo. El área total bajo la curva del histograma representa la totalidad de las fallas observadas.
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-down")
       .col-lg-10.mb-3
@@ -1074,8 +1073,8 @@
       .col-lg-10.mb-3
         .tarjeta.tarjeta--azul.p-4
           SlyderA(tipo="b").slyder_1
-            .row.align-items-center
-              .col-md-12.col-lg-6.mb-4.mb-md-0
+            .row.align-items-center.justify-content-center
+              .col-md-12.col-lg-6.mb-4.mb-3
                 h4.mb-2 Materiales.
                 lista.ul-lista--color
                   li 
@@ -1088,8 +1087,8 @@
                 figure
                   img(src='@/assets/curso/temas/tema2/img31.png', alt='Texto que describa la imagen')
             
-            .row.align-items-center
-              .col-md-12.col-lg-6.mb-4.mb-md-0
+            .row.align-items-center.justify-content-center
+              .col-md-12.col-lg-6.mb-4.mb-3
                 h4.mb-2 Máquina/equipamiento. 
                 lista.ul-lista--color
                   li
@@ -1104,8 +1103,8 @@
                 figure
                   img(src='@/assets/curso/temas/tema2/img32.png', alt='Texto que describa la imagen')
             
-            .row.align-items-center
-              .col-md-12.col-lg-6.mb-4.mb-md-0
+            .row.align-items-center.justify-content-center
+              .col-md-12.col-lg-6.mb-4.mb-3
                 h4.mb-2 Medio ambiente. 
                 lista.ul-lista--color
                   li
@@ -1126,8 +1125,8 @@
                 figure
                   img(src='@/assets/curso/temas/tema2/img33.png', alt='Texto que describa la imagen')
             
-            .row.align-items-center
-              .col-md-12.col-lg-6.mb-4.mb-md-0
+            .row.align-items-center.justify-content-center
+              .col-md-12.col-lg-6.mb-4.mb-3
                 h4.mb-2 Administración.
                 lista.ul-lista--color
                   li
@@ -1146,8 +1145,8 @@
                 figure
                   img(src='@/assets/curso/temas/tema2/img34.png', alt='Texto que describa la imagen')
             
-            .row.align-items-center
-              .col-md-12.col-lg-6.mb-4.mb-md-0
+            .row.align-items-center.justify-content-center
+              .col-md-12.col-lg-6.mb-4.mb-3
                 h4.mb-2 Métodos.
                 lista.ul-lista--color
                   li 
@@ -1161,8 +1160,8 @@
                 figure
                   img(src='@/assets/curso/temas/tema2/img35.png', alt='Texto que describa la imagen')
             
-            .row.align-items-center
-              .col-md-12.col-lg-6.mb-4.mb-md-0
+            .row.align-items-center.justify-content-center
+              .col-md-12.col-lg-6.mb-4.mb-3
                 h4.mb-2 Sistema de administración.
                 lista.ul-lista--color
                   li
@@ -1177,8 +1176,8 @@
                 figure
                   img(src='@/assets/curso/temas/tema2/img36.png', alt='Texto que describa la imagen')
             
-            .row.align-items-center
-              .col-md-12.col-lg-6.mb-4.mb-md-0
+            .row.align-items-center.justify-content-center
+              .col-md-12.col-lg-6.mb-4.mb-3
                 h4.mb-2 Administración.
                 lista.ul-lista--color
                   li

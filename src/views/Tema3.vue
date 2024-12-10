@@ -12,10 +12,10 @@
         h3.mb-3.titulo-imagen-izq-1 Métodos CPM y PERT:
 
     .row.mb-2.align-items-center.justify-content-center.ordenar_tarjeta
-      .col-lg-8.col-md-12(data-aos="fade-left")
+      .col-lg-9.col-md-12(data-aos="fade-left")
         p.mb-3 Existen diversos métodos y operaciones de análisis de los diversos problemas que debe afrontar el departamento de mantenimiento de una empresa al tiempo que profundizará en las soluciones a través del uso de estrategias claves a través de la organización de las actividades y el dominio de tablas y matrices de tiempos.
         p La implementación de los diversos métodos de mantenimiento como: método de la ruta crítica (CPM) y el método PERT (Program Evaluation and Review Technique) crean responsabilidades compartidas tanto para el equipo de mantenimiento como para el equipo de producción de una empresa. Esto unido a una lista de actividades y manejo de matrices y tablas de tiempos ofrecen una ventaja de la empresa y sus integrantes en el entorno competitivo regional y nacional.
-      .col-lg-4.col-md-8.mx-auto.mb-3(data-aos="fade-right").pos_2
+      .col-lg-3.col-md-8.mx-auto.mb-3(data-aos="fade-right").pos_2
         figure
           img(src='@/assets/curso/temas/tema3/img_01.png', alt='Imagen Decorativa')
 
@@ -40,11 +40,11 @@
 
 
     .row.mb-5.align-items-center.justify-content-center
-      .col-lg-4.col-md-8.mx-auto.mb-3(data-aos="fade-right")
+      .col-lg-5.col-md-8.mx-auto.mb-3(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema3/img_04.png', alt='Imagen Decorativa')
 
-      .col-lg-8.col-md-12(data-aos="fade-left")
+      .col-lg-7.col-md-12(data-aos="fade-left")
         p.mb-3 Las ventajas de los métodos (CPM y PERT) sobre el diagrama convencional de barras o de Gantt están en que usan un diagrama de flechas para representar las actividades asociadas con la operación de una secuencia lógica y ordenada de la ejecución del proyecto, indicando a la vez qué actividades preceden y cuáles siguen o pueden ejecutarse al tiempo, además indica las fechas de iniciación y terminación de cada actividad.
         p Como consecuencia de lo anterior, estas técnicas señalan qué actividades son críticas y cuáles no tienen problemas para su ejecución éstas últimas, son fuente de recursos aprovechables en las actividades críticas.
 
@@ -142,66 +142,62 @@
         p A continuación, algunos de los principales aspectos de la construcción de la red:
   
       .col-lg-10.mb-0
-        .bg07.tarjeta.p-5.mb-0
+        .bg07.tarjeta.p-3.p-md-5.mb-0
           SlyderA(tipo="b")
             .row.justify-content-center.align-items-center.my-lg-4.p-4
-              .col-md-12.col-lg-8.mb-4.mb-md-0
-                h3 
-                  strong Bitácora.
+              .col-md-12.col-lg-10.col-xl-8.mb-4.mb-3
+                h3 Bitácora.
                 p Para la construcción de las redes de actividades existen dos alternativas, uno es el método tarea/flecha (americano) y el método de los potenciales.
                 p Método tarea - flecha (americano): este método se caracteriza por una serie de principios y lineamientos para la representación de la red de actividades. A continuación, se mostrarán las reglas implementadas por el método:
                 p Las tareas se encuentran representadas por una línea o arco entre dos puntos o nodos. Los sucesos se ilustran usando círculos y las actividades o tareas con flechas.
 
-              .col-12.col-lg-4
+              .col-12.col-lg-8.col-xl-4
                   img.img-auto.mx-auto(src='@/assets/curso/temas/tema3/img_17.svg', alt='Imagen Decorativa')
 
             .row.justify-content-center.align-items-center.my-lg-4.p-4
-              .col-md-12.col-lg-8.mb-4.mb-md-0
-                h3 
-                  strong Suceso inicial.
+              .col-md-12.col-lg-10.col-xl-8.mb-4.mb-3
+                h3 Suceso inicial.
                 p Lubricación, inspección, limpieza. 
                 | En la gestión del mantenimiento industrial se refiere a un conjunto de prácticas esenciales para asegurar el funcionamiento eficiente y prolongado de los equipos y maquinarias, aplicando lubricantes, evaluando los equipos y eliminando la suciedad.
-              .col-12.col-xl-4
+              .col-12.col-lg-8.col-xl-4
                   img.img-auto.mx-auto(src='@/assets/curso/temas/tema3/img_18.svg', alt='Imagen Decorativa')
 
             .row.justify-content-center.align-items-center.my-lg-4.p-4
-              .col-md-12.col-lg-8.mb-4.mb-md-0
-                h3 
-                  strong Suceso final.
+              .col-md-12.col-lg-10.col-xl-8.mb-4.mb-3
+                h3 Suceso final.
                 p Gestión, programación y control del trabajo.
                 | En la gestión del mantenimiento industrial se refiere al conjunto de procesos y prácticas destinados a planificar, organizar y supervisar las actividades de mantenimiento para asegurar su eficacia y eficiencia. Administrando los recursos y planificando las tareas.
-              .col-12.col-lg-3
+              .col-12.col-lg-8.col-xl-3
                 img.img-auto.mx-auto(src='@/assets/curso/temas/tema3/img_19.svg', alt='Imagen Decorativa')
 
             .row.justify-content-center.align-items-center.my-lg-4.p-4
-              .col-md-12.col-lg-8.mb-4.mb-md-0
+              .col-md-12.col-lg-10.col-xl-8.mb-4.mb-3
                 h3 
                   strong Sucesión.
                 p Disminuir trabajos no planificados.
                 | En la gestión del mantenimiento industrial se refiere a la estrategia y prácticas destinadas a reducir la frecuencia y el impacto de las intervenciones de mantenimiento que no han sido programadas previamente. Realizando mantenimiento preventivo, análisis de datos y capacitación de personal.
-              .col-12.col-lg-3
+              .col-12.col-lg-8.col-xl-3
                 img.img-auto.mx-auto(src='@/assets/curso/temas/tema3/img_20.svg', alt='Imagen Decorativa')
 
             .row.justify-content-center.align-items-center.my-lg-4.p-4
-              .col-md-12.col-lg-8.mb-4.mb-md-0
+              .col-md-12.col-lg-10.col-xl-8.mb-4.mb-3
                 h3 
                   strong Método de potenciales.
                 p Participar en la ingeniería.
                 | En la gestión del mantenimiento industrial se refiere al proceso de diseñar, planificar y desarrollar soluciones técnicas que optimicen el rendimiento, la confiabilidad y la seguridad de los equipos y sistemas industriales con diseño de soluciones e integración de tecnologías.
-              .col-12.col-lg-3
+              .col-12.col-lg-8.col-xl-3
                 img.img-auto.mx-auto(src='@/assets/curso/temas/tema3/img_21.svg', alt='Imagen Decorativa')
 
-    .row.mb-2.align-items-center.justify-content-center
-      .col-lg-10
-        .row.justify-content-center.align-items-center
-          .col-lg-8.col-md-12(data-aos="fade-left")
-            p.mb-3 La actividad A tiene un tiempo de tres días, mientras que la B dos días, es decir la A no es más corta que la actividad B, aunque las longitudes de las flechas lo sean. La actividad C tiene una duración aproximada de 6 días lo que la hace rígida, mientras que el camino AB tiene holgura.
-            p.mb-3 Una actividad debe ser terminada antes de empezar la subsiguiente. El suceso inicial de la actividad subsiguiente es el suceso final de la actividad precedente. Sin embargo, en todo proyecto hay un suceso inicial que no tiene actividades precedentes y un evento o suceso final que no tiene actividades subsiguientes. En el citado ejemplo los círculos de izquierda y derecha son los sucesos inicial y final respectivamente del proyecto.
-            p Es conveniente enumerar los sucesos para facilitar los cálculos en el computador. Por ejemplo, está numerada así: Actividad A = (10,20); Actividad B = (20,30); Actividad C = (10,30).
 
-          .col-lg-4.col-md-6.mx-auto.mb-3(data-aos="fade-right")
-            figure
-              img(src='@/assets/curso/temas/tema3/img_08.png', alt='Imagen Decorativa')
+    .row.justify-content-center.align-items-center
+      .col-lg-7.col-md-12(data-aos="fade-left")
+        p.mb-3 La actividad A tiene un tiempo de tres días, mientras que la B dos días, es decir la A no es más corta que la actividad B, aunque las longitudes de las flechas lo sean. La actividad C tiene una duración aproximada de 6 días lo que la hace rígida, mientras que el camino AB tiene holgura.
+        p.mb-3 Una actividad debe ser terminada antes de empezar la subsiguiente. El suceso inicial de la actividad subsiguiente es el suceso final de la actividad precedente. Sin embargo, en todo proyecto hay un suceso inicial que no tiene actividades precedentes y un evento o suceso final que no tiene actividades subsiguientes. En el citado ejemplo los círculos de izquierda y derecha son los sucesos inicial y final respectivamente del proyecto.
+        p Es conveniente enumerar los sucesos para facilitar los cálculos en el computador. Por ejemplo, está numerada así: Actividad A = (10,20); Actividad B = (20,30); Actividad C = (10,30).
+
+      .col-lg-3.col-md-6.mb-3(data-aos="fade-right")
+        figure
+          img(src='@/assets/curso/temas/tema3/img_08.png', alt='Imagen Decorativa')
 
       .col-lg-10.mb-3
         .align-items-center.d-flex.flex-nowrap.mb-0
@@ -343,7 +339,7 @@
 
 
     .row.justify-content-center.align-items-center
-      .col-lg-10.mb-3        
+      .col-lg-8.mb-3        
         .titulo-sexto.color-acento-botones.mb-4
           h5 Tabla 6.
           span Reglas para dibujar red de actividades.
