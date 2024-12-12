@@ -1,8 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'Gestión del mantenimiento industrial',
+    componenteFormativo: 'Parámetros de asignación y soluciones de un sistema',
     descripcionCurso:
-      'Mantenimiento no sólo deberá mantener las máquinas sino también las instalaciones de: iluminación, redes de computación, sistemas de energía eléctrica, aire comprimido, agua, aire acondicionado, calles internas, pisos, depósitos, etc. Además deberá coordinar con recursos humanos un plan para la capacitación continua del personal.',
+      'La gestión del mantenimiento industrial es una disciplina que seenfoca en asegurar el funcionamiento eficiente y continuo de losequipos y sistemas en una planta o instalación industrial. Suobjetivo principal es minimizar el tiempo de inactividad, reducir loscostos operativos y extender la vida útil de los activosindustriales. Esto se logra a través de una serie de prácticas yestrategias organizadas para el mantenimiento preventivo,correctivo y predictivo.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -36,7 +36,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Desarrollo de contenidos',
+        titulo: 'Modelo para el desarrollo de un sistema',
         desarrolloContenidos: true,
       },
 
@@ -106,16 +106,10 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Gestión delmantenimiento industrial.',
+      referencia: 'Ecosistema recursosSENA [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=ErIBKdtvhvo',
     },
   ],
   glosario: [
@@ -149,42 +143,41 @@ export default {
   referencias: [
     {
       referencia:
-        'Baldín,	L. Furlanetto, A. Roversi, F. Turco. G.G.	(1982) Manual de mantenimiento de instalaciones industriales. Barcelona.',
+        'Baldín, L. J., Furlanetto, A., Roversi, F., & Turco, G. G. (1982). Manual de mantenimiento de instalaciones industriales. Barcelona: [Editorial].',
       link: '',
     },
     {
       referencia:
-        'Cato (09/007/2012) método PERT CPM (red de actividades) EJEMPLO 3: administración de proyectos. ',
+        'Cato. Método PERT CPM (red de actividades) EJEMPLO 3: administración de proyectos.  ',
       link: 'https://www.youtube.com/watch?v=eJi5ep85J1o',
     },
     {
       referencia:
-        'Herrera, H.(2014).Mantenimiento y lubricación. Notas de clase. Universidad Tecnológica de Pereira. Pereira.',
+        'Herrera, H. (2014). Mantenimiento y lubricación. Notas de clase. Universidad Tecnológica de Pereira, Pereira.',
       link: '',
     },
     {
       referencia:
-        'Ruiz, M. (20/06/2011) Cálculo del área bajo la curva de una distribución normal (Uso de tablas). ',
+        'Ruiz, M. Cálculo del área bajo la curva de una distribución normal (Uso de tablas). ',
       link: 'https://www.youtube.com/watch?v=9kRl-Zz-YCY',
     },
     {
-      referencia:
-        'Ruiz, M. (22/06/2011) Distribución Normal, teoría y ejemplo. ',
+      referencia: 'Ruiz, M. Distribución Normal, teoría y ejemplo. ',
       link: 'https://www.youtube.com/watch?v=_zoRQDN4sOM',
     },
     {
       referencia:
-        'Ruiz, M.(20/06/2011) Leer la tabla de distribución normal y ejemplos de aplicación. ',
+        'Ruiz, M. Leer la tabla de distribución normal y ejemplos de aplicación. ',
       link: '',
     },
     {
       referencia:
-        'Souris, J. (1992) Mantenimiento: Fuente de Beneficios. Díaz de Santos, S.A. Madrid.',
+        'Souris, J. (1992). Mantenimiento: fuente de beneficios. Madrid: Díaz de Santos, S.A.',
       link: '',
     },
     {
       referencia:
-        'Universitat Politécnica de Valencia - UPV (28/11/2011) Procedimientos de Construcción 5. Maquinaria. Redes de flechas. © UPV',
+        'Universitat Politécnica de Valencia - UPV. Procedimientos de construcción 5. Maquinaria. Redes de flechas. © UPV',
       link: 'https://www.youtube.com/watch?v=3wuBct63HhI',
     },
   ],

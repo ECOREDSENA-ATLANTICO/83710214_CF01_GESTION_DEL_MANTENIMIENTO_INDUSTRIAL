@@ -118,7 +118,8 @@
 
       .col-lg-10.mb-3
         p.mb-3 Se basa principalmente en la asignación de tiempos a las tareas, para lo cual se hace necesario estimar los tiempos de las tareas que se incluirán en la construcción de la red. Para ello, se podrá disponer de sistemas de estudio y medición del trabajo, estadísticas históricas o de datos de ejecución y tareas iguales, similares o comparables.
-        p Entre el método CPM y PERT existe una diferencia la cual radica en que para el método CPM el tiempo de cada actividad o tarea se determina basado en la experiencia de ejecución de la actividad, mientras que en el método PERT; se considera que no existe un tiempo único para una tarea y que por consiguiente es necesario realizar un estudio probabilístico de los tiempos que puede tomar su ejecución. Estos se representan de la siguiente manera:
+        p Entre el método CPM y PERT existe una diferencia la cual radica en que para el método CPM el tiempo de cada actividad o tarea se determina basado en la experiencia de ejecución de la actividad, mientras que en el método PERT; se considera que no existe un tiempo único para una tarea y que por consiguiente es necesario realizar un estudio probabilístico de los tiempos que puede tomar su ejecución. 
+          b Estos se representan de la siguiente manera:
        
       .col-lg-10.mb-3
         .align-items-start.d-flex.flex-nowrap.mb-1
@@ -203,6 +204,8 @@
         .align-items-center.d-flex.flex-nowrap.mb-0
           img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img39.svg', alt='Imagen Decorativa')
           h3.mb-0 Procedimiento para dibujar diagrama de flechas: 
+      
+        p.mb-3 El orden para seguir en la preparación de cualquier red de flechas con el objeto desistematizarlo es el siguiente:
 
       .col-lg-10.mb-3
         .align-items-start.d-flex.flex-nowrap.mb-1
@@ -427,7 +430,7 @@
         .titulo-sexto.color-acento-botones.mb-4
           h5 Figura 3.
           span Diagrama de flechas.
-        img.mx-auto.img-auto(src='@/assets/curso/temas/tema3/img_10.png', alt='Imagen Decorativa')
+        img.mx-auto.img-auto(src='@/assets/curso/temas/tema3/img_10.svg', alt='Imagen Decorativa')
 
 </template>
 

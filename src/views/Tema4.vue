@@ -80,14 +80,14 @@
                 p.mb-0 Por consiguiente, para determinar la primera fecha de realización de un evento que corresponde al tiempo de iniciación de la actividad, se empieza por el nodo inicial del proceso. Se suma la duración de cada actividad y cuando a un nodo llega más de una actividad se toma la cantidad mayor.
 
               .col-lg-8.col-xl-6
-                  img.img-auto.mx-auto(src='@/assets/curso/temas/tema4/img_6.png', alt='Imagen Decorativa')
+                  img.img-auto.mx-auto(src='@/assets/curso/temas/tema4/img_6.svg', alt='Imagen Decorativa')
 
             .row.justify-content-center.align-items-center.my-lg-4.p-3
               .col-md-12.col-lg-10.col-xl-6.align-items-center.mb-3
                 h3 Fecha más tardía de terminación de la actividad.
                 p Para que el proyecto termine en la fecha 14, la actividad I (Ver Fig.12) debe empezar por más tardar en la fecha 14-1 = 13, que se coloca en el cuadrante derecho del nodo 6
               .col-lg-8.col-xl-6
-                  img.img-auto.mx-auto(src='@/assets/curso/temas/tema4/img_7.png', alt='Imagen Decorativa')
+                  img.img-auto.mx-auto(src='@/assets/curso/temas/tema4/img_7.svg', alt='Imagen Decorativa')
 
             .row.justify-content-center.align-items-center.my-lg-4.p-3
               .col-md-12.col-lg-10.col-xl-6.align-items-center.mb-3
@@ -95,7 +95,7 @@
                 p La fecha última en que se puede empezar la actividad H es 13-1 = 12, que se coloca en el nodo 5, cuadrante derecho.
 
               .col-lg-8.col-xl-6
-                img.img-auto.mx-auto(src='@/assets/curso/temas/tema4/img_8.png', alt='Imagen Decorativa')
+                img.img-auto.mx-auto(src='@/assets/curso/temas/tema4/img_8.svg', alt='Imagen Decorativa')
 
             .row.justify-content-center.align-items-center.my-lg-4.p-3
               .col-md-12.col-lg-10.col-xl-6.align-items-center.mb-3
@@ -103,14 +103,14 @@
                 p La fecha última del nodo 4 es 12-3 = 9 mientras que al analizar el nodo 3 se ve que hay dos actividades que salen F y E la fecha más tarde que debe empezar esas actividades para no retrasar el proyecto debe ser la fecha 9-2 = 7, puesto que la actividad F tiene una duración de 2, no obstante, que por la actividad E la última fecha de iniciación de la actividad, es 13-4 = 9, es decir, se ha escogido la menor de las fechas, si se escogiera 9 retrasaría la actividad F y por consiguiente la duración total del proyecto
                 
               .col-lg-8.col-xl-6
-                img.img-auto.mx-auto(src='@/assets/curso/temas/tema4/img_9.png', alt='Imagen Decorativa')
+                img.img-auto.mx-auto(src='@/assets/curso/temas/tema4/img_9.svg', alt='Imagen Decorativa')
 
             .row.justify-content-center.align-items-center.my-lg-4.p-3
               .col-md-12.col-lg-10.col-xl-6.align-items-center.mb-3
                 h3 Ruta crítica red de actividades.
                 p Se puede definir la ruta crítica como la curva de mayor duración a través de la red o como la "curva de menor holgura". En la figura se resalta en color rojo la ruta crítica del caso estudiado.
               .col-lg-8.col-xl-6
-                img.img-auto.mx-auto(src='@/assets/curso/temas/tema4/img_10.png', alt='Imagen Decorativa')
+                img.img-auto.mx-auto(src='@/assets/curso/temas/tema4/img_10.svg', alt='Imagen Decorativa')
 
 
     .row.justify-content-center.align-items-center.mb-2
@@ -119,15 +119,21 @@
 
         .align-items-start.d-flex.flex-nowrap.mb-1
           img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img40.svg', alt='Imagen Decorativa')
-          p.mb-0.lh-sm Holgura total (total float): es el tiempo que se le permite a la actividad retrasarse, sin que esto afecte la duración total del proyecto.
+          p.mb-0.lh-sm Holgura total 
+            i (total float): 
+            | es el tiempo que se le permite a la actividad retrasarse, sin que esto afecte la duración total del proyecto.
 
         .align-items-start.d-flex.flex-nowrap.mb-1
           img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img40.svg', alt='Imagen Decorativa')
-          p.mb-0.lh-sm Holgura libre (free float): es la cantidad de tiempo que se puede retrasar una actividad sin perjudicar la primera fecha de iniciación de las actividades posteriores.
+          p.mb-0.lh-sm Holgura libre 
+            i (free float): 
+            | es la cantidad de tiempo que se puede retrasar una actividad sin perjudicar la primera fecha de iniciación de las actividades posteriores.
 
         .align-items-start.d-flex.flex-nowrap.mb-1
           img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img40.svg', alt='Imagen Decorativa')
-          p.mb-0.lh-sm Holgura independiente (independiente float): es el tiempo que puede retrasarse una actividad, sin que afecte la primera fecha de iniciación de las actividades siguientes y la última fecha de las actividades anteriores.
+          p.mb-0.lh-sm Holgura independiente (independiente 
+            i float): 
+            | es el tiempo que puede retrasarse una actividad, sin que afecte la primera fecha de iniciación de las actividades siguientes y la última fecha de las actividades anteriores.
 
 
     .row.justify-content-center.align-items-center.ordenar_tarjeta.mb-4
@@ -160,11 +166,11 @@
           .tarjeta.bg02.p-4.pt-5.pb-5
             p.text-center PFI: Primera fecha de iniciación de la actividad fecha más temprana de iniciación de la actividad. Se observa que esta fecha coincide con la primera fecha de realización de un evento cuya fórmula es:
             figure
-              img.mx-auto.img-auto(src='@/assets/curso/temas/tema4/img_14_1.png', alt='Imagen Decorativa')
+              img.mx-auto.img-auto(src='@/assets/curso/temas/tema4/img_14_1.svg', alt='Imagen Decorativa')
           .tarjeta.bg02.p-4.pt-5.pb-5
             p.text-center UFT: Última fecha de terminación de la actividad (fecha más tarde de terminación) coincide con la última fecha de realización de un evento y está expresada así:
             figure
-              img.mx-auto.img-auto(src='@/assets/curso/temas/tema4/img_15_1.png', alt='Imagen Decorativa')
+              img.mx-auto.img-auto(src='@/assets/curso/temas/tema4/img_15_1.svg', alt='Imagen Decorativa')
           .tarjeta.bg02.p-4.pt-5.pb-5
             p.text-center PFT: Primera fecha de terminación de la actividad (fecha más temprana de terminación) se expresa mediante la siguiente fórmula:
             figure
@@ -407,7 +413,7 @@
       .col-lg-10.col-md-12
         .titulo-sexto.color-acento-botones.mb-4
           h5 Figura 9.
-          span Representación gráfica de tiempos y holguras
+          span Representación gráfica de tiempos y holguras.
 
         .bg08.p-5.mb-0
           img.mx-auto.img-auto(src='@/assets/curso/temas/tema4/img_17.png', alt='Imagen Decorativa')

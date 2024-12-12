@@ -25,7 +25,7 @@ export default {
           id: 1,
           texto:
             'Los métodos de programación no sirven para la gestión del mantenimiento industrial.',
-          imagen: null,
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdadero', esCorrecta: false },
@@ -39,7 +39,7 @@ export default {
         {
           id: 2,
           texto: 'CPM es la sigla de método de ruta crítica.',
-          imagen: null,
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdadero', esCorrecta: true },
@@ -53,7 +53,7 @@ export default {
         {
           id: 3,
           texto: 'La ruta crítica se refiere a la terminación de una tarea.',
-          imagen: null,
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdadero', esCorrecta: false },
@@ -68,7 +68,7 @@ export default {
           id: 4,
           texto:
             'Los intercambios entre el costo de un proyecto y su fecha de terminación son importantes para el proceso.',
-          imagen: null,
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdadero', esCorrecta: true },
@@ -83,7 +83,7 @@ export default {
           id: 5,
           texto:
             'PERT (Program Evaluation and Review Technique) es un método para dar apoyo a la planeación, programación y control de una gran cantidad de actividades asociadas a un proyecto.',
-          imagen: null,
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdadero', esCorrecta: true },
@@ -98,7 +98,7 @@ export default {
           id: 6,
           texto:
             'El heno puede ser usado para la alimentación animal brindándole energía y vitaminas, siendo una técnica menos costosa que los concentrados.',
-          imagen: null,
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdadero', esCorrecta: true },
@@ -113,7 +113,7 @@ export default {
           id: 7,
           texto:
             'Se puede conceptuar gestión estratégica como un proceso sistemático, planeado, gerenciado, ejecutado y acompañado bajo el liderazgo.',
-          imagen: null,
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdadero', esCorrecta: true },
@@ -127,7 +127,7 @@ export default {
         {
           id: 8,
           texto: 'MBC es la sigla de mantenimiento centrado en la condición.',
-          imagen: null,
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdadero', esCorrecta: true },
@@ -142,7 +142,7 @@ export default {
           id: 9,
           texto:
             'Las distintas variables de significación que repercuten en el desempeño de los sistemas de la empresa son fiabilidad, disponibilidad y recurrencia.',
-          imagen: null,
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdadero', esCorrecta: false },
@@ -157,7 +157,7 @@ export default {
           id: 10,
           texto:
             'La visión moderna del mantenimiento se centra en la preservación de las funciones de los activos de la empresa.',
-          imagen: null,
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdadero', esCorrecta: true },
