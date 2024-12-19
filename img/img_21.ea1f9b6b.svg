@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="370" height="244.951" viewBox="0 0 370 244.951">
+  <g id="Grupo_1110245" data-name="Grupo 1110245" transform="translate(-9822 6459.951)">
+    <text id="Fuente:_SENA_LP_Risaralda_2014_." data-name="Fuente:(SENA – LP Risaralda, 2014)." transform="translate(9824 -6256)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="13">Fuente:(SENA – LP Risaralda, 2014).</tspan></text>
+    <text id="Ejemplo_de_red_de_actividades_por_diagrama_de_flechas." data-name="Ejemplo de red de actividades por diagrama de flechas." transform="translate(9824 -6312)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">Ejemplo de red de actividades por </tspan><tspan x="0" y="39">diagrama de flechas.</tspan></text>
+    <g id="Grupo_1108858" data-name="Grupo 1108858" transform="translate(9868 -6340) rotate(180)">
+      <g id="Elipse_11655" data-name="Elipse 11655" transform="translate(0 0)" fill="#fff" stroke="#000" stroke-width="2">
+        <circle cx="23" cy="23" r="23" stroke="none"/>
+        <circle cx="23" cy="23" r="22" fill="none"/>
+      </g>
+    </g>
+    <path id="Trazado_879048" data-name="Trazado 879048" d="M630-5317.5h41.463" transform="translate(9194 -1052)" fill="none" stroke="#000" stroke-width="1"/>
+    <g id="Grupo_1108867" data-name="Grupo 1108867" transform="translate(10020 -6340) rotate(180)">
+      <g id="Elipse_11655-2" data-name="Elipse 11655" transform="translate(0 0)" fill="#fff" stroke="#000" stroke-width="2">
+        <circle cx="23" cy="23" r="23" stroke="none"/>
+        <circle cx="23" cy="23" r="22" fill="none"/>
+      </g>
+    </g>
+    <path id="Trazado_879049" data-name="Trazado 879049" d="M630-5317.5h41.463" transform="translate(9346 -1052)" fill="none" stroke="#000" stroke-width="1"/>
+    <g id="Grupo_1108868" data-name="Grupo 1108868" transform="translate(10174 -6340) rotate(180)">
+      <g id="Elipse_11655-3" data-name="Elipse 11655" transform="translate(0 0)" fill="#fff" stroke="#000" stroke-width="2">
+        <circle cx="23" cy="23" r="23" stroke="none"/>
+        <circle cx="23" cy="23" r="22" fill="none"/>
+      </g>
+    </g>
+    <path id="Trazado_879050" data-name="Trazado 879050" d="M630-5317.5h41.463" transform="translate(9500 -1052)" fill="none" stroke="#000" stroke-width="1"/>
+    <circle id="Elipse_11674" data-name="Elipse 11674" cx="3" cy="3" r="3" transform="translate(9843 -6388)"/>
+    <circle id="Elipse_11675" data-name="Elipse 11675" cx="3" cy="3" r="3" transform="translate(10148 -6388)"/>
+    <circle id="Elipse_11676" data-name="Elipse 11676" cx="3" cy="3" r="3" transform="translate(10017 -6364)"/>
+    <path id="Trazado_879051" data-name="Trazado 879051" d="M3.768,0,7.536,7.536H0Z" transform="translate(10127.768 -6364.768) rotate(90)"/>
+    <path id="Trazado_879052" data-name="Trazado 879052" d="M3.768,0,7.536,7.536H0Z" transform="translate(9973.768 -6364) rotate(90)"/>
+    <circle id="Elipse_11677" data-name="Elipse 11677" cx="3" cy="3" r="3" transform="translate(9865 -6364)"/>
+    <path id="Trazado_879053" data-name="Trazado 879053" d="M674.7-5309h99.6" transform="translate(9194 -1052)" fill="none" stroke="#000" stroke-width="1"/>
+    <path id="Trazado_879054" data-name="Trazado 879054" d="M674.7-5309H778.3" transform="translate(9345.7 -1052)" fill="none" stroke="#000" stroke-width="1"/>
+    <path id="Trazado_879055" data-name="Trazado 879055" d="M674.7-5309h99.6" transform="translate(9194 -1052)" fill="none" stroke="#000" stroke-width="1"/>
+    <text id="A" transform="translate(9914 -6368)" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">A</tspan></text>
+    <text id="B" transform="translate(10068 -6368)" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">B</tspan></text>
+    <text id="_3" data-name="3" transform="translate(9914 -6341)" font-size="13" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">3</tspan></text>
+    <text id="_2" data-name="2" transform="translate(10068 -6341)" font-size="13" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">2</tspan></text>
+    <path id="Trazado_879056" data-name="Trazado 879056" d="M652-5354s10.949-19.943,33.95-36.217c28.557-20.2,74.069-37.733,116.529-37.733,36.449,0,75.731,10.746,104.321,28.485A189.568,189.568,0,0,1,956.372-5354" transform="translate(9194 -1031)" fill="none" stroke="#000" stroke-width="2"/>
+  </g>
+</svg>
