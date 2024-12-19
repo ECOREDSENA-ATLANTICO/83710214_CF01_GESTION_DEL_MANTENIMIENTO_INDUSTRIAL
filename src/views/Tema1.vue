@@ -83,7 +83,7 @@
         p Alcanzar la excelencia en la gestión del mantenimiento requiere una combinación de elementos como la eficiencia en las operaciones, la calidad del producto final, la optimización de costos y una alta confiabilidad de los activos. Para lograr este nivel de desempeño, las empresas deben establecer estrategias claras, políticas adecuadas de recursos humanos y un enfoque constante en la mejora continua. Este proceso debe estar respaldado por herramientas tecnológicas que permitan recopilar y analizar datos para evaluar el desempeño del sistema y tomar decisiones fundamentadas.
      
 
-    h3.mb-3.titulo-imagen-izq-1 Beneficios de un Modelo Estructurado para la Gestión del Mantenimiento Industrial
+    h3.mb-3.titulo-imagen-izq-1 Beneficios de un modelo estructurado para la gestión del mantenimiento industrial
     p.mb-4 Un modelo estructurado en la gestión del mantenimiento industrial proporciona una metodología clara y sistemática para administrar los activos de una organización. Este enfoque ofrece múltiples beneficios que impactan positivamente en la productividad, los costos y la sostenibilidad de las operaciones, exploremos estos beneficios:
 
     .row
@@ -135,65 +135,73 @@
           .tarjeta.p-3
             SlyderA(tipo="b")
               .row.justify-content-center.align-items-center.my-lg-4
-                h3 Mejoramiento de la confiabilidad.
+                h3 Mejoramiento de la confiabilidad:
                 .col-md-12.col-lg-3.mb-4.mb-md-0  
-                  p Mejorar la mantenibilidad en la industria es crucial para maximizar la eficiencia, reducir costos y minimizar el tiempo de inactividad.
+                  p el mejoramiento de la confiabilidad industrial es fundamental para garantizar que los equipos, procesos y sistemas funcionen de manera eficiente y segura, minimizando el riesgo de fallos y maximizando la productividad.
                 .col-md-12.col-lg-9
                   figure
                     img(src='@/assets/curso/temas/tema1/img11.png', alt='Imagen Decorativa')
 
               .row.justify-content-center.align-items-center.my-lg-4
-                h3 Estrategias del mantenimiento de activos.
+                h3 Mejoramiento de la mantenibilidad:
+                .col-md-12.col-lg-3.mb-4.mb-md-0  
+                  p mejorar la mantenibilidad en la industria es crucial para maximizar la eficiencia, reducir costos y minimizar el tiempo de inactividad.
+                .col-md-12.col-lg-9
+                  figure
+                    img(src='@/assets/curso/temas/tema1/img22.png', alt='Imagen Decorativa')
+
+              .row.justify-content-center.align-items-center.my-lg-4
+                h3 Estrategias del mantenimiento de activos:
                 .col-md-12.col-lg-3.mb-4.mb-md-0
-                  p La gestión efectiva del mantenimiento de activos es fundamental para asegurar la disponibilidad y eficiencia operativa de los equipos e instalaciones.
+                  p la gestión efectiva del mantenimiento de activos es fundamental para asegurar la disponibilidad y eficiencia operativa de los equipos e instalaciones.
                 .col-md-12.col-lg-9
                   figure
                     img(src='@/assets/curso/temas/tema1/img12.png', alt='Imagen Decorativa')
 
               .row.justify-content-center.align-items-center.my-lg-4
-                h3 Planificación y programación.
+                h3 Planificación y programación:
                 .col-md-12.col-lg-3.mb-4.mb-md-0
-                  p La planificación y programación industrial son fundamentales para optimizar la producción, reducir costos y mejorar la eficiencia operativa.
+                  p la planificación y programación industrial son fundamentales para optimizar la producción, reducir costos y mejorar la eficiencia operativa.
                 .col-md-12.col-lg-9
                   figure
                     img(src='@/assets/curso/temas/tema1/img13.png', alt='Imagen Decorativa')
-
+                    
               .row.justify-content-center.align-items-center.my-lg-4
-                h3 Administración de materiales.
+                h3 Administración de materiales:
                 .col-md-12.col-lg-3.mb-4.mb-md-0
-                  p La administración de materiales es esencial para garantizar una operación eficiente, optimizar los costos y asegurar que la producción se realice sin interrupciones.
+                  p la administración de materiales es esencial para garantizar una operación eficiente, optimizar los costos y asegurar que la producción se realice sin interrupciones.
                 .col-md-12.col-lg-9
                   figure
                     img(src='@/assets/curso/temas/tema1/img14.png', alt='Imagen Decorativa')
 
               .row.justify-content-center.align-items-center.my-lg-4
-                h3 Gestión de la eficiencia
+                h3 Gestión de la eficiencia:
                 .col-md-12.col-lg-3.mb-4.mb-md-0
-                  p La gestión de la eficiencia es crucial para optimizar el rendimiento operativo y alcanzar los objetivos empresariales.
+                  p la gestión de la eficiencia es crucial para optimizar el rendimiento operativo y alcanzar los objetivos empresariales.
                 .col-md-12.col-lg-9
                   figure
                     img(src='@/assets/curso/temas/tema1/img15.png', alt='Imagen Decorativa')
 
               .row.justify-content-center.align-items-center.my-lg-4
-                h3 Gestión de la información
+                h3 Gestión de la información:
                 .col-md-12.col-lg-4.mb-4.mb-md-0
-                  p La gestión de la información es crucial para garantizar que los datos relevantes se recojan, procesen, almacenen y utilicen de manera eficiente para apoyar la toma de decisiones y las operaciones empresariales.
+                  p la gestión de la información es crucial para garantizar que los datos relevantes se recojan, procesen, almacenen y utilicen de manera eficiente para apoyar la toma de decisiones y las operaciones empresariales.
                 .col-md-12.col-lg-8
                   figure
-                    img(src='@/assets/curso/temas/tema1/img16.png', alt='Imagen Decorativa')
+                    img(src='@/assets/curso/temas/tema1/img16.png', alt='Imagen Decorativa') 
 
               .row.justify-content-center.align-items-center.my-lg-4
-                h3 Estrategia de la gestión del mantenimiento.
+                h3 Estrategia de la gestión del mantenimiento:
                 .col-md-12.col-lg-6.mb-4.mb-md-0
-                  p Estrategia de la gestión del mantenimiento.	La estrategia de gestión del mantenimiento es fundamental para asegurar la eficiencia y la efectividad operativa de una organización. Implica una serie de prácticas y enfoques diseñados para mantener y mejorar la confiabilidad y el rendimiento de los equipos e instalaciones.	 
+                  p la estrategia de gestión del mantenimiento es fundamental para asegurar la eficiencia y la efectividad operativa de una organización. Implica una serie de prácticas y enfoques diseñados para mantener y mejorar la confiabilidad y el rendimiento de los equipos e instalaciones.
                 .col-md-12.col-lg-6
                   figure
                     img(src='@/assets/curso/temas/tema1/img17.png', alt='Imagen Decorativa')
 
               .row.justify-content-center.align-items-center.my-lg-4
-                h3 Organización y Recursos humanos.
+                h3 Organización y Recursos humanos:
                 .col-md-12.col-lg-6.mb-4.mb-md-0
-                  p La organización se refiere a la forma en que una empresa u otra entidad está estructurada para lograr sus objetivos. Incluye la disposición de las tareas, los roles y las responsabilidades dentro de la entidad. Los recursos humanos se refieren al departamento o la función dentro de una organización que se encarga de gestionar el capital humano de la empresa.
+                  p la organización se refiere a la forma en que una empresa u otra entidad está estructurada para lograr sus objetivos. Incluye la disposición de las tareas, los roles y las responsabilidades dentro de la entidad. Los recursos humanos se refieren al departamento o la función dentro de una organización que se encarga de gestionar el capital humano de la empresa.
                 .col-md-12.col-lg-6
                   figure
                     img(src='@/assets/curso/temas/tema1/img18.png', alt='Imagen Decorativa')
@@ -209,7 +217,7 @@
         SlyderF(columnas="col-lg-6 col-xl-6 col-md-6")
           .tarjeta.p-4.pt-5.pb-5.align-items-center
             h3 Análisis de necesidades:
-            p.mb-0 Análisis de necesidades: Identificar los requerimientos específicos de la organización, así como las características de los equipos y procesos.
+            p.mb-0 Identificar los requerimientos específicos de la organización, así como las características de los equipos y procesos.
 
           .tarjeta.p-4.pt-5.pb-5
             h3 Definición de objetivos:
@@ -278,15 +286,15 @@
       .col-lg-8.col-12(data-aos="fade-right")
         SlyderF(columnas="col-lg-6 col-xl-6 col-md-6")
           .tarjeta.tarjeta--rojo.p-4.pt-5.pb-5
-            h3 Tiempo Medio Entre Fallas (MTBF):
+            h3 Tiempo medio entre fallas (MTBF):
             p.mb-0 Mide la fiabilidad de los equipos. Un aumento en el MTBF indica un sistema de mantenimiento eficaz.
 
           .tarjeta.p-4.pt-5.pb-5
-            h3 Tiempo Medio de Reparación (MTTR):
+            h3 Tiempo medio de reparación (MTTR):
             p.mb-0 Evalúa la eficiencia en la respuesta ante fallos. Un MTTR bajo señala una buena gestión de mantenimiento.
 
           .tarjeta.p-4.pt-5.pb-5
-            h3 Tasa de Disponibilidad:  
+            h3 Tasa de disponibilidad:  
             p.mb-0 Porcentaje del tiempo que un equipo está disponible para operar. Una alta tasa indica un buen rendimiento del sistema.
 
 
@@ -294,7 +302,7 @@
       .col-md-12.col-lg-10.mx-auto
         .titulo-sexto.color-acento-botones.mb-4
           h5 Tabla 2.
-          span Comparación de estrategias de mantenimiento
+          span Indicadores de rendimiento en mantenimiento.
 
         .tabla-a.th_red.mb-2
           table
@@ -329,7 +337,7 @@
                   span (Tiempo total - Tiempo de inactividad) / Tiempo total
                 td
                   span Mantener por encima del 90%
-          figcaption.mb-5 Fuente: Sena, 2014
+          figcaption.mb-5 Fuente: Sena, 2024
 
 </template>
 

@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1(data-aos="fade-right") Elementos del mantenimiento industrial.
+      h1(data-aos="fade-right") Elementos del mantenimiento industrial
 
     .row.mb-2.align-items-center.ordenar_tarjeta
       .col-xl-9.col-lg-8.col-md-12(data-aos="fade-left")
@@ -55,7 +55,7 @@
         SlyderF(columnas="col-lg-6 col-xl-6 col-md-6")
           .tarjeta.tarjeta--rojo.p-4.pt-5.pb-5
             h3 Ítems a mantener: 
-            p.mb-0 Mide la fiabilidad de los equipos. Un aumento en el MTBF indica un sistema de mantenimiento eficaz.
+            p.mb-0 identificación de los equipos y sistemas que requieren mantenimiento.
 
           .tarjeta.p-4.pt-5.pb-5
             h3 Tipos de mantenimiento: 
@@ -346,6 +346,7 @@
 
         figure
           img(src='@/assets/curso/temas/tema2/img16.png', alt='Imagen Decorativa')
+        figcaption Fuente: Espinosa, F. 2014.
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-down")
       .col-lg-10
@@ -435,10 +436,13 @@
           img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img39.svg', alt='Imagen Decorativa')
           h3.mb-0 Efectividad del plan de mantenimiento:
       
-      .col-lg-10
+      .col-lg-10.mb-4
         p A continuación se presenta un enfoque estructurado para evaluar y mejorar los planes de mantenimiento de componentes o sistemas. Abarca la identificación de fallas, la efectividad de las estrategias de mantenimiento y las consecuencias de las fallas. <b>Además, proporciona recomendaciones para optimizar los procedimientos de mantenimiento y minimizar riesgos operativos:</b>
 
       .col-lg-10
+        .titulo-sexto.color-acento-botones.mb-4
+          h5 Tabla 5.
+          span  Procedimientos de mantenimiento y minimizar riesgos operativos.
         .tabla-a.th_red.mb-2
           table
             thead
@@ -447,16 +451,16 @@
                 th Descripción
             tbody
               tr
-                td.text-bold 1. Identificación de Modos de Falla
+                td.text-bold 1. Identificación de modos de falla
                 td 
                   span Identifica los modos de falla asociados con el componente o sistema.
               tr
-                td.text-bold 2. Degradación por Edad
+                td.text-bold 2. Degradación por edad
                 td 
                   span Examina si existe una tasa significativa de degradación por edad, si los materiales están agotados, y si los modos de falla están ocurriendo actualmente. <br>
                   span Capturar y mantener datos históricos ayuda a responder estas preguntas.
               tr
-                td(rowspan="5").text-bold 3. Fallas Funcionales
+                td(rowspan="5").text-bold 3. Fallas funcionales
                 td 
                   span Verificar si la falla funcional es evidente para el operador. Determine qué tipos de tareas se utilizan para identificar la falla:
               tr
@@ -472,7 +476,7 @@
                 td  
                   span Identifica y mide los parámetros que reflejan el estado del sistema, como las vibraciones, y define tolerancias aceptables.
               tr
-                td(rowspan="4").text-bold 4. Efectividad del Plan de Mantenimiento
+                td(rowspan="4").text-bold 4. Efectividad del plan de mantenimiento
                 td 
                   span Evalúa la efectividad actual del mantenimiento. Identifica métodos para mantener efectividad:
               tr
@@ -485,7 +489,7 @@
                 td
                   span Ingeniería de confiabilidad: Falla no es evidente y no existen tareas preventivas. Modifica o elimina tareas no efectivas.
               tr
-                td(rowspan="4").text-bold 5. Consecuencias de la Falla
+                td(rowspan="4").text-bold 5. Consecuencias de la falla
                 td 
                   span Identifica consecuencias relacionadas con seguridad, regulación, producción o costo, y si las tareas de mantenimiento agregan valor:
               tr
@@ -498,7 +502,7 @@
                 td   
                   span Costo: Costo de tareas preventivas menor que el costo de reparación y pérdida de capacidad.
               tr
-                td(rowspan="9").text-bold 6. Recomendaciones para Cambios
+                td(rowspan="9").text-bold 6. Recomendaciones para cambios
                 td 
                   span <b>a.</b> Realiza las siguientes acciones según los resultados del análisis:
               tr
@@ -541,7 +545,7 @@
       .col-lg-10
         PasosA.color-acento-contenido.mb-5(tipo="n")
           .row
-            h3 I. Identificación de Necesidades (Requerimiento)
+            h3 I. Identificación de necesidades (Requerimiento)
             .col-lg-12.mb-3
               .row.align-items-center
                 .col-lg-7  
@@ -554,7 +558,7 @@
               p <b>Recopilación de datos:</b> Consultar manuales del fabricante, registros históricos de mantenimiento, reportes de operadores (quejas, sugerencias), inspecciones regulares o programadas, análisis de datos históricos (identificación de tendencias y problemas recurrentes), políticas de abastecimiento de materiales y repuestos, evaluación de actualizaciones de equipos. Priorización de necesidades.
 
           .row
-            h3.text-start II. Planificación del Mantenimiento
+            h3.text-start II. Planificación del mantenimiento
             .col-lg-12.mb-3
               .row.align-items-center
                 .col-md-6.col-lg-5.mb-3
@@ -567,7 +571,7 @@
               p.text-start <b>Creación de un listado detallado de requerimientos de mantenimiento.</b> Análisis exhaustivo de planificaciones anteriores, incluyendo la identificación de éxitos, fracasos y áreas de mejora (retroalimentación). Definición y seguimiento de indicadores clave de rendimiento (KPIs) para medir la eficiencia del mantenimiento. Asignación de recursos (personal, materiales, presupuesto).
 
           .row
-            h3 III. Programación del Mantenimiento
+            h3 III. Programación del mantenimiento
             .col-lg-12.mb-3
               .row.align-items-center
                 .col-lg-7  
@@ -580,7 +584,7 @@
               p <b>Elaboración de un cronograma preciso.</b> Asignación específica de personal y equipos a cada tarea. Definición clara de los procedimientos a seguir para cada tarea de mantenimiento. Obtención de los materiales y herramientas necesarios. Revisión y análisis de programas de mantenimiento anteriores, e incorporación de mejoras e innovaciones.
 
           .row
-            h3.text-start IV. Ejecución del Mantenimiento
+            h3.text-start IV. Ejecución del mantenimiento
             .col-lg-12.mb-3
               .row.align-items-center
                 .col-md-6.col-lg-5.mb-3
@@ -593,7 +597,7 @@
               p.text-start <b>Distribución eficiente del trabajo</b> entre el personal de mantenimiento y coordinación con el área de producción para determinar el mejor momento para la intervención. Monitoreo constante del progreso del trabajo. Movilización de recursos (personal, herramientas, repuestos). Ejecución precisa de las tareas según los procedimientos establecidos. Documentación exhaustiva de todas las acciones realizadas. Resolución efectiva de problemas imprevistos.
 
           .row
-            h3 V. Finalización y Entrega
+            h3 V. Finalización y entrega
             .col-lg-12.mb-3
               .row.align-items-center
                 .col-lg-7  
@@ -606,7 +610,7 @@
               p <b>Realización de pruebas</b> de funcionamiento en vacío y bajo carga. Medición de variables clave para asegurar que el equipo cumple con los estándares de rendimiento. Análisis del comportamiento del equipo por personal experto. Diseño y realización de experimentos para verificar la eficiencia del equipo. Ajustes y calibraciones finales. Documentación de resultados de las pruebas y ajustes realizados. Entrega formal del equipo al operador.
                 
           .row
-            h3.text-start VI. Control, Evaluación y Mejora Continua
+            h3.text-start VI. Control, evaluación y mejora continua
             .col-lg-12.mb-3
               .row.align-items-center
                 .col-md-6.col-lg-5.mb-3
@@ -861,8 +865,8 @@
     .row.mb-3 
       .col-md-10.mx-auto
         .titulo-sexto.color-acento-botones.mb-4
-          h5 Tabla 4.
-          span Ejemplo Lista de chequeo para el mantenimiento 
+          h5 Tabla 6.
+          span Ejemplo, Lista de chequeo para el mantenimiento 
 
         .tabla-a.th_red.mb-2
           //- Tabla 1 
@@ -1127,7 +1131,7 @@
             
             .row.align-items-center.justify-content-center
               .col-md-12.col-lg-6.mb-4.mb-3
-                h4.mb-2 Administración.
+                h4.mb-2 Administración por Carta de Pareto (análisis ABC).
                 lista.ul-lista--color
                   li
                     | Participación pobre de la gerencia. 

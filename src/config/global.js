@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Parámetros de asignación y soluciones de un sistema',
     descripcionCurso:
-      'La gestión del mantenimiento industrial es una disciplina que seenfoca en asegurar el funcionamiento eficiente y continuo de losequipos y sistemas en una planta o instalación industrial. Suobjetivo principal es minimizar el tiempo de inactividad, reducir loscostos operativos y extender la vida útil de los activosindustriales. Esto se logra a través de una serie de prácticas yestrategias organizadas para el mantenimiento preventivo,correctivo y predictivo.',
+      'La gestión del mantenimiento industrial es una disciplina que seenfoca en asegurar el funcionamiento eficiente y continuo de los equipos y sistemas en una planta o instalación industrial. Su objetivo principal es minimizar el tiempo de inactividad, reducir loscostos operativos y extender la vida útil de los activosindustriales. Esto se logra a través de una serie de prácticas yestrategias organizadas para el mantenimiento preventivo,correctivo y predictivo.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -90,7 +90,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/CF01_83710214_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -107,7 +107,7 @@ export default {
   complementario: [
     {
       tema: 'Gestión delmantenimiento industrial.',
-      referencia: 'Ecosistema recursosSENA [Video]. YouTube.',
+      referencia: 'Ecosistema recursos SENA [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=ErIBKdtvhvo',
     },
@@ -194,8 +194,7 @@ export default {
         {
           nombre: 'Miguel de Jesús Paredes Maestre',
           cargo: 'Responsable de Línea de Producción',
-          centro:
-            'Centro Para El Desarrollo Agroecológico y Agroindustrial Sabanalarga',
+          centro: 'Centro para el Desarrollo Agroecológico y Agroindustrial',
         },
       ],
     },
@@ -218,7 +217,7 @@ export default {
           nombre: 'Luis Guillermo Alvarez García',
           cargo: 'Evaluador instruccional ',
           centro:
-            'Centro Para El Desarrollo Agroecológico y Agroindustrial Sabanalarga - Regional Atlántico',
+            'Centro para el Desarrollo Agroecológico y Agroindustrial - Regional Atlántico',
         },
       ],
     },
@@ -229,19 +228,19 @@ export default {
           nombre: 'Hernando Junior Strusberg Perez',
           cargo: 'Diseñador web ',
           centro:
-            'Centro Para El Desarrollo Agroecológico y Agroindustrial Sabanalarga - Regional Atlántico',
+            'Centro para el Desarrollo Agroecológico y Agroindustrial - Regional Atlántico',
         },
         {
           nombre: 'Álvaro Guillermo Araújo Angarita',
-          cargo: 'Desarrollador <i>Fullstack</i>',
+          cargo: 'Desarrollador <i>Full Stack</i>',
           centro:
-            'Centro Para El Desarrollo Agroecológico y Agroindustrial Sabanalarga - Regional Atlántico',
+            'Centro para el Desarrollo Agroecológico y Agroindustrial - Regional Atlántico',
         },
         {
           nombre: 'Alexander Rafael Acosta Bedoya',
           cargo: 'Animador y producción audiovisual',
           centro:
-            'Centro Para El Desarrollo Agroecológico y Agroindustrial Sabanalarga - Regional Atlántico',
+            'Centro para el Desarrollo Agroecológico y Agroindustrial - Regional Atlántico',
         },
       ],
     },
@@ -252,25 +251,25 @@ export default {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro:
-            'Centro Para El Desarrollo Agroecológico y Agroindustrial Sabanalarga - Regional Atlántico',
+            'Centro para el Desarrollo Agroecológico y Agroindustrial - Regional Atlántico',
         },
         {
           nombre: 'Luz Karime Amaya Cabra',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro:
-            'Centro Para El Desarrollo Agroecológico y Agroindustrial Sabanalarga - Regional Atlántico',
+            'Centro para el Desarrollo Agroecológico y Agroindustrial - Regional Atlántico',
         },
         {
           nombre: 'Juan Carlos Cardona Acosta',
           cargo: 'Validador y vinculador de recursos digitales',
           centro:
-            'Centro Para El Desarrollo Agroecológico y Agroindustrial Sabanalarga - Regional Atlántico',
+            'Centro para el Desarrollo Agroecológico y Agroindustrial - Regional Atlántico',
         },
         {
           nombre: 'Jairo Luis Valencia Ebratt',
           cargo: 'Validador y vinculador de recursos digitales ',
           centro:
-            'Centro Para El Desarrollo Agroecológico y Agroindustrial Sabanalarga - Regional Atlántico',
+            'Centro para el Desarrollo Agroecológico y Agroindustrial - Regional Atlántico',
         },
       ],
     },

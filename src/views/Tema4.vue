@@ -15,7 +15,6 @@
       .col-lg-6.col-md-8.mx-auto.mb-3(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema4/img_1.png', alt='Imagen Decorativa')
-    
 
     .row.justify-content-center.align-items-center.mb-2  
       .col-lg-10.col-md-12
@@ -23,10 +22,11 @@
           h5 Figura 4.
           span Fecha más temprana de iniciación de la actividad.
     
-    .row.justify-content-center.mb-2
+    .row.justify-content-center.mb-5
       .col-lg-6
-        .bg08.p-5.mb-4
+        .bg08.p-5
           img.mx-auto.img-auto(src='@/assets/curso/temas/tema4/img_2.svg', alt='Imagen Decorativa')
+        figcaption Fuente: (SENA - LP Risaralda, 2014).
 
     .row.justify-content-center.align-items-center.mb-2  
       .col-lg-12.col-md-12
@@ -49,6 +49,7 @@
 
         figure
           img.mx-auto.img-auto(src='@/assets/curso/temas/tema4/img_3.png', alt='Imagen Decorativa')
+        figcaption Fuente: Sena
 
     .row.align-items-center.justify-content-center
       .col-lg-6.col-md-12(data-aos="fade-left")
@@ -65,6 +66,7 @@
         
         figure
           img.mx-auto.img-auto(src='@/assets/curso/temas/tema4/img_5.png', alt='Imagen Decorativa')
+        figcaption Fuente: Sena
 
       .col-lg-10.col-md-12.mb-2
         p Al nodo 4 llegan las actividades D y F y terminarán en la fecha 6 + 2 = 8 y 7 + 2 = 9 respectivamente, para averiguar la fecha más temprana de iniciación de la actividad G se escoge la fecha 9 por ser la mayor, marcada por la actividad 3-4 y no la fecha 8 dada por la actividad 2-4. Esta fecha 9 se ubica en el cuadrante izquierdo del nodo 4. Se observa que al nodo 5 sólo llega la actividad 4-5, así la actividad H sólo se puede iniciar en la fecha 12. 
@@ -151,7 +153,7 @@
         figure
           img(src='@/assets/curso/temas/tema4/img_12.png', alt='Imagen Decorativa')
       .col-lg-7.col-md-12(data-aos="fade-left")
-        p Antes de expresar las fórmulas para determinar los cuatro tipos de fecha para cada actividad es necesario numerar los nodos de manera que las actividades puedan ser definidas por su nodo inicial y su nodo final. Al evento inicial se le denomina i y j al evento final. Al tiempo de duración de la actividad la se expresa como.
+        p Antes de expresar las fórmulas para determinar los cuatro tipos de fecha para cada actividad es necesario numerar los nodos de manera que las actividades puedan ser definidas por su nodo inicial y su nodo final. Al evento inicial se le denomina i y j al evento final.
         p.mb-0 Hay que observar que la letra j de la actividad precedente es igual a la letra i de la actividad posterior, excepto en los nodos inicial y final de la red. Es importante conservar en la mente que la numeración de los nodos nunca se repite.
 
 
@@ -185,7 +187,7 @@
 
     .row.justify-content-center.align-items-center.mb-2
       .col-lg-10.mb-2
-        p.mb-2 Se traslada los resultados a la Tabla 3. Matriz de tiempos. Así por ejemplo la PFI de las actividades A y D localizada en el cuadrante izquierdo del nodo 0 y 2 respectivamente tienen un valor de cero y seis, cuyas cifras están ubicadas en la columna 4 de la Tabla 3, el mismo proceso se usa para las demás actividades.
+        p.mb-2 Luego se traslada los resultados a la Tabla 3. Matriz de tiempos. Así por ejemplo la PFI de las actividades A y D localizada en el cuadrante izquierdo del nodo 0 y 2 respectivamente tienen un valor de cero y seis, cuyas cifras están ubicadas en la columna 4 de la Tabla 3, el mismo proceso se usa para las demás actividades.
         p Ahora la UFT de las actividades A y D son cuatro y nueve localizadas en el cuadrante derecho de los nodos 1 y 4. Estos valores son colocados en la columna 7 de la Tabla 3, el mismo procedimiento se utiliza en las otras actividades.
 
 
@@ -203,7 +205,7 @@
     .row.justify-content-center.align-items-center.mb-2
       .col-lg-10
         .titulo-sexto.color-acento-botones.mb-4
-          h5 Tabla 7.
+          h5 Tabla 9.
           span Matriz de tiempos.
         .tabla-a.th_red.mb-2
           table.text-center(border="0", cellpadding="0", cellspacing="0", style="border-collapse: collapse; table-layout: fixed;")
@@ -370,7 +372,7 @@
                 td 0
                 td 14
                 td 13
-          figcaption.mb-5 Fuente: Sena 2024
+          figcaption.mb-5 Fuente: (Herrera 2024)
 
     .row.justify-content-center.align-items-center.mb-2
       .col-lg-10.mb-2
@@ -412,11 +414,12 @@
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-10.col-md-12
         .titulo-sexto.color-acento-botones.mb-4
-          h5 Figura 9.
+          h5 Figura 7.
           span Representación gráfica de tiempos y holguras.
 
         .bg08.p-5.mb-0
           img.mx-auto.img-auto(src='@/assets/curso/temas/tema4/img_17.png', alt='Imagen Decorativa')
+        figcaption Fuente: SENA.
 
 </template>
 

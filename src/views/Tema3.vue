@@ -56,11 +56,11 @@
           .tarjeta.p-4.bg-azul-oscuro
             .tarjeta.p-4.bg_white
               .row
-                .col-12.col-xl-3.col-lg-6.col-sm-12.d-flex.mb-4
+                .col-12.col-xl-4.col-lg-6.col-sm-12.d-flex.mb-4
                   .tarjeta.border-azul.p-3
                     p.title Método de la Ruta Crítica (CPM)
-                    p.text-center Es una vía corta, simple y rápida. se utiliza cuando el producto llega directamente al consumidor desde el punto de producción o comercialización, que ha establecido el productor, este se convierte en la mejor alternativa, porque se reducen los intermediarios.
-                .col-12.col-xl-5.col-lg-6.col-sm-12.d-flex.mb-4
+                    p.text-center Creado bajo la dirección de los ingenieros J. E. Kelly y M. R. Walker, el método CPM (Critical Path Method) o Método de la Ruta Crítica, se refiere a los intercambios entre el costo de un proyecto y su fecha de terminación. Este método se enfoca en la reducción del tiempo estimado para finalizar una tarea o actividad, utilizando más trabajadores y/o recursos, lo cual, se refleja en mayores costos.
+                .col-12.col-xl-4.col-lg-6.col-sm-12.d-flex.mb-4
                   .tarjeta.border-azul.p-3
                     p.title Método PERT 
                       i (Program Evaluation and Review Technique)
@@ -158,16 +158,14 @@
             .row.justify-content-center.align-items-center.my-lg-4.p-4
               .col-md-12.col-lg-10.col-xl-8.mb-4.mb-3
                 h3 Suceso inicial.
-                p Lubricación, inspección, limpieza. 
-                | En la gestión del mantenimiento industrial se refiere a un conjunto de prácticas esenciales para asegurar el funcionamiento eficiente y prolongado de los equipos y maquinarias, aplicando lubricantes, evaluando los equipos y eliminando la suciedad.
+                p en el suceso inicial de cada actividad convergen todas las actividades que le anteceden, siendo un requerimiento que hayan concluido antes de que ella.
               .col-12.col-lg-8.col-xl-4
                   img.img-auto.mx-auto(src='@/assets/curso/temas/tema3/img_18.svg', alt='Imagen Decorativa')
 
             .row.justify-content-center.align-items-center.my-lg-4.p-4
               .col-md-12.col-lg-10.col-xl-8.mb-4.mb-3
                 h3 Suceso final.
-                p Gestión, programación y control del trabajo.
-                | En la gestión del mantenimiento industrial se refiere al conjunto de procesos y prácticas destinados a planificar, organizar y supervisar las actividades de mantenimiento para asegurar su eficacia y eficiencia. Administrando los recursos y planificando las tareas.
+                p en el suceso final de cada actividad, inician las actividades que necesitan que la actividad analizada se encuentre culminada.
               .col-12.col-lg-8.col-xl-3
                 img.img-auto.mx-auto(src='@/assets/curso/temas/tema3/img_19.svg', alt='Imagen Decorativa')
 
@@ -175,8 +173,7 @@
               .col-md-12.col-lg-10.col-xl-8.mb-4.mb-3
                 h3 
                   strong Sucesión.
-                p Disminuir trabajos no planificados.
-                | En la gestión del mantenimiento industrial se refiere a la estrategia y prácticas destinadas a reducir la frecuencia y el impacto de las intervenciones de mantenimiento que no han sido programadas previamente. Realizando mantenimiento preventivo, análisis de datos y capacitación de personal.
+                p es común encontrar en la práctica sucesos que requieren la utilización de actividades o tareas ficticias para cumplir con las actividades requeridas. Dichas actividades en realidad no existen, por lo tanto, no consumen ni tiempo ni recursos en el proceso. Se deben representar líneas discontinuas, tal y como se muestra a continuación.
               .col-12.col-lg-8.col-xl-3
                 img.img-auto.mx-auto(src='@/assets/curso/temas/tema3/img_20.svg', alt='Imagen Decorativa')
 
@@ -184,8 +181,7 @@
               .col-md-12.col-lg-10.col-xl-8.mb-4.mb-3
                 h3 
                   strong Método de potenciales.
-                p Participar en la ingeniería.
-                | En la gestión del mantenimiento industrial se refiere al proceso de diseñar, planificar y desarrollar soluciones técnicas que optimicen el rendimiento, la confiabilidad y la seguridad de los equipos y sistemas industriales con diseño de soluciones e integración de tecnologías.
+                p en éste las tareas se representan en bloques y las flechas sólo indican las conexiones entre las tareas en serie. La construcción de la red es mucho más sencilla y no se requiere utilizar en él tareas ficticias. Es cierto que solo debe existir un origen único, los finales pueden ser diversos. Los distintos sistemas computarizados utilizan este método para el desarrollo de la red de actividades.
               .col-12.col-lg-8.col-xl-3
                 img.img-auto.mx-auto(src='@/assets/curso/temas/tema3/img_21.svg', alt='Imagen Decorativa')
 
@@ -238,12 +234,12 @@
           p.mb-0.lh-sm Qué actividad(es) se realizan paralelamente.
 
       .col-lg-10.mb-3
-        p Por ejemplo, se desea fabricar un nuevo producto cuya planificación se realiza en el Departamento de Control de Producción. Se tienen nueve actividades: A, B, C, D, E, F, G, H, I, cuyas relaciones de precedencias están dadas en la Tabla 1.
+        p Por ejemplo, se desea fabricar un nuevo producto cuya planificación se realiza en el Departamento de Control de Producción. Se tienen nueve actividades: A, B, C, D, E, F, G, H, I, cuyas relaciones de precedencias están dadas en la Tabla 7.
 
     .row.justify-content-center.align-items-center
       .col-lg-10.mb-3
         .titulo-sexto.color-acento-botones.mb-4
-          h5 Tabla 5.
+          h5 Tabla 7.
           span Secuencia de actividades.
 
         .tabla-a.th_red.mb-2
@@ -344,7 +340,7 @@
     .row.justify-content-center.align-items-center
       .col-lg-8.mb-3        
         .titulo-sexto.color-acento-botones.mb-4
-          h5 Tabla 6.
+          h5 Tabla 8.
           span Reglas para dibujar red de actividades.
 
         .tabla-a.th_red.mb-2
@@ -431,6 +427,7 @@
           h5 Figura 3.
           span Diagrama de flechas.
         img.mx-auto.img-auto(src='@/assets/curso/temas/tema3/img_10.svg', alt='Imagen Decorativa')
+        figcaption Fuente: (SENA - LP Risaralda, 2014).
 
 </template>
 
