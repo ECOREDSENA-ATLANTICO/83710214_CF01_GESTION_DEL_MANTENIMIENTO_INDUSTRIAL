@@ -5,16 +5,16 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1(data-aos="fade-right") Actividades de mantenimiento.
+      h1(data-aos="fade-right") Actividades de mantenimiento
     
     .row.justify-content-center.align-items-center.mb-2
       .col-lg-12.col-md-12(data-aos="fade-left")
-        h3.mb-3.titulo-imagen-izq-1 Métodos CPM y PERT:
+        h3.mb-3.titulo-imagen-izq-1 Métodos CPM y PERT
 
     .row.mb-2.align-items-center.justify-content-center.ordenar_tarjeta
       .col-lg-9.col-md-12(data-aos="fade-left")
         p.mb-3 Existen diversos métodos y operaciones de análisis de los diversos problemas que debe afrontar el departamento de mantenimiento de una empresa al tiempo que profundizará en las soluciones a través del uso de estrategias claves a través de la organización de las actividades y el dominio de tablas y matrices de tiempos.
-        p La implementación de los diversos métodos de mantenimiento como: método de la ruta crítica (CPM) y el método PERT (Program Evaluation and Review Technique) crean responsabilidades compartidas tanto para el equipo de mantenimiento como para el equipo de producción de una empresa. Esto unido a una lista de actividades y manejo de matrices y tablas de tiempos ofrecen una ventaja de la empresa y sus integrantes en el entorno competitivo regional y nacional.
+        p La implementación de los diversos métodos de mantenimiento como: método de la ruta crítica (CPM) y el método PERT (<em>Program Evaluation and Review Technique</em>) crean responsabilidades compartidas tanto para el equipo de mantenimiento como para el equipo de producción de una empresa. Esto unido a una lista de actividades y manejo de matrices y tablas de tiempos ofrecen una ventaja de la empresa y sus integrantes en el entorno competitivo regional y nacional.
       .col-lg-3.col-md-8.mx-auto.mb-3(data-aos="fade-right").pos_2
         figure
           img(src='@/assets/curso/temas/tema3/img_01.png', alt='Imagen Decorativa')
@@ -58,8 +58,8 @@
               .row
                 .col-12.col-xl-4.col-lg-6.col-sm-12.d-flex.mb-4
                   .tarjeta.border-azul.p-3
-                    p.title Método de la Ruta Crítica (CPM)
-                    p.text-center Creado bajo la dirección de los ingenieros J. E. Kelly y M. R. Walker, el método CPM (Critical Path Method) o Método de la Ruta Crítica, se refiere a los intercambios entre el costo de un proyecto y su fecha de terminación. Este método se enfoca en la reducción del tiempo estimado para finalizar una tarea o actividad, utilizando más trabajadores y/o recursos, lo cual, se refleja en mayores costos.
+                    p.title Método de la ruta crítica (CPM)
+                    p.text-center Creado bajo la dirección de los ingenieros J. E. Kelly y M. R. Walker, el método CPM (<em>Critical Path Method</em>) o Método de la Ruta Crítica, se refiere a los intercambios entre el costo de un proyecto y su fecha de terminación. Este método se enfoca en la reducción del tiempo estimado para finalizar una tarea o actividad, utilizando más trabajadores y/o recursos, lo cual, se refleja en mayores costos.
                 .col-12.col-xl-4.col-lg-6.col-sm-12.d-flex.mb-4
                   .tarjeta.border-azul.p-3
                     p.title Método PERT 
@@ -71,7 +71,7 @@
 
     .row.mb-5.align-items-center.justify-content-center
       .col-lg-12.col-md-12(data-aos="fade-left")
-        h3.mb-3.titulo-imagen-izq-1 Mantenimiento:
+        h3.mb-3.titulo-imagen-izq-1 Mantenimiento
 
       .col-lg-12.mb-3
         p Con el objetivo de organizar y hacer una buena gestión de mantenimiento a nivel industrial se deben establecer los objetivos y las políticas mantenimiento pues esto permite determinar las funciones, crear los documentos para realizar archivos técnicos, planificar tareas de mantenimiento: preventivo, correctivo y predictivo y, por último, realizar análisis recomendaciones y planes de acción para la mejora de los procesos de mantenimiento.
@@ -106,10 +106,10 @@
       .col-lg-10.mb-3
         .align-items-start.d-flex.flex-nowrap.mb-1
           img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img40.svg', alt='Imagen Decorativa')
-          p.mb-0.lh-sm Listado de tareas: siguiendo el orden secuencial de ejecución se recomienda realizar un listado de las tareas y actividades. Definiendo estás de acuerdo con el grado de detalle con que se quiere realizar el análisis teniendo en cuenta la precisión esperada y la posibilidad de control, además se recomienda tener presente que las unidades de tiempo empleadas deben ser las mismas: horas, días, años.
+          p.mb-0.lh-sm <b>Listado de tareas:</b> siguiendo el orden secuencial de ejecución se recomienda realizar un listado de las tareas y actividades. Definiendo estás de acuerdo con el grado de detalle con que se quiere realizar el análisis teniendo en cuenta la precisión esperada y la posibilidad de control, además se recomienda tener presente que las unidades de tiempo empleadas deben ser las mismas: horas, días, años.
         .align-items-start.d-flex.flex-nowrap.mb-1
           img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img40.svg', alt='Imagen Decorativa')
-          p.mb-0.lh-sm Asignación de prioridades: requiere el estudio minucioso sobre la relación existente entre las actividades o tareas, teniendo en cuenta las actividades que se deben realizar secuencial o simultáneamente.
+          p.mb-0.lh-sm <b>Asignación de prioridades:</b> requiere el estudio minucioso sobre la relación existente entre las actividades o tareas, teniendo en cuenta las actividades que se deben realizar secuencial o simultáneamente.
 
       .col-lg-10.mb-3
         .align-items-center.d-flex.flex-nowrap.mb-0
@@ -118,8 +118,7 @@
 
       .col-lg-10.mb-3
         p.mb-3 Se basa principalmente en la asignación de tiempos a las tareas, para lo cual se hace necesario estimar los tiempos de las tareas que se incluirán en la construcción de la red. Para ello, se podrá disponer de sistemas de estudio y medición del trabajo, estadísticas históricas o de datos de ejecución y tareas iguales, similares o comparables.
-        p Entre el método CPM y PERT existe una diferencia la cual radica en que para el método CPM el tiempo de cada actividad o tarea se determina basado en la experiencia de ejecución de la actividad, mientras que en el método PERT; se considera que no existe un tiempo único para una tarea y que por consiguiente es necesario realizar un estudio probabilístico de los tiempos que puede tomar su ejecución. 
-          b Estos se representan de la siguiente manera:
+        p Entre el método CPM y PERT existe una diferencia la cual radica en que para el método CPM el tiempo de cada actividad o tarea se determina basado en la experiencia de ejecución de la actividad, mientras que en el método PERT; se considera que no existe un tiempo único para una tarea y que por consiguiente es necesario realizar un estudio probabilístico de los tiempos que puede tomar su ejecución. Estos se representan de la siguiente manera:
        
       .col-lg-10.mb-3
         .align-items-start.d-flex.flex-nowrap.mb-1
@@ -147,9 +146,9 @@
           SlyderA(tipo="b")
             .row.justify-content-center.align-items-center.my-lg-4.p-4
               .col-md-12.col-lg-10.col-xl-8.mb-4.mb-3
-                h3 Bitácora.
+                h3 Bitácora
                 p Para la construcción de las redes de actividades existen dos alternativas, uno es el método tarea/flecha (americano) y el método de los potenciales.
-                p Método tarea - flecha (americano): este método se caracteriza por una serie de principios y lineamientos para la representación de la red de actividades. A continuación, se mostrarán las reglas implementadas por el método:
+                p <b>Método tarea - flecha (americano):</b> este método se caracteriza por una serie de principios y lineamientos para la representación de la red de actividades. A continuación, se mostrarán las reglas implementadas por el método:
                 p Las tareas se encuentran representadas por una línea o arco entre dos puntos o nodos. Los sucesos se ilustran usando círculos y las actividades o tareas con flechas.
 
               .col-12.col-lg-8.col-xl-4
@@ -157,31 +156,31 @@
 
             .row.justify-content-center.align-items-center.my-lg-4.p-4
               .col-md-12.col-lg-10.col-xl-8.mb-4.mb-3
-                h3 Suceso inicial.
-                p en el suceso inicial de cada actividad convergen todas las actividades que le anteceden, siendo un requerimiento que hayan concluido antes de que ella.
+                h3 Suceso inicial
+                p En el suceso inicial de cada actividad convergen todas las actividades que le anteceden, siendo un requerimiento que hayan concluido antes de que ella.
               .col-12.col-lg-8.col-xl-4
                   img.img-auto.mx-auto(src='@/assets/curso/temas/tema3/img_18.svg', alt='Imagen Decorativa')
 
             .row.justify-content-center.align-items-center.my-lg-4.p-4
               .col-md-12.col-lg-10.col-xl-8.mb-4.mb-3
-                h3 Suceso final.
-                p en el suceso final de cada actividad, inician las actividades que necesitan que la actividad analizada se encuentre culminada.
+                h3 Suceso final
+                p En el suceso final de cada actividad, inician las actividades que necesitan que la actividad analizada se encuentre culminada.
               .col-12.col-lg-8.col-xl-3
                 img.img-auto.mx-auto(src='@/assets/curso/temas/tema3/img_19.svg', alt='Imagen Decorativa')
 
             .row.justify-content-center.align-items-center.my-lg-4.p-4
               .col-md-12.col-lg-10.col-xl-8.mb-4.mb-3
                 h3 
-                  strong Sucesión.
-                p es común encontrar en la práctica sucesos que requieren la utilización de actividades o tareas ficticias para cumplir con las actividades requeridas. Dichas actividades en realidad no existen, por lo tanto, no consumen ni tiempo ni recursos en el proceso. Se deben representar líneas discontinuas, tal y como se muestra a continuación.
+                  strong Sucesión
+                p Es común encontrar en la práctica sucesos que requieren la utilización de actividades o tareas ficticias para cumplir con las actividades requeridas. Dichas actividades en realidad no existen, por lo tanto, no consumen ni tiempo ni recursos en el proceso. Se deben representar líneas discontinuas, tal y como se muestra a continuación.
               .col-12.col-lg-8.col-xl-3
                 img.img-auto.mx-auto(src='@/assets/curso/temas/tema3/img_20.svg', alt='Imagen Decorativa')
 
             .row.justify-content-center.align-items-center.my-lg-4.p-4
               .col-md-12.col-lg-10.col-xl-8.mb-4.mb-3
                 h3 
-                  strong Método de potenciales.
-                p en éste las tareas se representan en bloques y las flechas sólo indican las conexiones entre las tareas en serie. La construcción de la red es mucho más sencilla y no se requiere utilizar en él tareas ficticias. Es cierto que solo debe existir un origen único, los finales pueden ser diversos. Los distintos sistemas computarizados utilizan este método para el desarrollo de la red de actividades.
+                  strong Método de potenciales
+                p En éste las tareas se representan en bloques y las flechas sólo indican las conexiones entre las tareas en serie. La construcción de la red es mucho más sencilla y no se requiere utilizar en él tareas ficticias. Es cierto que solo debe existir un origen único, los finales pueden ser diversos. Los distintos sistemas computarizados utilizan este método para el desarrollo de la red de actividades.
               .col-12.col-lg-8.col-xl-3
                 img.img-auto.mx-auto(src='@/assets/curso/temas/tema3/img_21.svg', alt='Imagen Decorativa')
 
@@ -199,7 +198,7 @@
       .col-lg-10.mb-3
         .align-items-center.d-flex.flex-nowrap.mb-0
           img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img39.svg', alt='Imagen Decorativa')
-          h3.mb-0 Procedimiento para dibujar diagrama de flechas: 
+          h3.mb-0 Procedimiento para dibujar diagrama de flechas
       
         p.mb-3 El orden para seguir en la preparación de cualquier red de flechas con el objeto desistematizarlo es el siguiente:
 
@@ -240,7 +239,7 @@
       .col-lg-10.mb-3
         .titulo-sexto.color-acento-botones.mb-4
           h5 Tabla 7.
-          span Secuencia de actividades.
+          span <em>Secuencia de actividades.</em>
 
         .tabla-a.th_red.mb-2
           table
@@ -321,12 +320,12 @@
       .col-lg-10.mb-3
         .align-items-center.d-flex.flex-nowrap.mb-0
           img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img39.svg', alt='Imagen Decorativa')
-          h3.mb-0 Dibujar la red: 
+          h3.mb-0 Dibujar la red
 
       .col-lg-10.mb-3
         p.mb-3 Consiste en mostrar gráficamente la secuencia de las actividades por medio de flechas, tanto la longitud y dirección de ellas no tienen ningún significado vectorial.
         p.mb-3 La forma para dibujar una red depende del planificador, pero el éxito del sistema está relacionado con una buena elaboración del diagrama de actividades, representado en la tabla secuencial.
-        p Para dibujar la red correctamente se debe tener en cuenta las siguientes reglas: resumidas en la Tabla 2. Dos actividades que parten de un mismo nodo no pueden llegar a otro nodo igual debido que crearían confusión en el análisis computacional, entonces como se puede ver en la Tabla 2, esto se corrige por medio de una actividad virtual.
+        p Para dibujar la red correctamente se debe tener en cuenta las siguientes reglas: resumidas en la Tabla 8. Dos actividades que parten de un mismo nodo no pueden llegar a otro nodo igual debido que crearían confusión en el análisis computacional, entonces como se puede ver en la Tabla 8, esto se corrige por medio de una actividad virtual.
 
       .col-lg-10.mb-3
         .bloque-texto-g.bloque-texto-g.bg10.p-3.p-sm-4.p-md-5.mb-5
@@ -334,14 +333,14 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img_09.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Un diagrama siempre debe empezar con un nodo inicial y terminar con un nodo final, esto significa que las actividades que salen del nodo inicial no le anteceden a ninguna otra, y las que llegan al nodo traducen que no hay actividades posteriores. En un diagrama de barras no debe haber rizos o cortocircuitos (looping).
+            p.mb-0 Un diagrama siempre debe empezar con un nodo inicial y terminar con un nodo final, esto significa que las actividades que salen del nodo inicial no le anteceden a ninguna otra, y las que llegan al nodo traducen que no hay actividades posteriores. En un diagrama de barras no debe haber rizos o cortocircuitos (<em>looping</em>).
 
 
     .row.justify-content-center.align-items-center
       .col-lg-8.mb-3        
         .titulo-sexto.color-acento-botones.mb-4
           h5 Tabla 8.
-          span Reglas para dibujar red de actividades.
+          span <em>Reglas para dibujar red de actividades.</em>
 
         .tabla-a.th_red.mb-2
           table
@@ -425,8 +424,8 @@
 
         .titulo-sexto.color-acento-botones.mb-4
           h5 Figura 3.
-          span Diagrama de flechas.
-        img.mx-auto.img-auto(src='@/assets/curso/temas/tema3/img_10.svg', alt='Imagen Decorativa')
+          span <em>Diagrama de flechas.</em>
+        img.mx-auto.img-auto(src='@/assets/curso/temas/tema3/img_10.svg', alt='En la figura se muestra el diagrama de flechas A,B,C,D,E,F,G,H,I.')
         figcaption Fuente: (SENA - LP Risaralda, 2014).
 
 </template>

@@ -97,7 +97,7 @@ export default {
         {
           id: 6,
           texto:
-            'El heno puede ser usado para la alimentación animal brindándole energía y vitaminas, siendo una técnica menos costosa que los concentrados.',
+            'Las actividades de mantenimiento correctivo deben realizarse únicamente en caso de emergencia.',
           imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [

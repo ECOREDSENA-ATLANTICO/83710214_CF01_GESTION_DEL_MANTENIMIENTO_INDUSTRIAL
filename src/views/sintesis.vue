@@ -10,7 +10,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="En la síntesis de este componente se detalla los parámetros de asignación y soluciones de un sistema, modelo para el desarrollo de un sistema, elementos del mantenimiento industrial, actividades de mantenimiento, matrices y tablas de tiempos.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

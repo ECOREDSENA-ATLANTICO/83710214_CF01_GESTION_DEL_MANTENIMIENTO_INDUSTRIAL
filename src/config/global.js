@@ -121,22 +121,22 @@ export default {
     {
       termino: 'CPM',
       significado:
-        'creado bajo la dirección de los ingenieros J. E. Kelly y M. R. Walker, el método CPM <i>(Critical Path Method)</i> o Método de la Ruta Crítica, se refiere a los intercambios entre el costo de un proyecto y su fecha de terminación.',
+        'creado bajo la dirección de los ingenieros J. E. Kelly y M. R. Walker, el método CPM <i>(Critical Path Method)</i> o método de la ruta crítica, se refiere a los intercambios entre el costo de un proyecto y su fecha de terminación.',
     },
     {
-      termino: 'Mantenimiento Correctivo',
+      termino: 'Mantenimiento correctivo',
       significado: 'mantenimiento basado en la falla.',
     },
     {
-      termino: 'Mantenimiento Detective',
+      termino: 'Mantenimiento detective',
       significado: 'mantenimiento basado en la inspección.',
     },
     {
-      termino: 'Mantenimiento Preventivo',
+      termino: 'Mantenimiento preventivo',
       significado: 'mantenimiento basado en el uso.',
     },
     {
-      termino: 'Mantenimiento Predictivo',
+      termino: 'Mantenimiento predictivo',
       significado: 'mantenimiento basado en la detección.',
     },
   ],

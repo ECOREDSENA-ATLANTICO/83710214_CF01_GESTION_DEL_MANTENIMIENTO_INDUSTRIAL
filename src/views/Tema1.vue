@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1(data-aos="fade-right") Modelo para el desarrollo de un sistema.
+      h1(data-aos="fade-right") Modelo para el desarrollo de un sistema
 
 
     p Desarrollar un sistema de mantenimiento industrial eficiente requiere una referencia clara que sirva como guía para abordar las particularidades de cada situación empresarial. Este modelo permite analizar las necesidades del usuario, identificar soluciones integrales y establecer estrategias que aseguren la sostenibilidad y el rendimiento óptimo de los activos.
@@ -120,13 +120,13 @@
       .col-lg-10     
         .titulo-sexto.color-acento-botones.mb-4
           h5 Figura 1.
-          span Excelencia en la gestión del mantenimiento
+          span <em>Excelencia en la gestión del mantenimiento.</em>
 
         .tarjeta.bg-azul-claro.p-3
           .tarjeta--blanca.p-5
             h3.mb-5.text-center Esquema para el desarrollo de la estragia de mantenimiento
             figure
-              img(src='@/assets/curso/temas/tema1/img10.svg', alt='Imagen Decorativa')
+              img(src='@/assets/curso/temas/tema1/img10.svg', alt='Se muestra en el siguiente esquema, el objetivo global para el mantenimiento, incluye los ambientes de los activos y las estrategias de los negocios, con una brecha de la eficiencia, análisis del estado actual, base de archivos, análisis FODA, estrategias para cerrar la brecha, implementación del plan, definición de tareas, priorizar iniciativas, medir el éxito, estrategias para la eficiencia, desarrollo de la visión, declaración de la misión, principios guías, beneficios del negocio.')
         figcaption.mb-5 Fuente: (Espinosa, 2014)
         
         p.mb-4 En el mantenimiento es fundamental tener las bases en una estrategia acorde a las metas de la empresa y una política de recursos humanos, control, mejoramiento continuo y, por último, dirigirse a la excelencia en la gestión de los activos. A continuación, podrá evidenciar algunos tipos:
@@ -135,73 +135,73 @@
           .tarjeta.p-3
             SlyderA(tipo="b")
               .row.justify-content-center.align-items-center.my-lg-4
-                h3 Mejoramiento de la confiabilidad:
+                h3 Mejoramiento de la confiabilidad
                 .col-md-12.col-lg-3.mb-4.mb-md-0  
-                  p el mejoramiento de la confiabilidad industrial es fundamental para garantizar que los equipos, procesos y sistemas funcionen de manera eficiente y segura, minimizando el riesgo de fallos y maximizando la productividad.
+                  p El mejoramiento de la confiabilidad industrial es fundamental para garantizar que los equipos, procesos y sistemas funcionen de manera eficiente y segura, minimizando el riesgo de fallos y maximizando la productividad.
                 .col-md-12.col-lg-9
                   figure
                     img(src='@/assets/curso/temas/tema1/img11.png', alt='Imagen Decorativa')
 
               .row.justify-content-center.align-items-center.my-lg-4
-                h3 Mejoramiento de la mantenibilidad:
+                h3 Mejoramiento de la mantenibilidad
                 .col-md-12.col-lg-3.mb-4.mb-md-0  
-                  p mejorar la mantenibilidad en la industria es crucial para maximizar la eficiencia, reducir costos y minimizar el tiempo de inactividad.
+                  p Mejorar la mantenibilidad en la industria es crucial para maximizar la eficiencia, reducir costos y minimizar el tiempo de inactividad.
                 .col-md-12.col-lg-9
                   figure
                     img(src='@/assets/curso/temas/tema1/img22.png', alt='Imagen Decorativa')
 
               .row.justify-content-center.align-items-center.my-lg-4
-                h3 Estrategias del mantenimiento de activos:
+                h3 Estrategias del mantenimiento de activos
                 .col-md-12.col-lg-3.mb-4.mb-md-0
-                  p la gestión efectiva del mantenimiento de activos es fundamental para asegurar la disponibilidad y eficiencia operativa de los equipos e instalaciones.
+                  p La gestión efectiva del mantenimiento de activos es fundamental para asegurar la disponibilidad y eficiencia operativa de los equipos e instalaciones.
                 .col-md-12.col-lg-9
                   figure
                     img(src='@/assets/curso/temas/tema1/img12.png', alt='Imagen Decorativa')
 
               .row.justify-content-center.align-items-center.my-lg-4
-                h3 Planificación y programación:
+                h3 Planificación y programación
                 .col-md-12.col-lg-3.mb-4.mb-md-0
-                  p la planificación y programación industrial son fundamentales para optimizar la producción, reducir costos y mejorar la eficiencia operativa.
+                  p La planificación y programación industrial son fundamentales para optimizar la producción, reducir costos y mejorar la eficiencia operativa.
                 .col-md-12.col-lg-9
                   figure
                     img(src='@/assets/curso/temas/tema1/img13.png', alt='Imagen Decorativa')
                     
               .row.justify-content-center.align-items-center.my-lg-4
-                h3 Administración de materiales:
+                h3 Administración de materiales
                 .col-md-12.col-lg-3.mb-4.mb-md-0
-                  p la administración de materiales es esencial para garantizar una operación eficiente, optimizar los costos y asegurar que la producción se realice sin interrupciones.
+                  p La administración de materiales es esencial para garantizar una operación eficiente, optimizar los costos y asegurar que la producción se realice sin interrupciones.
                 .col-md-12.col-lg-9
                   figure
                     img(src='@/assets/curso/temas/tema1/img14.png', alt='Imagen Decorativa')
 
               .row.justify-content-center.align-items-center.my-lg-4
-                h3 Gestión de la eficiencia:
+                h3 Gestión de la eficiencia
                 .col-md-12.col-lg-3.mb-4.mb-md-0
-                  p la gestión de la eficiencia es crucial para optimizar el rendimiento operativo y alcanzar los objetivos empresariales.
+                  p La gestión de la eficiencia es crucial para optimizar el rendimiento operativo y alcanzar los objetivos empresariales.
                 .col-md-12.col-lg-9
                   figure
                     img(src='@/assets/curso/temas/tema1/img15.png', alt='Imagen Decorativa')
 
               .row.justify-content-center.align-items-center.my-lg-4
-                h3 Gestión de la información:
+                h3 Gestión de la información
                 .col-md-12.col-lg-4.mb-4.mb-md-0
-                  p la gestión de la información es crucial para garantizar que los datos relevantes se recojan, procesen, almacenen y utilicen de manera eficiente para apoyar la toma de decisiones y las operaciones empresariales.
+                  p La gestión de la información es crucial para garantizar que los datos relevantes se recojan, procesen, almacenen y utilicen de manera eficiente para apoyar la toma de decisiones y las operaciones empresariales.
                 .col-md-12.col-lg-8
                   figure
                     img(src='@/assets/curso/temas/tema1/img16.png', alt='Imagen Decorativa') 
 
               .row.justify-content-center.align-items-center.my-lg-4
-                h3 Estrategia de la gestión del mantenimiento:
+                h3 Estrategia de la gestión del mantenimiento
                 .col-md-12.col-lg-6.mb-4.mb-md-0
-                  p la estrategia de gestión del mantenimiento es fundamental para asegurar la eficiencia y la efectividad operativa de una organización. Implica una serie de prácticas y enfoques diseñados para mantener y mejorar la confiabilidad y el rendimiento de los equipos e instalaciones.
+                  p La estrategia de gestión del mantenimiento es fundamental para asegurar la eficiencia y la efectividad operativa de una organización. Implica una serie de prácticas y enfoques diseñados para mantener y mejorar la confiabilidad y el rendimiento de los equipos e instalaciones.
                 .col-md-12.col-lg-6
                   figure
                     img(src='@/assets/curso/temas/tema1/img17.png', alt='Imagen Decorativa')
 
               .row.justify-content-center.align-items-center.my-lg-4
-                h3 Organización y Recursos humanos:
+                h3 Organización y Recursos humanos
                 .col-md-12.col-lg-6.mb-4.mb-md-0
-                  p la organización se refiere a la forma en que una empresa u otra entidad está estructurada para lograr sus objetivos. Incluye la disposición de las tareas, los roles y las responsabilidades dentro de la entidad. Los recursos humanos se refieren al departamento o la función dentro de una organización que se encarga de gestionar el capital humano de la empresa.
+                  p La organización se refiere a la forma en que una empresa u otra entidad está estructurada para lograr sus objetivos. Incluye la disposición de las tareas, los roles y las responsabilidades dentro de la entidad. Los recursos humanos se refieren al departamento o la función dentro de una organización que se encarga de gestionar el capital humano de la empresa.
                 .col-md-12.col-lg-6
                   figure
                     img(src='@/assets/curso/temas/tema1/img18.png', alt='Imagen Decorativa')
@@ -216,20 +216,20 @@
       .col-lg-8.col-12(data-aos="fade-right").mb-3
         SlyderF(columnas="col-lg-6 col-xl-6 col-md-6")
           .tarjeta.p-4.pt-5.pb-5.align-items-center
-            h3 Análisis de necesidades:
+            h3 Análisis de necesidades
             p.mb-0 Identificar los requerimientos específicos de la organización, así como las características de los equipos y procesos.
 
           .tarjeta.p-4.pt-5.pb-5
-            h3 Definición de objetivos:
+            h3 Definición de objetivos
             p.mb-0 Establecer metas claras que el sistema de mantenimiento debe alcanzar, como la reducción de paradas no planificadas y el incremento de la productividad.
 
           .tarjeta.p-4.pt-5.pb-5
-            h3 Selección de estrategias: 
+            h3 Selección de estrategias
             p.mb-0 Evaluar y seleccionar la estrategia de mantenimiento más adecuada (preventivo, predictivo, correctivo) según las necesidades y condiciones de operación.
           
           .tarjeta.p-4.pt-5.pb-5
-            h3 Implementación de tecnología:  
-            p.mb-0 Integrar herramientas tecnológicas como software de gestión de mantenimiento (CMMS), que faciliten la planificación y monitoreo de las actividades.
+            h3 Implementación de tecnología 
+            p.mb-0 Integrar herramientas tecnológicas como <em>software</em> de gestión de mantenimiento (CMMS), que faciliten la planificación y monitoreo de las actividades.
       
       .col-lg-4.col-10.mx-auto.mb-3(data-aos="fade-left")
         figure
@@ -240,7 +240,7 @@
       .col-md-12.col-lg-10.col-sm-12.mx-auto
         .titulo-sexto.color-acento-botones.mb-4
           h5 Tabla 1.
-          span Comparación de estrategias de mantenimiento
+          span <em>Comparación de estrategias de mantenimiento.</em>
         .tabla-a.th_red.mb-2
           table
             thead
@@ -255,21 +255,21 @@
             tbody
               tr.text-center
                 td 
-                  span Mantenimiento Preventivo
+                  span Mantenimiento preventivo
                 td 
                   span Reducción de fallos y paradas inesperadas
                 td
                   span Costos de mantenimiento previos altos
               tr.text-center
                 td 
-                  span Mantenimiento Predictivo
+                  span Mantenimiento predictivo
                 td 
                   span Optimización de recursos y tiempos
                 td
                   span Requiere tecnologías avanzadas
               tr.text-center
                 td 
-                  span Mantenimiento Correctivo
+                  span Mantenimiento correctivo
                 td 
                   span Menores costos iniciales
                 td
@@ -286,15 +286,15 @@
       .col-lg-8.col-12(data-aos="fade-right")
         SlyderF(columnas="col-lg-6 col-xl-6 col-md-6")
           .tarjeta.tarjeta--rojo.p-4.pt-5.pb-5
-            h3 Tiempo medio entre fallas (MTBF):
+            h3 Tiempo medio entre fallas (MTBF)
             p.mb-0 Mide la fiabilidad de los equipos. Un aumento en el MTBF indica un sistema de mantenimiento eficaz.
 
           .tarjeta.p-4.pt-5.pb-5
-            h3 Tiempo medio de reparación (MTTR):
+            h3 Tiempo medio de reparación (MTTR)
             p.mb-0 Evalúa la eficiencia en la respuesta ante fallos. Un MTTR bajo señala una buena gestión de mantenimiento.
 
           .tarjeta.p-4.pt-5.pb-5
-            h3 Tasa de disponibilidad:  
+            h3 Tasa de disponibilidad
             p.mb-0 Porcentaje del tiempo que un equipo está disponible para operar. Una alta tasa indica un buen rendimiento del sistema.
 
 
@@ -302,7 +302,7 @@
       .col-md-12.col-lg-10.mx-auto
         .titulo-sexto.color-acento-botones.mb-4
           h5 Tabla 2.
-          span Indicadores de rendimiento en mantenimiento.
+          span <em>Indicadores de rendimiento en mantenimiento.</em>
 
         .tabla-a.th_red.mb-2
           table

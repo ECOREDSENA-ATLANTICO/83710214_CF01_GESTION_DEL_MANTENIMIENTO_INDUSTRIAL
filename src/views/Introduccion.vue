@@ -13,10 +13,10 @@
       p En este módulo, se explorarán cuatro áreas fundamentales: el modelo para el desarrollo de un sistema de mantenimiento, los elementos clave que conforman el mantenimiento industrial, las principales actividades relacionadas con esta gestión, y el uso de matrices y tablas de tiempos como herramientas de planificación y control.
       p Este componente formativo está diseñado para fortalecer las competencias necesarias para implementar soluciones sostenibles que impacten positivamente en la operación y desempeño de cualquier instalación industrial. ¡Bienvenido a este importante espacio de aprendizaje!
 
-  
+     
       figure.mb-4
         .video
-          <iframe width="853" height="480" src="https://www.youtube.com/embed/OI3pPsl-6TQ?si=1cmDE0wGY88S-m4-" title="Video de Gestión del mantenimiento industrial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe width="853" height="480" src="https://www.youtube.com/embed/_FTUtu6Woas" title="Video de Gestión del mantenimiento industrial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         figcaption Video: Sena 2014.
       p.mb-5 La gestión del mantenimiento industrial requiere tener en cuenta las problemáticas propias de cada situación en la empresa, el modelo seleccionado, las soluciones en general y los elementos de las soluciones deben estar basada sobre un conjunto apropiado de parámetros de costo, plazos, rendimientos y evaluación del riesgo.
 

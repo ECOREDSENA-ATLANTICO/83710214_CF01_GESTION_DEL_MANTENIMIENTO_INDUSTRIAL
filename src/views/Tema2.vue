@@ -54,26 +54,25 @@
       .col-lg-8.col-12(data-aos="fade-right")
         SlyderF(columnas="col-lg-6 col-xl-6 col-md-6")
           .tarjeta.tarjeta--rojo.p-4.pt-5.pb-5
-            h3 Ítems a mantener: 
+            h3 Ítems a mantener
             p.mb-0 identificación de los equipos y sistemas que requieren mantenimiento.
 
           .tarjeta.p-4.pt-5.pb-5
-            h3 Tipos de mantenimiento: 
+            h3 Tipos de mantenimiento
             p.mb-0 Selección de las estrategias de mantenimiento apropiadas (correctivo, preventivo, predictivo, detective).
 
           .tarjeta.p-4.pt-5.pb-5
-            h3 Cronograma de mantenimiento:
+            h3 Cronograma de mantenimiento
             p.mb-0 Establecimiento de la frecuencia y el momento de las intervenciones de mantenimiento.
 
     h3.mb-3.titulo-imagen-izq-1 Concepciones más usadas
-    p.mb-4 Existen diferentes concepciones de mantenimiento, cada una con sus propias ventajas y desventajas. 
-      strong Algunas de las más utilizadas son:
+    p.mb-4 Existen diferentes concepciones de mantenimiento, cada una con sus propias ventajas y desventajas. Algunas de las más utilizadas son:
 
     .row.mb-5
       .col-md-10.mx-auto
         .titulo-sexto.color-acento-botones.mb-4
           h5 Tabla 3.
-          span Conceptos de mantenimiento
+          span <em>Conceptos de mantenimiento.</em>
 
         .tabla-a.th_red.mb-2
           table
@@ -87,42 +86,42 @@
             tbody
               tr.text-center
                 td 
-                  span Terotecnología Avanzada
+                  span Terotecnología Avanzada.
                 td 
                   span Integración de tecnologías avanzadas para optimizar la gestión del mantenimiento.
               tr.text-center
                 td 
-                  span Concepción Estratégica de Mantenimiento (SMC)
+                  span Concepción Estratégica de Mantenimiento (SMC).
                 td 
                   span Enfoque estratégico que alinea el mantenimiento con los objetivos de negocio de la empresa.
               tr.text-center
                 td 
-                  span Mantenimiento Centrado en la Confiabilidad (MCC)
+                  span Mantenimiento Centrado en la Confiabilidad (MCC).
                 td 
                   span Se centra en la identificación y gestión de los modos de fallo para mejorar la confiabilidad del equipo.
               tr.text-center
                 td 
-                  span Mantenimiento Centrado en el Negocio (BCN)
+                  span Mantenimiento Centrado en el Negocio (BCN).
                 td 
                   span Integra el mantenimiento con las estrategias de negocio para maximizar la rentabilidad. 
               tr.text-center
                 td 
-                  span Mantenimiento Productivo Total (TPM)
+                  span Mantenimiento Productivo Total (TPM).
                 td 
                   span Involucra a todos los empleados en la mejora continua del mantenimiento y la productividad.
               tr.text-center
                 td 
-                  span Apoyo Logístico Integrado/Análisis del Apoyo Logístico (ILS/LSA)
+                  span Apoyo Logístico Integrado/Análisis del Apoyo Logístico (ILS/LSA).
                 td 
                   span Proceso sistemático para el soporte logístico de equipos y sistemas complejos. 
               tr.text-center
                 td 
-                  span Mantenimiento con Calidad Total (TQM)
+                  span Mantenimiento con Calidad Total (TQM).
                 td 
                   span Implementación de los principios de la calidad total en el mantenimiento. 
               tr.text-center
                 td 
-                  span Mantenimiento Basado en el Riesgo (RBM)
+                  span Mantenimiento Basado en el Riesgo (RBM).
                 td 
                   span Se centra en la identificación y gestión de los riesgos asociados con las fallas del equipo. 
           figcaption.mb-5 Fuente: Sena 2024
@@ -145,7 +144,7 @@
               p.mb-0.lh-sm Calidad de la mano de obra.
             .align-items-start.d-flex.flex-nowrap.mb-1
               img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img40.svg', alt='Imagen Decorativa')
-              p.mb-0.lh-sm Evaluación de servicios de terceros
+              p.mb-0.lh-sm Evaluación de servicios de terceros.
           .col-xl-4.col-lg-6.col-12.mb-3
             .align-items-start.d-flex.flex-nowrap.mb-1
               img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img40.svg', alt='Imagen Decorativa')
@@ -185,13 +184,12 @@
 
         .align-items-center.d-flex.flex-nowrap.mb-1
           img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img39.svg', alt='Imagen Decorativa')
-          h3.mb-0 El mantenimiento y su gestión:
+          h3.mb-0 El mantenimiento y su gestión
 
         .row.mb-2.align-items-center
           .col-lg-8.col-12(data-aos="fade-left")
             p Hay un amplio acuerdo entre diversos autores de que la ingeniería y la gestión del mantenimiento están recibiendo cada vez más atención, especialmente debido a la necesidad de obtener de los equipamientos, de alto costo, una alta productividad, como también mediante un efectivo mantenimiento influir fuertemente en el diferencial competitivo de su producto.
-            p Pero, la atención que recibe la función mantenimiento es, frecuentemente, producto de una acción aislada sin una adecuada integración entre las varias técnicas empleadas. 
-              strong Se puede consultar, a continuación, los elementos básicos de la gestión del mantenimiento:
+            p Pero, la atención que recibe la función mantenimiento es, frecuentemente, producto de una acción aislada sin una adecuada integración entre las varias técnicas empleadas. Se puede consultar, a continuación, los elementos básicos de la gestión del mantenimiento:
           .col-lg-4.col-10.col-md-8.mx-auto.mb-3(data-aos="fade-right")
             figure
               img(src='@/assets/curso/temas/tema2/img07.png', alt='Imagen Decorativa')
@@ -199,7 +197,7 @@
 
         .align-items-center.d-flex.flex-nowrap.mb-1
           img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img39.svg', alt='Imagen Decorativa')
-          h3.mb-0 Formas más usadas:
+          h3.mb-0 Formas más usadas
         p.mb-5 La aproximación más frecuente para incrementar la eficiencia de la función mantenimiento es implementar alguna filosofía o técnica de mantenimiento más publicada.
         p
           strong Esto incluye:
@@ -210,7 +208,7 @@
                 strong 01
               figure
                 img.img-auto.mx-auto.mb-3(src='@/assets/curso/temas/tema2/img08.svg', alt='Imagen Decorativa')
-              p.text-center.mb-0 MCC (mantenimiento centrado en la confiabilidad)
+              p.text-center.mb-0 MCC (mantenimiento centrado en la confiabilidad).
 
           .col-lg-3.col-md-6.col-12.mb-3.d-flex
             .tarjeta.p-3.bg-gray.w-100
@@ -218,14 +216,14 @@
                 strong 02
               figure
                 img.img-auto.mx-auto.mb-3(src='@/assets/curso/temas/tema2/img09.svg', alt='Imagen Decorativa')
-              p.text-center.mb-0 TPM (mantenimiento productivo total)
+              p.text-center.mb-0 TPM (mantenimiento productivo total).
           .col-lg-3.col-md-6.col-12.mb-3.d-flex
             .tarjeta.p-3.bg-gray.w-100
               p.mb-0
                 strong 03
               figure
                 img.img-auto.mx-auto.mb-3(src='@/assets/curso/temas/tema2/img10.svg', alt='Imagen Decorativa')
-              p.text-center.mb-0 MBC (mantenimiento centrado en la condición)
+              p.text-center.mb-0 MBC (mantenimiento centrado en la condición).
           .col-lg-3.col-md-6.col-12.mb-3.d-flex
             .tarjeta.p-3.bg-gray.w-100
               p.mb-0
@@ -240,7 +238,7 @@
 
         .align-items-center.d-flex.flex-nowrap.mb-0
           img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img39.svg', alt='Imagen Decorativa')
-          h3.mb-0 Forma más adecuada:
+          h3.mb-0 Forma más adecuada
 
         .row.mb-5.align-items-center
           .col-lg-9(data-aos="fade-left")
@@ -314,7 +312,7 @@
 
         .align-items-center.d-flex.flex-nowrap.mb-0
           img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img39.svg', alt='Imagen Decorativa')
-          h3.mb-0 Integración del mantenimiento en el contexto productivo:
+          h3.mb-0 Integración del mantenimiento en el contexto productivo
 
         .row.mb-3.align-items-center
           .col-lg-8(data-aos="fade-left")
@@ -325,9 +323,8 @@
               img(src='@/assets/curso/temas/tema2/img15.png', alt='Imagen Decorativa')
 
 
-    h3.mb-3.titulo-imagen-izq-1 Políticas y acciones de mantenimiento:
-    p.mb-4 La visión moderna del mantenimiento se centra en preservar las funciones de los activos de la empresa, cumplir las tareas que sirven para asegurar que el equipamiento puede hacer lo que le usuario desea, cuando él lo espera. 
-      strong A la luz de lo anterior, se puede definir la política de mantenimiento:
+    h3.mb-3.titulo-imagen-izq-1 Políticas y acciones de mantenimiento
+    p.mb-4 La visión moderna del mantenimiento se centra en preservar las funciones de los activos de la empresa, cumplir las tareas que sirven para asegurar que el equipamiento puede hacer lo que le usuario desea, cuando él lo espera. A la luz de lo anterior, se puede definir la política de mantenimiento:
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-down")
       .col-md-12.col-lg-10
@@ -342,20 +339,20 @@
       .col-lg-10.mx-auto
         .titulo-sexto.color-acento-botones.mb-4
           h5 Figura 2.
-          span Concepto y relaciones de políticas y acciones de mantenimiento
+          span <em>Concepto y relaciones de políticas y acciones de mantenimiento.</em>
 
         figure
-          img(src='@/assets/curso/temas/tema2/img16.png', alt='Imagen Decorativa')
+          img(src='@/assets/curso/temas/tema2/img16.svg', alt='Se relata las políticas y acciones de mantenimiento.')
         figcaption Fuente: Espinosa, F. 2014.
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-down")
       .col-lg-10
-        p En el siguiente esquema se pueden reconocer las distintas políticas de mantenimiento 
+        p En el siguiente esquema se pueden reconocer las distintas políticas de mantenimiento. 
 
       .col-lg-10
         .titulo-sexto.color-acento-botones.mb-4
           h5 Tabla 4.
-          span  Tipos de Mantenimiento: Comparativa Ampliada 
+          span  <em>Tipos de Mantenimiento: Comparativa Ampliada.</em> 
         .tabla-a.th_red.mb-2
           table
             thead
@@ -367,61 +364,61 @@
                 th Detectivo
             tbody
               tr
-                td.text-bold Definición
+                td.text-bold Definición.
                 td Intervención realizada después de que se produce una falla o avería en el equipo, con el objetivo de restaurarlo a su estado operativo. Se centra en la reparación de la avería existente.
                 td Intervención realizada antes de que ocurra una falla, con el objetivo de prevenirla. Se basa en la ejecución de tareas programadas para mantener el equipo en óptimas condiciones.
                 td Intervención basada en la predicción de una falla potencial, utilizando técnicas de monitorización para identificar anomalías y programar la intervención antes de que ocurra la falla.
                 td Intervención realizada en equipos que solo operan bajo demanda y cuyo fallo solo se detecta cuando se requiere su uso. Se basa en la inspección periódica para detectar posibles fallas.
               tr
-                td.text-bold Proactividad
-                td Reactivo
-                td Proactivo
-                td Proactivo
-                td Reactivo (con chequeos periódicos)
+                td.text-bold Proactividad.
+                td Reactivo.
+                td Proactivo.
+                td Proactivo.
+                td Reactivo (con chequeos periódicos).
               tr
-                td.text-bold Planificación
-                td Mínima, se requiere intervención inmediata
+                td.text-bold Planificación.
+                td Mínima, se requiere intervención inmediata.
                 td Alta, requiere programación detallada de tareas, adquisición de recursos y asignación de personal.
                 td Alta, requiere monitoreo constante, análisis de datos, interpretación de tendencias y programación de intervenciones.
                 td Media, requiere programación de chequeos periódicos y planes de contingencia.
               tr
-                td.text-bold Costo Inicial
-                td Bajo (solo materiales y mano de obra directamente relacionados con la reparación)
-                td Medio-Alto (recursos, capacitación, implementación de programas de mantenimiento)
-                td Alto (sistemas de monitoreo, sensores, software, capacitación especializada)
-                td Bajo (inspecciones)
+                td.text-bold Costo Inicial.
+                td Bajo (solo materiales y mano de obra directamente relacionados con la reparación).
+                td Medio-Alto (recursos, capacitación, implementación de programas de mantenimiento).
+                td Alto (sistemas de monitoreo, sensores, <em>software</em>, capacitación especializada).
+                td Bajo (inspecciones).
               tr
-                td.text-bold Costo a Largo Plazo
-                td Potencialmente alto (costos de reparación imprevista, tiempo de inactividad, posible daño a otros componentes)
-                td Bajo (reduce costos de reparaciones mayores, tiempo de inactividad y pérdidas de producción)
-                td Bajo (previniendo fallas costosas, maximizando la vida útil del equipo)
-                td Variable, dependiendo de la frecuencia de chequeos y hallazgos en las inspecciones
+                td.text-bold Costo a Largo Plazo.
+                td Potencialmente alto (costos de reparación imprevista, tiempo de inactividad, posible daño a otros componentes).
+                td Bajo (reduce costos de reparaciones mayores, tiempo de inactividad y pérdidas de producción).
+                td Bajo (previniendo fallas costosas, maximizando la vida útil del equipo).
+                td Variable, dependiendo de la frecuencia de chequeos y hallazgos en las inspecciones.
               tr
-                td.text-bold Riesgo de Paradas
-                td Alto (paradas imprevistas frecuentes)
-                td Bajo (paradas programadas y minimizadas)
-                td Bajo (paradas minimizadas gracias a la predicción de fallas)
-                td Medio (solo si falla durante la operación)
+                td.text-bold Riesgo de Paradas.
+                td Alto (paradas imprevistas frecuentes).
+                td Bajo (paradas programadas y minimizadas).
+                td Bajo (paradas minimizadas gracias a la predicción de fallas).
+                td Medio (solo si falla durante la operación).
               tr
-                td.text-bold Tiempo de Inactividad
-                td Alto (reparación inmediata suele ser necesaria)
-                td Bajo (planificado, tiempo de inactividad mínimo)
-                td Bajo (intervenciones programadas)
-                td Bajo (intervenciones programadas)
+                td.text-bold Tiempo de Inactividad.
+                td Alto (reparación inmediata suele ser necesaria).
+                td Bajo (planificado, tiempo de inactividad mínimo).
+                td Bajo (intervenciones programadas).
+                td Bajo (intervenciones programadas).
               tr
-                td.text-bold Tipos de Intervención
+                td.text-bold Tipos de Intervención.
                 td Reparación de la avería, reemplazo de componentes dañados.
                 td Inspección, lubricación, limpieza, ajuste, reemplazo de componentes según programa.
                 td Monitoreo (vibraciones, termografía, análisis de aceite, etc.), análisis de datos, reemplazo preventivo de componentes.
                 td Inspección visual, pruebas funcionales, reemplazo de componentes según necesidad.
               tr
-                td.text-bold Ventajas
+                td.text-bold Ventajas.
                 td Bajo costo si se aplica correctamente, sencillo de implementar.
                 td Reduce fallas, planifica el mantenimiento, mejora la calidad, la seguridad y la disponibilidad.
                 td Maximiza la confiabilidad, reduce pérdidas de producción, permite análisis de fallas y optimiza el tiempo de inactividad.
                 td Disponibilidad maximizada para equipos bajo demanda, reduce daños secundarios, aplicable a sistemas de seguridad.
               tr
-                td.text-bold Desventajas
+                td.text-bold Desventajas.
                 td Alto riesgo de seguridad, grandes pérdidas de producción, posibles daños secundarios, poco control sobre el tiempo de la parada.
                 td Costos incrementales, posibilidad de mantenimiento innecesario, riesgo de daños colaterales.
                 td Costoso, requiere especialistas y tecnología avanzada. Tiempo para análisis e interpretación de datos.
@@ -434,15 +431,15 @@
       .col-lg-10.mb-3
         .align-items-center.d-flex.flex-nowrap.mb-0
           img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img39.svg', alt='Imagen Decorativa')
-          h3.mb-0 Efectividad del plan de mantenimiento:
+          h3.mb-0 Efectividad del plan de mantenimiento
       
       .col-lg-10.mb-4
-        p A continuación se presenta un enfoque estructurado para evaluar y mejorar los planes de mantenimiento de componentes o sistemas. Abarca la identificación de fallas, la efectividad de las estrategias de mantenimiento y las consecuencias de las fallas. <b>Además, proporciona recomendaciones para optimizar los procedimientos de mantenimiento y minimizar riesgos operativos:</b>
+        p A continuación se presenta un enfoque estructurado para evaluar y mejorar los planes de mantenimiento de componentes o sistemas. Abarca la identificación de fallas, la efectividad de las estrategias de mantenimiento y las consecuencias de las fallas. Además, proporciona recomendaciones para optimizar los procedimientos de mantenimiento y minimizar riesgos operativos:
 
       .col-lg-10
         .titulo-sexto.color-acento-botones.mb-4
           h5 Tabla 5.
-          span  Procedimientos de mantenimiento y minimizar riesgos operativos.
+          span  <em>Procedimientos de mantenimiento y minimizar riesgos operativos.</em>
         .tabla-a.th_red.mb-2
           table
             thead
@@ -451,16 +448,16 @@
                 th Descripción
             tbody
               tr
-                td.text-bold 1. Identificación de modos de falla
+                td.text-bold 1. Identificación de modos de falla.
                 td 
                   span Identifica los modos de falla asociados con el componente o sistema.
               tr
-                td.text-bold 2. Degradación por edad
+                td.text-bold 2. Degradación por edad.
                 td 
                   span Examina si existe una tasa significativa de degradación por edad, si los materiales están agotados, y si los modos de falla están ocurriendo actualmente. <br>
                   span Capturar y mantener datos históricos ayuda a responder estas preguntas.
               tr
-                td(rowspan="5").text-bold 3. Fallas funcionales
+                td(rowspan="5").text-bold 3. Fallas funcionales.
                 td 
                   span Verificar si la falla funcional es evidente para el operador. Determine qué tipos de tareas se utilizan para identificar la falla:
               tr
@@ -476,7 +473,7 @@
                 td  
                   span Identifica y mide los parámetros que reflejan el estado del sistema, como las vibraciones, y define tolerancias aceptables.
               tr
-                td(rowspan="4").text-bold 4. Efectividad del plan de mantenimiento
+                td(rowspan="4").text-bold 4. Efectividad del plan de mantenimiento.
                 td 
                   span Evalúa la efectividad actual del mantenimiento. Identifica métodos para mantener efectividad:
               tr
@@ -489,7 +486,7 @@
                 td
                   span Ingeniería de confiabilidad: Falla no es evidente y no existen tareas preventivas. Modifica o elimina tareas no efectivas.
               tr
-                td(rowspan="4").text-bold 5. Consecuencias de la falla
+                td(rowspan="4").text-bold 5. Consecuencias de la falla.
                 td 
                   span Identifica consecuencias relacionadas con seguridad, regulación, producción o costo, y si las tareas de mantenimiento agregan valor:
               tr
@@ -502,7 +499,7 @@
                 td   
                   span Costo: Costo de tareas preventivas menor que el costo de reparación y pérdida de capacidad.
               tr
-                td(rowspan="9").text-bold 6. Recomendaciones para cambios
+                td(rowspan="9").text-bold 6. Recomendaciones para cambios.
                 td 
                   span <b>a.</b> Realiza las siguientes acciones según los resultados del análisis:
               tr
@@ -545,7 +542,7 @@
       .col-lg-10
         PasosA.color-acento-contenido.mb-5(tipo="n")
           .row
-            h3 I. Identificación de necesidades (Requerimiento)
+            h3 I. Identificación de necesidades (requerimiento)
             .col-lg-12.mb-3
               .row.align-items-center
                 .col-lg-7  
@@ -627,7 +624,7 @@
       .col-lg-10.mb-3
         .align-items-center.d-flex.flex-nowrap.mb-0
           img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img39.svg', alt='Imagen Decorativa')
-          h3.mb-0 El ciclo virtuoso:
+          h3.mb-0 El ciclo virtuoso
 
       .col-lg-10.mb-3
         p.mb-2 Un ciclo virtuoso es un conjunto de eventos que se refuerza a través de un circuito de retroalimentación. Un ciclo virtuoso tiene resultados favorables. Un ciclo virtuoso puede transformar en un ciclo vicioso, si se tiene en cuenta la retroalimentación negativa final.
@@ -642,44 +639,44 @@
               img(src='@/assets/curso/temas/tema2/img24.png', alt='Texto que describa la imagen')
 
           .tarjeta.bg-white.p-3(x="5.7%" y="47.2%" numero="1")
-            .h5.mb-2 Planificación y estrategia.
-            p.mb-2  <b>Análisis de la Situación Actual:</b> Evaluar el estado actual de los procesos, equipos, recursos y resultados. Identificar áreas de mejora y problemas existentes.
-            p <b>Definición de Objetivos:</b> Establecer metas claras y alcanzables basadas en el diagnóstico inicial, como mejorar la eficiencia, reducir costos, o aumentar la calidad.
+            .h5.mb-2 Diagnóstico y evaluación inicial
+            p.mb-2  <b>Análisis de la situación actual:</b> evaluar el estado actual de los procesos, equipos, recursos y resultados. Identificar áreas de mejora y problemas existentes.
+            p <b>Definición de objetivos:</b> establecer metas claras y alcanzables basadas en el diagnóstico inicial, como mejorar la eficiencia, reducir costos, o aumentar la calidad.
 
           .tarjeta.bg-white.p-3(x="26%" y="30%" numero="2")
-            .h5.mb-2 Planificación y estrategia.
-            p.mb-2  <b>Desarrollo de Estrategias: </b> Crear un plan para abordar las áreas identificadas para la mejora. Esto puede incluir la implementación de nuevas tecnologías, cambios en los procesos o capacitación del personal.
-            p <b>Asignación de Recursos:</b>  Determinar los recursos necesarios, como personal, tecnología, y materiales, para llevar a cabo las estrategias planificadas.
+            .h5.mb-2 Planificación y estrategia
+            p.mb-2  <b>Desarrollo de estrategias: </b> crear un plan para abordar las áreas identificadas para la mejora. Esto puede incluir la implementación de nuevas tecnologías, cambios en los procesos o capacitación del personal.
+            p <b>Asignación de recursos:</b>  determinar los recursos necesarios, como personal, tecnología, y materiales, para llevar a cabo las estrategias planificadas.
 
           .tarjeta.bg-white.p-3(x="41%" y="54%" numero="3")
             .h5.mb-2 Implementación
-            p.mb-2  <b>Ejecutar el Plan:</b>  Poner en práctica las estrategias y mejoras diseñadas. Esto puede implicar la instalación de nuevos equipos, la modificación de procesos o la formación de los empleados.
-            p <b>Monitoreo y Control:</b>  Supervisar la implementación para asegurar que se realice según lo planificado y que los cambios estén produciendo los resultados esperados.
+            p.mb-2  <b>Ejecutar el plan:</b>  poner en práctica las estrategias y mejoras diseñadas. Esto puede implicar la instalación de nuevos equipos, la modificación de procesos o la formación de los empleados.
+            p <b>Monitoreo y control:</b>  supervisar la implementación para asegurar que se realice según lo planificado y que los cambios estén produciendo los resultados esperados.
 
           .tarjeta.bg-white.p-3(x="52%" y="29%" numero="4")
-            .h5.mb-2 Evaluación de resultados.
-            p.mb-2  <b>Medición del Rendimiento:</b>  Evaluar el impacto de las mejoras implementadas. Esto se realiza a través de indicadores clave de rendimiento (KPI) y otros métodos de evaluación.
-            p <b>Análisis de Desviaciones:</b> Identificar cualquier desviación de los objetivos y entender las razones detrás de cualquier problema o desafío.
+            .h5.mb-2 Evaluación de resultados
+            p.mb-2  <b>Medición del rendimiento:</b>  evaluar el impacto de las mejoras implementadas. Esto se realiza a través de indicadores clave de rendimiento (KPI) y otros métodos de evaluación.
+            p <b>Análisis de desviaciones:</b> identificar cualquier desviación de los objetivos y entender las razones detrás de cualquier problema o desafío.
 
           .tarjeta.bg-white.p-3(x="58.7%" y="65.2%" numero="5")
-            .h5.mb-2 Retroalimentación y ajuste.
-            p.mb-2  <b>Revisión y Ajuste:</b>  Basado en los resultados evaluados, realizar ajustes y mejoras adicionales. Esto puede implicar corregir problemas, ajustar estrategias, o implementar nuevas medidas para optimizar aún más los procesos.
-            p <b>Lecciones Aprendidas:</b>  Documentar y compartir las lecciones aprendidas para aplicar en futuros ciclos.
+            .h5.mb-2 Retroalimentación y ajuste
+            p.mb-2  <b>Revisión y ajuste:</b>  basado en los resultados evaluados, realizar ajustes y mejoras adicionales. Esto puede implicar corregir problemas, ajustar estrategias, o implementar nuevas medidas para optimizar aún más los procesos.
+            p <b>Lecciones aprendidas:</b>  documentar y compartir las lecciones aprendidas para aplicar en futuros ciclos.
 
           .tarjeta.bg-white.p-3(x="76.7%" y="35.2%" numero="6")
             .h5.mb-2 Consolidación y Estandarización
-            p.mb-2  <b>Estandarización de Mejores Prácticas:</b>  Asegurar que las mejoras efectivas se integren en los procedimientos estándar de operación.
-            p <b>Consolidación de Cambios:</b> Integrar los cambios en la cultura y las prácticas operativas de la organización para mantener los beneficios alcanzados.
+            p.mb-2  <b>Estandarización de mejores prácticas:</b>  asegurar que las mejoras efectivas se integren en los procedimientos estándar de operación.
+            p <b>Consolidación de cambios:</b> integrar los cambios en la cultura y las prácticas operativas de la organización para mantener los beneficios alcanzados.
           .tarjeta.bg-white.p-3(x="86.7%" y="72.2%" numero="7")
-            .h5.mb-2 Innovación continua.
-            p.mb-2  <b>Fomentar la Innovación:</b>   Promover un entorno en el que se busque continuamente nuevas formas de mejorar y optimizar. Esto incluye mantenerse al día con las tendencias tecnológicas y las mejores prácticas de la industria
-            p <b>Repetición del Ciclo:</b>  Repetir el ciclo virtuoso con una nueva ronda de diagnóstico y evaluación, continuando así el proceso de mejora continua.
+            .h5.mb-2 Innovación continua
+            p.mb-2  <b>Fomentar la innovación:</b>   promover un entorno en el que se busque continuamente nuevas formas de mejorar y optimizar. Esto incluye mantenerse al día con las tendencias tecnológicas y las mejores prácticas de la industria
+            p <b>Repetición del ciclo:</b>  repetir el ciclo virtuoso con una nueva ronda de diagnóstico y evaluación, continuando así el proceso de mejora continua.
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-down")
       .col-lg-10
         .align-items-center.d-flex.flex-nowrap.mb-0
           img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img39.svg', alt='Imagen Decorativa')
-          h3.mb-0 Herramientas para el control de calidad y mejoramiento del mantenimiento:
+          h3.mb-0 Herramientas para el control de calidad y mejoramiento del mantenimiento
 
     .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-down")
       .col-lg-8.col-md-12.mb-3
@@ -758,7 +755,7 @@
       .col-lg-10.mb-3
         .align-items-center.d-flex.flex-nowrap.mb-0
           img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img39.svg', alt='Imagen Decorativa')
-          h3.mb-0 Lista de chequeos: 
+          h3.mb-0 Lista de chequeos 
 
       .col-lg-10.mb-3
         p Una lista de chequeo es un conjunto simple de instrucciones usados en la recolección de datos, donde los datos pueden ser compilados fácilmente usados y analizados automáticamente.
@@ -866,7 +863,7 @@
       .col-md-10.mx-auto
         .titulo-sexto.color-acento-botones.mb-4
           h5 Tabla 6.
-          span Ejemplo, Lista de chequeo para el mantenimiento 
+          span <em>Ejemplo, Lista de chequeo para el mantenimiento.</em> 
 
         .tabla-a.th_red.mb-2
           //- Tabla 1 
@@ -882,8 +879,8 @@
               
             tbody
               tr
-                td Actuadores y Mangueras
-                td Inspeccionar actuadores y mangueras en busca de fugas
+                td Actuadores y Mangueras.
+                td Inspeccionar actuadores y mangueras en busca de fugas.
                 td 
                 td 
                 td Revisar válvulas, conexiones y mangueras en busca de fugas; reparar o reemplazar según sea necesario.
@@ -902,8 +899,8 @@
               
             tbody
               tr
-                td Accionamiento del Despaletizador
-                td Inspeccionar el desgaste y la tensión de la cadena de accionamiento
+                td Accionamiento del Despaletizador.
+                td Inspeccionar el desgaste y la tensión de la cadena de accionamiento.
                 td 
                 td 
                 td Buscar desgaste en los rodillos y los eslabones de la cadena de accionamiento y tensarla para que no tenga más de 1/2" de holgura.
@@ -922,50 +919,50 @@
               
             tbody
               tr
-                td Carro de Empuje
-                td Revisar los rodillos en busca de desgaste y ajustarlos
+                td Carro de Empuje.
+                td Revisar los rodillos en busca de desgaste y ajustarlos.
                 td 
                 td 
                 td Observar los rodillos en busca de zonas planas o señales de desgaste en los rodamientos; ajustarlos para que haya un ligero arrastre cuando estén apretados.
               
               tr
-                td Brazo de Accionamiento del Carro
-                td Inspeccionar los rodamientos y el rodillo de accionamiento
+                td Brazo de Accionamiento del Carro.
+                td Inspeccionar los rodamientos y el rodillo de accionamiento.
                 td 
                 td 
                 td Revisar los rodamientos del brazo de accionamiento del carro en busca de desgaste; revisar el rodillo en busca de señales de desgaste y agarrotamiento.
               
               tr
-                td Accionamiento del Despaletizador
-                td Engrasar los rodamientos del eje de accionamiento
+                td Accionamiento del Despaletizador.
+                td Engrasar los rodamientos del eje de accionamiento.
                 td 
                 td 
                 td Engrasar los rodamientos del eje de accionamiento, pero no engrasar en exceso; antes de engrasar, revisar los rodamientos en busca de desgaste.
               
               tr
-                td Plataforma Giratoria del Despaletizador
-                td Revisar los rodillos de soporte en busca de desgaste y ajustarlos
+                td Plataforma Giratoria del Despaletizador.
+                td Revisar los rodillos de soporte en busca de desgaste y ajustarlos.
                 td 
                 td 
                 td Asegurarse de que los rodillos de soporte estén ajustados para que haya un ligero arrastre al girar; buscar desgaste en los rodamientos.
               
               tr
-                td Plataforma Giratoria del Despaletizador
-                td Revisar los componentes de accionamiento en busca de desgaste y ajustarlos
+                td Plataforma Giratoria del Despaletizador.
+                td Revisar los componentes de accionamiento en busca de desgaste y ajustarlos.
                 td 
                 td 
                 td Revisar todos los componentes de accionamiento en busca de desgaste y realizar los ajustes necesarios.
               
               tr
-                td Elevador de Empuje
-                td Engrasar los rodamientos del elevador y ajustarlos
+                td Elevador de Empuje.
+                td Engrasar los rodamientos del elevador y ajustarlos.
                 td 
                 td 
                 td Engrasar los cojinetes elevadores, pero no engrasar en exceso; revisar en busca de desgaste antes de engrasar.
               
               tr
-                td Alineadores Laterales
-                td Revisar los casquillos de la barra guía de alineación en busca de desgaste
+                td Alineadores Laterales.
+                td Revisar los casquillos de la barra guía de alineación en busca de desgaste.
                 td 
                 td 
                 td Revisar las varillas guía de alineación en busca de señales de desgaste; reemplazar si es necesario.
@@ -976,7 +973,7 @@
       .col-lg-10.mb-3
         .align-items-center.d-flex.flex-nowrap.mb-0
           img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img39.svg', alt='Imagen Decorativa')
-          h3.mb-0 Histograma de frecuencia relativa:
+          h3.mb-0 Histograma de frecuencia relativa
 
     .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-down")
       .col-lg-10.mb-2
@@ -1013,7 +1010,7 @@
       .col-lg-10.mb-3
         .align-items-center.d-flex.flex-nowrap.mb-0
           img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img39.svg', alt='Imagen Decorativa')
-          h3.mb-0 Función densidad de probabilidad: 
+          h3.mb-0 Función densidad de probabilidad 
 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
@@ -1068,7 +1065,7 @@
       .col-lg-10.mb-3
         .align-items-center.d-flex.flex-nowrap.mb-0
           img.img-auto.pr-2(src='@/assets/curso/temas/tema2/img39.svg', alt='Imagen Decorativa')
-          h3.mb-0 Otros elementos básicos para el análisis: 
+          h3.mb-0 Otros elementos básicos para el análisis 
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-down")
       .col-lg-10.mb-3
@@ -1079,7 +1076,7 @@
           SlyderA(tipo="b").slyder_1
             .row.align-items-center.justify-content-center
               .col-md-12.col-lg-6.mb-4.mb-3
-                h4.mb-2 Materiales.
+                h4.mb-2 Materiales
                 lista.ul-lista--color
                   li 
                     | Materia prima defectuosa 
@@ -1093,7 +1090,7 @@
             
             .row.align-items-center.justify-content-center
               .col-md-12.col-lg-6.mb-4.mb-3
-                h4.mb-2 Máquina/equipamiento. 
+                h4.mb-2 Máquina/equipamiento 
                 lista.ul-lista--color
                   li
                     | Selección incorrecta de la herramienta. 
@@ -1109,13 +1106,13 @@
             
             .row.align-items-center.justify-content-center
               .col-md-12.col-lg-6.mb-4.mb-3
-                h4.mb-2 Medio ambiente. 
+                h4.mb-2 Medio ambiente 
                 lista.ul-lista--color
                   li
                     | Lugar de trabajo desordenado. 
                   
                   li
-                    | Diseño de puestos de trabajo o layout de planta no adecuados 
+                    | Diseño de puestos de trabajo o <em>layout</em> de planta no adecuados 
                   
                   li
                     | Superficies en mal estado de conservación. 
@@ -1131,7 +1128,7 @@
             
             .row.align-items-center.justify-content-center
               .col-md-12.col-lg-6.mb-4.mb-3
-                h4.mb-2 Administración por Carta de Pareto (análisis ABC).
+                h4.mb-2 Administración
                 lista.ul-lista--color
                   li
                     | Participación pobre de la gerencia. 
@@ -1151,7 +1148,7 @@
             
             .row.align-items-center.justify-content-center
               .col-md-12.col-lg-6.mb-4.mb-3
-                h4.mb-2 Métodos.
+                h4.mb-2 Métodos
                 lista.ul-lista--color
                   li 
                     | Ningún o procedimientos pobres. 
@@ -1166,7 +1163,7 @@
             
             .row.align-items-center.justify-content-center
               .col-md-12.col-lg-6.mb-4.mb-3
-                h4.mb-2 Sistema de administración.
+                h4.mb-2 Sistema de administración
                 lista.ul-lista--color
                   li
                     | Falta de entrenamiento o educación. 
@@ -1182,7 +1179,7 @@
             
             .row.align-items-center.justify-content-center
               .col-md-12.col-lg-6.mb-4.mb-3
-                h4.mb-2 Administración.
+                h4.mb-2 Carta de Pareto (análisis ABC)
                 lista.ul-lista--color
                   li
                     | Es la distribución de frecuencias de un atributo ordenados por tamaño de la frecuencia. 
@@ -1191,9 +1188,9 @@
                   li
                     | Categorías incluidas: 
                   li
-                    | Clase A usualmente contiene el 20% del factor (causa) que están causando el 75% al 80% de los problemas. 
+                    | Clase A usualmente contiene el 20 % del factor (causa) que están causando el 75 % al 80 % de los problemas. 
                   li
-                    | Clase B contiene alrededor del 20% del factor que causa entre el 15% al 20% de los problemas. 
+                    | Clase B contiene alrededor del 20 % del factor que causa entre el 15 % al 20 % de los problemas. 
                   li
                     | Clase C contiene el resto de los factores los cuales son muchos. 
               .col-md-6.col-lg-6
